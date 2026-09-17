@@ -1971,10 +1971,81 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 </div>
 
 ### 4.6.2. Software Architecture Context Diagram
+El Context Diagram presenta a VocaFy como el sistema central de la solución, mostrando los principales usuarios y sistemas externos con los que interactúa. Este nivel permite identificar el contexto general del sistema y las principales relaciones que mantiene con su entorno.
+<div align="center">
+  <img src="images/Context Diagram.png" alt="Context Diagram">
+</div>
 
 ### 4.6.3. Software Architecture Container Diagrams
+El Container Diagram representa los principales elementos de alto nivel que conforman la arquitectura de software de VocaFy. En este nivel se muestran los containers, las tecnologías utilizadas y la distribución de responsabilidades, así como las principales interacciones y comunicaciones entre ellos.
+
+<div align="center">
+  <img src="images/Container Diagrams.png" alt="Software Architecture Container Diagram">
+</div>
 
 ### 4.6.4. Software Architecture Components Diagrams
+#### IAM & Auth Service
+
+El Component Diagram de IAM & Auth Service muestra la descomposición del servicio encargado de gestionar la identidad, autenticación y autorización de los usuarios de VocaFy. Sus componentes permiten administrar el acceso de los usuarios y controlar los permisos necesarios para utilizar las funcionalidades de la plataforma.
+
+<div align="center">
+  <img src="images/component 1.png" alt="IAM & Auth Service Component Diagram">
+</div>
+
+
+#### Assessment Service
+
+El Component Diagram de Assessment Service muestra la descomposición del servicio encargado de gestionar las evaluaciones vocacionales. Sus componentes permiten administrar el ciclo de vida de las evaluaciones, registrar las respuestas de los estudiantes, calcular el perfil vocacional y generar retroalimentación inicial.
+
+<div align="center">
+  <img src="images/component 2.png" alt="Assessment Service Component Diagram">
+</div>
+
+
+#### Career Planning Service
+
+El Component Diagram de Career Planning Service muestra la descomposición del servicio encargado de apoyar la exploración y planificación de la trayectoria profesional de los estudiantes. Sus componentes permiten gestionar la exploración de carreras, la planificación de objetivos profesionales y el seguimiento de las decisiones relacionadas con el desarrollo profesional.
+
+<div align="center">
+  <img src="images/component 3.png" alt="Career Planning Service Component Diagram">
+</div>
+
+
+#### Billing Service
+
+El Component Diagram de Billing Service representa los componentes encargados de gestionar las suscripciones premium, el procesamiento de pagos y el registro de las transacciones. El servicio mantiene la información relacionada con la facturación y se comunica con el Payment Gateway para procesar los pagos.
+
+<div align="center">
+  <img src="images/component 4.png" alt="Billing Service Component Diagram">
+</div>
+
+
+#### Community Service
+
+El Component Diagram de Community Service representa los componentes responsables de gestionar las comunidades, publicaciones, comentarios, reacciones, moderación, mensajería privada y recomendaciones de hilos. Los componentes interactúan entre sí y utilizan la base de datos del servicio para almacenar la información relacionada con las actividades de la comunidad.
+
+<div align="center">
+  <img src="images/component 5.png" alt="Community Service Component Diagram">
+</div>
+
+
+#### Advisory Service
+
+El Component Diagram de Advisory Service muestra los componentes relacionados con la gestión de sesiones de orientación, la vinculación entre estudiantes y psicólogos, la comunicación durante las sesiones, el registro de notas y reportes y el seguimiento de los estudiantes. Estos componentes trabajan conjuntamente para gestionar el proceso de orientación dentro de VocaFy.
+
+<div align="center">
+  <img src="images/component 6.png" alt="Advisory Service Component Diagram">
+</div>
+
+
+#### Analytics & AI Service
+
+El Component Diagram de Analytics & AI Service representa los componentes encargados de recopilar y procesar datos, realizar análisis, generar recomendaciones mediante capacidades de inteligencia artificial, producir reportes y administrar modelos de machine learning. El servicio utiliza una base de datos para almacenar información analítica y se comunica con la AI API para utilizar capacidades de inteligencia artificial.
+
+<div align="center">
+  <img src="images/component 7.png" alt="Analytics & AI Service Component Diagram">
+</div>
+
 
 ## 4.7. Software Object-Oriented Design
 
