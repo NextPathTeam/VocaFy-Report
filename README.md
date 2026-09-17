@@ -458,6 +458,23 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ### 4.6.1. Design-Level Event Storming
 
+Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de Miro](https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.) donde fue realizado el Design-Level Event Storming.
+
+<div align="center">
+  <img src="images/user-registration.jpg" alt="Design Level EventStorming 1"><br><br>
+  <img src="images/search.jpg" alt="Design Level EventStorming 2"><br><br>
+  <img src="images/vocational-evaluation.jpg" alt="Design Level EventStorming 3"><br><br>
+  <img src="images/carees-exploration-planning.jpg" alt="Design Level EventStorming 4"><br><br>
+  <img src="images/community-and-chat.jpg" alt="Design Level EventStorming 5"><br><br>
+  <img src="images/profile-and-account-configuration.jpg" alt="Design Level EventStorming 6"><br><br>
+  <img src="images/reports.jpg" alt="Design Level EventStorming 7"><br><br>
+  <img src="images/payment-suscription.jpg" alt="Design Level EventStorming 8"><br><br>
+  <img src="images/scheduling-and-session-management.jpg" alt="Design Level EventStorming 9"><br><br>
+  <img src="images/student-monitoring.jpg" alt="Design Level EventStorming 10"><br><br>
+  <img src="images/notifications.jpg" alt="Design Level EventStorming 11"><br><br>
+
+</div>
+
 ### 4.6.2. Software Architecture Context Diagram
 
 ### 4.6.3. Software Architecture Container Diagrams
