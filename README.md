@@ -2292,8 +2292,36 @@ El sistema de navegación de NextPath está diseñado para guiar al usuario de f
 
 ## 4.3. Landing Page UI Design
 
+En esta sección se presenta la propuesta de diseño de la interfaz de usuario para la Landing Page de NextPath. El objetivo es reflejar de manera visual las decisiones tomadas durante la fase de arquitectura de información, garantizando una experiencia clara, atractiva y coherente con la identidad de marca.
+
 ### 4.3.1. Landing Page Wireframe
 
+**Desktop Web browser:**
+
+* **Inicio:**
+  Presenta el hero banner con la frase “Conviértete en un profesional” y el CTA “Comenzar”. El fondo con imagen de aula refuerza el contexto educativo. Los principios aplicados son el de jerarquía visual y contraste.
+
+  ![Landing Page Wireframe - Inicio](images/style-guidelines/landing-page-preview.png)
+
+* **Sobre nosotros:**
+  Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
+
+  ![Landing Page Wireframe - Sobre Nosotros](images/Quienes-Somos.png)
+
+* **¿Cómo funciona?:**
+  Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
+
+  ![Landing Page Wireframe - Cómo Funciona](images/style-guidelines/Como-Funciona.png)
+
+* **Descargar (Comenzar ahora):**
+  Presenta botones de descarga y reitera el valor de la app, acompañada del panda. Los principios aplicados son minimalismo, accesibilidad y claridad.
+
+  ![Landing Page Wireframe - Descargar](images/style-guidelines/Comenzar-Ahora.png)
+
+* **Contáctanos:**
+  Sección inferior con accesos a redes sociales.
+
+  ![Landing Page Wireframe - Contáctanos](images/style-guidelines/Contactanos.png)
 
 ### 4.3.2. Landing Page Mock-up
 
