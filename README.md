@@ -2424,8 +2424,62 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 
 <b> Wireflow 14:</b> Como psicólogo quiero comunicarme directamente con mis estudiantes
 <img src="images/wireflow-14.png" alt="wireflow 14" size = 500 align="center"><br>
+
 ### 4.4.3. Web Applications Mock-ups
 
+####  <p align="center"> Vista de estudiante</p>
+<b> Mock-up 1:</b> Inicio de sesion 
+<img src="images/mock-ups/mock-up-1.png" alt="Mock-up 1" size = 500 align="center"><br>
+
+<b> Mock-up 2: </b>Diseño de Menu dashboard estudiante <br>
+<img src="images/mock-ups/mock-up-2.png" alt="Mock-up 2" size = 500 align="center"><br>
+
+<b> Mock-up 3:</b> Diseño de Menu elecion de test vocacionales <br>
+<img src="images/mock-ups/mock-up-3.png" alt="Mock-up 3" size = 500 align="center"><br>
+
+<b> Mock-up 4:</b> Diseño desarrollo de test <br>
+<img src="images/mock-ups/mock-up-4.png" alt="Mock-up 4" size = 500 align="center"><br>
+
+<b> Mock-up 5:</b> Diseño de Menu Comunidad <br>
+<img src="images/mock-ups/mock-up-5.png" alt="Mock-up 5" size = 500 align="center"><br>
+
+<b> Mock-up 6</b> Diseño Menu Comparativa de Carreras <br>
+<img src="images/mock-ups/mock-up-6.png" alt="Mock-up 6" size = 500 align="center"><br>
+
+<b> Mock-up 7</b> Diseño Menu Carrera y simulacion <br>
+<img src="images/mock-ups/mock-up-7.png" alt="Mock-up 7" size = 500 align="center"><br>
+
+<b> Mock-up 8:</b> Menu Favoritos <br>
+<img src="images/mock-ups/mock-up-8.png" alt="Mock-up 8" size = 500><br>
+
+<b> Mock-up 9:</b> Diseño de Menu tareas  <br>
+<img src="images/mock-ups/mock-up-9png.png" alt="Mock-up 9" size = 500><br>
+
+<b> Mock-up 10</b> Diseño de Sesiones en vivo Estudiante <br>
+<img src="images/mock-ups/mock-up-10.png" alt="Mock-up 10" size = 500><br>
+
+<b> Mock-up 11:</b> Diseño de Menu Mensaje directo con psicologo<br>
+<img src="images/mock-ups/mock-up-11.png" alt="Mock-up 11" size = 500><br>
+
+####  <p align="center"> Vista de Psicologo</p>
+
+<b> Mock-up 12: Diseño de Menu Dashboard psicologo </b><br>
+<img src="images/mock-ups/mock-up-12.png" alt="Mock-up 12" size = 500><br>
+
+<b> Mock-up 13: Diseño de Menu monitoreo estudiante </b><br>
+<img src="images/mock-ups/mock-up-13.png" alt="Mock-up 13" size = 500><br>
+
+<b> wireframe 14: Diseño de Menu Comparativa de grupos </b><br>
+<img src="images/mock-ups/mock-up-14.png" alt="Mock-up 14" size = 500><br>
+
+<b> Mock-up 15: Diseño de Menu Programacion de sesion en vivo </b><br>
+<img src="images/mock-ups/mock-up-15.png" alt="Mock-up 15" size = 500><br>
+
+<b> Mock-up 16: Diseño de Menu Mensaje directo con estudiante </b><br>
+<img src="images/mock-ups/mock-up-17.png" alt="Mock-up 16" size = 500><br>
+
+<b> Mock-up 17: Diseño de Menu material vocacional </b><br>
+<img src="images/mock-ups/mock-up-16.png" alt="Mock-up 17" size = 500><br>
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
