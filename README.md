@@ -2383,46 +2383,46 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-<b> Wireflow 1:</b> Como usuario quiero registrarme en Nextpath
+1) <b> Wireflow 1:</b>  Como usuario,quiero Registrarme en la plataforma
 <img src="images/wireflow-1.png" alt="wireflow 1" size = 500 align="center"><br>
 
-<b> Wireflow 2:</b> Como estudiante quiero acceder a los test de la plataforma
+2)  <b> Wireflow 2:</b>  Como Estudiante, quiero Realizar un Test Vocacional con IA y Obtener Resultados
 <img src="images/wireflow-2.png" alt="wireflow 2" size = 500 align="center"><br>
 
-<b> Wireflow 3:</b> Como estudiante quiero simular mi futuuro profecional
+3)  <b> Wireflow 3:</b> Como estudiante ,quiero Tener acceso a la simulacion de futuro profeciona
 <img src="images/wireflow-3.png" alt="wireflow 3" size = 500 align="center"><br>
 
-<b> Wireflow 4:</b> Como  estudiante quiero comparar las carreras a mi elecion
+4)  <b> Wireflow 4:</b>  Como estudiante ,quiero Tener acceso a la comparacion de carreras
 <img src="images/wireflow-4.png" alt="wireflow 4" size = 500 align="center"><br>
 
-<b> Wireflow 5:</b> Como estudiante quiero marcar carreras como favoritas
+5)  <b> Wireflow 5:</b>  Como estudiante ,quiero agregar carreras a mis favoritos
 <img src="images/wireflow-5.png" alt="wireflow 5" size = 500 align="center"><br>
 
-<b> Wireflow 6:</b> Como estudiante quiero visualizar mis tareas pendientes
+6)  <b> Wireflow 6:</b> Como estudiante ,quiero visualizar mis tareas y recomendaciones
 <img src="images/wireflow-6.png" alt="wireflow 6" size = 500 align="center"><br>
 
-<b> Wireflow 7:</b> Como estudiante quiero unirme a sesiones con mi psicologo
+7)  <b> Wireflow 7:</b>  Como estudiante ,quiero unirme a una sesion en vivo con mi psicologo
 <img src="images/wireflow-7.png" alt="wireflow 7" size = 500 align="center"><br>
 
-<b> Wireflow 8:</b> Como estudiante quiero comunicarme directamente con mi psicologo
+8)  <b> Wireflow 8:</b> Como estudiante quiero comunicarme directamente con mi psicologo
 <img src="images/wireflow-8.png" alt="wireflow 8" size = 500 align="center"><br>
 
-<b> Wireflow 9:</b> Como estudiante quiero acceder a la comunidad
+9)  <b> Wireflow 9:</b>  Como estudiante,quiero accedera  la comunidad
 <img src="images/wireflow-9.png" alt="wireflow 9" size = 500 align="center"><br>
 
-<b> Wireflow 10:</b> Como psicólogo quiero acceder al progreso de mis estudiantes
+10)  <b> Wireflow 10:</b> Como psicologo quiero monitorear el desempeño de un estudiante
 <img src="images/wireflow-10.png" alt="wireflow 10" size = 500 align="center"><br>
 
-<b> Wireflow 11:</b> Como psicólogo quiero ver una comparativa pro grupos
+11) <b> Wireflow 11:</b> Como psicologo,quiero acceder a una comparativa grupal de los estudiantes
 <img src="images/wireflow-11.png" alt="wireflow 11" size = 500 align="center"><br>
 
-<b> Wireflow 12:</b> Como psicólogo quiero agendar sesiones con mis estudiantes
+12)  <b> Wireflow 12:</b> Como psicólogo quiero agendar sesiones con mis estudiantes
 <img src="images/wireflow-12.png" alt="wireflow 12" size = 500 align="center"><br>
 
-<b> Wireflow 13:</b> Como psicologo quiero compartir contenido vocacionla con mis estudiantes
+13)  <b> Wireflow 13:</b> Como psicologo,quiero compartir material vocacional con los estudiantes
 <img src="images/wireflow-13.png" alt="wireflow 13" size = 500 align="center"><br>
 
-<b> Wireflow 14:</b> Como psicólogo quiero comunicarme directamente con mis estudiantes
+14)  <b> Wireflow 14:</b> Como psicologo ,quiero comunicarme directamente con los estudiante
 <img src="images/wireflow-14.png" alt="wireflow 14" size = 500 align="center"><br>
 
 ### 4.4.3. Web Applications Mock-ups
@@ -2458,7 +2458,7 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 <b> Mock-up 10</b> Diseño de Sesiones en vivo Estudiante <br>
 <img src="images/mock-ups/mock-up-10.png" alt="Mock-up 10" size = 500><br>
 
-<b> Mock-up 11:</b> Diseño de Menu Mensaje directo con psicologo<br>
+**<b> Mock-up 11:</b>** Diseño de Menu Mensaje directo con psicologo<br>
 <img src="images/mock-ups/mock-up-11.png" alt="Mock-up 11" size = 500><br>
 
 ####  <p align="center"> Vista de Psicologo</p>
@@ -2481,6 +2481,37 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 <b> Mock-up 17: Diseño de Menu material vocacional </b><br>
 <img src="images/mock-ups/mock-up-16.png" alt="Mock-up 17" size = 500><br>
 ### 4.4.4. Web Applications User Flow Diagrams
+1) **User flow 1:**
+<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
+2) **User flow 2:**
+<img src="images/user-flow/user-flow-2.png" alt="User-flow 1" size = 500><br>
+3) **User flow 3:**
+<img src="images/user-flow/user-flow-3.png" alt="User-flow 1" size = 500><br>
+4) **User flow 4:**
+<img src="images/user-flow/user-flow-4.png" alt="User-flow 1" size = 500><br>
+5) **User flow 5:**
+<img src="images/user-flow/user-flow-5.png" alt="User-flow 1" size = 500><br>
+6) **User flow 6:**
+<img src="images/user-flow/user-flow-6.png" alt="User-flow 1" size = 500><br>
+7) **User flow 7:**
+<img src="images/user-flow/user-flow-7.png" alt="User-flow 1" size = 500><br>
+8) **User flow 8:**
+<img src="images/user-flow/user-flow-8.png" alt="User-flow 1" size = 500><br>
+9) **User flow 9:**
+<img src="images/user-flow/user-flow-9.png" alt="User-flow 1" size = 500><br>
+10) **User flow 10:**
+<img src="images/user-flow/user-flow-10.png" alt="User-flow 1" size = 500><br>
+11) **User flow 11:**
+<img src="images/user-flow/user-flow-11.png" alt="User-flow 1" size = 500><br>
+12) **User flow 12:**
+<img src="images/user-flow/user-flow-12.png" alt="User-flow 1" size = 500><br>
+13) **User flow 13:**
+<img src="images/user-flow/user-flow-13.png" alt="User-flow 1" size = 500><br>
+14) **User flow 14:**
+<img src="images/user-flow/user-flow-14.png" alt="User-flow 1" size = 500><br>
+15) **User flow 15:**
+<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
+ 
 
 ## 4.5. Web Applications Prototyping
 
