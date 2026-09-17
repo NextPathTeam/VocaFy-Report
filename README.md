@@ -313,6 +313,39 @@ del ABET – EAC - Student Outcome 3.
 
 ### 2.2.1. Diseño de entrevistas
 
+Para los estudiantes: 
+
+- ¿Cómo te sientes respecto a elegir una carrera? 
+- ¿Te has sentido presionado para tomar una decisión pronto? 
+- ¿Sabes qué opciones tienes en cuanto a carreras, o te sientes un poco perdido? 
+- ¿Has recibido alguna orientación vocacional en el colegio? ¿Te fue útil?  
+- ¿Has usado algún test o herramienta digital para decidir qué estudiar? ¿Qué te parecieron estos test o herramientas? 
+- ¿Qué crees que les faltó para ser realmente útiles?  
+- ¿Qué opinas de que una aplicación use inteligencia artificial para recomendarte carreras según tus intereses y habilidades? 
+- Si pudieras simular cómo sería tu futuro en diferentes carreras, ¿te gustaría? ¿Por qué?  
+- ¿Qué otras funciones o información te gustaría que tuviera una aplicación de orientación vocacional? 
+- ¿Preferirías que te dé resultados rápidos o que te acompañe paso a paso en el proceso?
+
+<br>
+
+Para los psicólogos:
+- ¿Qué métodos o herramientas utiliza actualmente para la orientación vocacional de los estudiantes? 
+- ¿Cuáles son las principales dificultades que observa en los estudiantes al elegir una carrera o especialización? 
+- ¿Qué limitaciones encuentra en los test vocacionales tradicionales que se suelen aplicar? 
+- Desde su experiencia, ¿qué tan importante es considerar factores como intereses, habilidades y rasgos de 
+personalidad de manera integrada en este proceso? 
+- ¿Cómo percibe la incorporación de inteligencia artificial en la orientación vocacional? ¿Cree que podría 
+complementar el trabajo del psicólogo? 
+- ¿Cómo reaccionan generalmente los estudiantes frente a evaluaciones vocacionales? ¿Tienden a confiar en los 
+resultados? 
+- ¿Considera que una aplicación podría servir como apoyo al trabajo profesional, o existe el riesgo de que reemplace 
+parte de la labor del psicólogo? 
+- ¿Qué tan relevante cree que es incluir información actualizada sobre el mercado laboral en el proceso de 
+orientación vocacional? 
+- ¿De qué manera una herramienta digital podría mejorar la orientación vocacional y reducir problemas como 
+deserción o insatisfacción académica?
+
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
