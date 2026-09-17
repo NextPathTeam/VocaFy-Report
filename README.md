@@ -491,7 +491,7 @@ deserción o insatisfacción académica?
 
 ### 2.3.1. User Personas
 
-En esta sección se detalla la elaboración de las fichas de User Persona para nuestro proyecto, enfocándose en los segmentos objetivo de Estudiantes y Psicólogos educativos. Estos artefactos sintetizan de forma empática los hallazgos del análisis de entrevistas, como la ansiedad por la incertidumbre vocacional y la obsolescencia de las herramientas tradicionales, junto con las ventajas en el análisis competitivo, orientadas a la personalización profunda y el uso de inteligencia artificial. 
+En esta sección se detalla la elaboración de las fichas de User Persona para nuestro proyecto, enfocándose en los segmentos objetivo de Estudiantes y Psicólogos. Estos artefactos sintetizan de forma empática los hallazgos del análisis de entrevistas, como la ansiedad por la incertidumbre vocacional y la obsolescencia de las herramientas tradicionales, junto con las ventajas en el análisis competitivo, orientadas a la personalización profunda y el uso de inteligencia artificial. 
 
 
 <br>
@@ -568,6 +568,21 @@ En esta sección se presenta el User Task Matrix, una herramienta que consolida 
 </table>
 
 ### 2.3.3. User Journey Mapping
+
+En esta sección se detallan los User Journey Maps en su versión As-Is para los dos segmentos objetivo del proyecto: el Estudiante y la Psicóloga educativa. El objetivo de estos mapas es ilustrar el viaje de extremo a extremo (end-to-end journey) que experimentan ambos actores en la situación actual, exponiendo las deficiencias y puntos de dolor y que viven los usuarios antes de la existencia de Next Path.
+
+**Segmento 1: Estudiantes**
+
+
+<div align="center">
+  <img src="images/journey-map-estudiante.png" alt="Journey Map Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
+  <img src="images/journey-map-psicologa.png" alt="User Persona Psicologo"><br><br>
+</div>
 
 ### 2.3.4. Empathy Mapping
 
