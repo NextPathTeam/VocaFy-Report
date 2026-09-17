@@ -296,18 +296,135 @@ El equipo de VocaFy está conformado por los siguientes integrantes:
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+	En los últimos años, la orientación vocacional se ha convertido en un aspecto de creciente interés dentro del ámbito educativo, debido a su influencia directa en la permanencia y el éxito académico. Diversos estudios han evidenciado que un número importante de estudiantes ingresa a la educación superior con dudas respecto a su elección profesional, lo que posteriormente se traduce en deserción, cambios de carrera o insatisfacción con la formación recibida. Aunque existen iniciativas y herramientas digitales orientadas a apoyar este proceso, la mayoría no ofrece un acompañamiento integral ni aprovecha plenamente los avances tecnológicos disponibles, lo que evidencia la necesidad de explorar alternativas más innovadoras y personalizadas.
+
+5W (What, Why, Where, Who, Why)
+	
+	•What?
+Existe una dificultad recurrente en los estudiantes al momento de elegir una carrera o área de formación, debido a la falta de herramientas de orientación vocacional personalizadas y efectivas.
+•Why?
+La orientación vocacional tradicional se basa en pruebas estandarizadas y asesorías generales que no consideran integralmente los intereses, habilidades y rasgos de personalidad de cada estudiante, ni las demandas actuales del mercado laboral.
+•Where?
+El problema se presenta tanto en instituciones educativas urbanas como rurales, principalmente en los niveles de secundaria y educación superior, donde el acceso a orientación especializada es limitado o generalista.
+•Who?
+Afecta principalmente a estudiantes en etapa de decisión o redefinición de carrera, así como a instituciones educativas que enfrentan altos índices de deserción y baja satisfacción estudiantil.
+•When?
+Se manifiesta en momentos críticos como la transición del colegio a la universidad o durante los primeros ciclos de formación, etapas en las que los estudiantes experimentan mayor incertidumbre respecto a su futuro profesional.
+2H (How, How Much)
+•How?
+Los estudiantes suelen apoyarse en test genéricos, consejos de familiares o información dispersa en internet, lo cual no garantiza decisiones sólidas ni alineadas con su perfil.
+•How Much?
+El impacto es significativo, reflejándose en altas tasas de deserción universitaria (superiores al 30% en algunos contextos), pérdida de recursos económicos y de tiempo, además de la disminución en la motivación y satisfacción personal de los estudiantes.
+
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
+Actualmente, se necesita una herramienta que facilite la orientación académica y profesional de los estudiantes. A través de esta aplicación, los jóvenes podrán identificar sus intereses, habilidades y rasgos de personalidad, explorar carreras afines, acceder a información del mercado laboral y simular posibles trayectorias profesionales. Hemos observado un factor crítico que afecta a la población estudiantil, el cual se manifiesta en la desinformación, el uso de pruebas vocacionales genéricas y la falta de acompañamiento personalizado, lo que genera decisiones poco informadas, deserción universitaria y pérdida de recursos. ¿Cómo lograr que más estudiantes elijan carreras adecuadas a su perfil y accedan a una orientación confiable que facilite su futuro académico y profesional?
+
 
 #### 1.2.2.2. Lean UX Assumptions
+¿Quién es el usuario?
+Principalmente estudiantes universitarios entre 17 y 25 años y psicólogos que participan en la orientación vocacional.
+¿Dónde encaja nuestro producto en su trabajo o vida?
+En la toma de decisiones académicas y de orientación vocacional, en momentos críticos como la elección o cambio de carrera.
+¿Qué problemas tiene nuestro producto y cómo los puede resolver?
+La dificultad para transmitir una certeza completa al elegir una carrera adecuada, la falta de orientación personalizada y el desconocimiento del mercado laboral. El producto resuelve esto con evaluaciones basadas en IA, simulaciones de trayectorias y asesorías personalizadas.
+¿Cuándo y cómo es usado nuestro producto?
+Durante la transición de colegio a universidad o en los primeros ciclos universitarios, a través de una aplicación web disponible.
+¿Qué características son importantes?
+Es fácil de utilizar, tiene tests vocacionales interactivos, reportes personalizados, simulación de escenarios profesionales y acceso a información actualizada del mercado laboral.
+¿Cómo debe verse nuestro producto y cómo comportarse?
+Debe ser intuitivo, atractivo visualmente y confiable, con respuestas rápidas y recomendaciones personalizadas que transmitan seguridad al usuario.
+
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+Creemos que tanto los estudiantes como los orientadores (psicólogos) valorarán de manera positiva una aplicación que combine inteligencia artificial con orientación vocacional personalizada, especialmente considerando la creciente demanda de decisiones académicas más informadas y alineadas con el mercado laboral actual. Sabremos que esto es cierto cuando observemos que al menos el 80 % de los usuarios califica la utilidad de la app con 4 o más puntos en una escala Likert de 1 a 5, medido mediante encuesta post-uso durante las primeras 4 semanas de implementación.
+Creemos que los psicólogos valorarán una aplicación que les permita acceder a reportes vocacionales completos y personalizados de sus pacientes/estudiantes, ya que esto reducirá su tiempo de evaluación y aumentará la precisión en las recomendaciones. Sabremos que esto es cierto cuando el tiempo promedio de evaluación se reduzca en al menos un 30 % y el 75 % de los psicólogos manifieste que la herramienta mejora la calidad de sus sesiones, medido mediante observación directa y encuesta de satisfacción durante un periodo piloto de 2 meses.
+Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán una aplicación que les brinde evaluaciones personalizadas y simulaciones de escenarios profesionales, porque esto les permitirá decidir con mayor confianza. Sabremos que esto es cierto cuando el 70 % de los usuarios reportan mayor seguridad en su decisión vocacional y el número de recomendaciones positivas aumenta un 25 % en redes o encuestas, medido durante 8 semanas de prueba beta.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
+<table>
+  <tr>
+    <th>Business Problem</th>
+    <th>Solution Ideas</th>
+    <th>Business Outcomes</th>
+  </tr>
+
+  <tr>
+    <td>
+      Los estudiantes presentan dudas al momento de elegir una carrera debido
+      a la falta de herramientas personalizadas, información actualizada y
+      orientación integral.
+    </td>
+    <td>
+      <ul>
+        <li>Aplicación de orientación vocacional basada en IA.</li>
+        <li>Tests vocacionales tradicionales.</li>
+        <li>Comunidades y grupos de orientación profesional.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Obtener reseñas positivas.</li>
+        <li>Incrementar las recomendaciones de la plataforma.</li>
+        <li>Aumentar el crecimiento de usuarios.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th>Users</th>
+    <td rowspan="2"></td>
+    <th>User Benefits</th>
+  </tr>
+
+  <tr>
+    <td>
+      <ul>
+        <li>Estudiantes de 17 a 25 años que están eligiendo o cambiando de carrera.</li>
+        <li>Psicólogos educativos de 30 a 60 años.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Tomar mejores decisiones académicas y profesionales.</li>
+        <li>Mejorar el apoyo psicológico durante la orientación.</li>
+        <li>Acceder a mejor información y atención personalizada.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th>Hypotheses</th>
+    <th>What's the most important thing we need to learn first?</th>
+    <th>What's the least amount of work we need to do to learn the next most important thing?</th>
+  </tr>
+
+  <tr>
+    <td>
+      Creemos que los estudiantes podrán tomar mejores decisiones académicas
+      y profesionales si reciben orientación personalizada mediante una
+      aplicación de IA que integre evaluaciones vocacionales, simulaciones e
+      información del mercado laboral.
+    </td>
+    <td>
+      <ul>
+        <li>Validar si los psicólogos están dispuestos a integrar la herramienta.</li>
+        <li>Validar el nivel de confianza de los estudiantes en la IA.</li>
+        <li>Determinar si la aplicación reduce la indecisión y ansiedad.</li>
+      </ul>
+    </td>
+    <td>
+      Investigar y validar el apoyo de profesionales de psicología en la
+      orientación vocacional y realizar pruebas con estudiantes para conocer
+      su percepción y confianza en la solución.
+    </td>
+  </tr>
+</table>
 
 ## 1.3. Segmentos objetivo
 
