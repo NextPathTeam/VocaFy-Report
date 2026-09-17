@@ -2070,7 +2070,7 @@ Además, fomenta una relación bidireccional: los estudiantes reciben asesoría 
 
 ## 4.1. Style Guidelines
 
-El presente documento forma parte del proyecto VocaFy, una plataforma diseñada para acompañar a estudiantes en la toma de decisiones académicas y vocacionales de manera confiable y clara. Nuestro objetivo es brindar una experiencia consistente en todos los puntos de contacto, tanto en web como en dispositivos móviles, reforzando los valores de innovación, orden y confianza que definen el proyecto.
+El presente documento forma parte del proyecto Next Path, una plataforma diseñada para acompañar a estudiantes en la toma de decisiones académicas y vocacionales de manera confiable y clara. Nuestro objetivo es brindar una experiencia consistente en todos los puntos de contacto, tanto en web como en dispositivos móviles, reforzando los valores de innovación, orden y confianza que definen el proyecto.
 
 Este documento actúa como una guía de diseño integral que permite a diseñadores, desarrolladores y colaboradores trabajar con una referencia única. Así, aseguramos coherencia visual, comunicación alineada y experiencias unificadas para el usuario.
 
@@ -2078,7 +2078,7 @@ Este documento actúa como una guía de diseño integral que permite a diseñado
 
 **Branding**
 
-El branding de VocaFy busca reflejar innovación, cercanía y orientación confiable. El logotipo representa un ícono de ubicación con flecha ascendente, simbolizando progreso y dirección. 
+El branding de Next Path busca reflejar innovación, cercanía y orientación confiable. El logotipo representa un ícono de ubicación con flecha ascendente, simbolizando progreso y dirección. 
 
 La mascota “Panda” complementa el tono empático y amigable, reforzando la conexión emocional con el público joven. Todos los elementos deben ser consistentes en escala, color y proporción en cualquier soporte.
 
@@ -2123,7 +2123,7 @@ El tono comunicacional es casual, respetuoso y motivador, equilibrando seriedad 
 
 **Objetivo**
 
-Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy desde navegadores web, manteniendo consistencia en pantallas de escritorio y adaptabilidad en resoluciones responsivas.
+Definir la experiencia visual e interactiva para usuarios que acceden a Next Path desde navegadores web, manteniendo consistencia en pantallas de escritorio y adaptabilidad en resoluciones responsivas.
 
 ---
 
@@ -2166,7 +2166,7 @@ Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy d
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
-El sistema de organización de VocaFy combina tres modelos principales: jerárquico, secuencial y matricial, que se aplican según el tipo de contenido y el flujo de interacción.
+El sistema de organización de Next Path combina tres modelos principales: jerárquico, secuencial y matricial, que se aplican según el tipo de contenido y el flujo de interacción.
 
 **Estructuras de organización:**
 
@@ -2247,7 +2247,7 @@ El sistema de etiquetado busca mantener consistencia entre plataformas y asegura
 
 ### 4.2.4. Searching Systems
 
-El sistema de búsqueda en VocaFy tiene como propósito reducir el tiempo que toma localizar información relevante, utilizando filtros personalizados según el rol del usuario.
+El sistema de búsqueda en Next Path tiene como propósito reducir el tiempo que toma localizar información relevante, utilizando filtros personalizados según el rol del usuario.
 
 **Componentes principales:**
 
