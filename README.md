@@ -1923,6 +1923,33 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
+
+* **Título:**
+  ```html
+  <title>Tu Perfil Vocacional | NextPath</title>
+  ```
+
+* **Codificación de caracteres:**
+  ```html
+  <meta charset="utf-8">
+  ```
+
+* **Descripción:**
+  ```html
+  <meta name="description" content="Accede a tus resultados vocacionales, explora carreras compatibles, comunícate con tu psicólogo y simula tu trayectoria en base al mercado laboral actual.">
+  ```
+
+* **Palabras Claves:**
+  ```html
+  <meta name="keywords" content="perfil vocacional, resultados de test, simulación de trayectoria, mercado laboral, asesoría psicológica, seguimiento vocacional">
+  ```
+
+* **Autor y Derechos de Autor:**
+  ```html
+  <meta name="author" content="NextPath Team">
+  <meta name="copyright" content="Copyright 2026 VocaFy Team">
+  ```
 
 ### 4.2.4. Searching Systems
 
