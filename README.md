@@ -2306,7 +2306,7 @@ En esta sección se presenta la propuesta de diseño de la interfaz de usuario p
 * **Sobre nosotros:**
   Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
 
-  ![Landing Page Wireframe - Sobre Nosotros](images/Quienes-Somos.png)
+  ![Landing Page Wireframe - Sobre Nosotros](images/style-guidelines/Quienes-Somos.png)
 
 * **¿Cómo funciona?:**
   Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
