@@ -349,6 +349,26 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ## 2.5. Ubiquitous Language
 
+- **NextPath:** Aplicación web de orientación vocacional que guía a los estudiantes en su elección de carrera mediante tests, simulaciones y datos del mercado laboral.
+- **Student (Estudiante):** Primer segmento objetivo de VocaFy, jóvenes en etapa de transición a la educación superior que utilizan la plataforma para definir su ruta profesional.
+- **Psychologist (Psicólogo):** Segundo segmento objetivo de VocaFy, profesionales que analizan perfiles, brindan retroalimentación y gestionan sesiones de acompañamiento para los estudiantes.
+- **Vocational Test (Test Vocacional):** Evaluación interactiva que identifica los intereses, aptitudes y valores del estudiante.
+- **Vocational Profile (Perfil Vocacional):** Conjunto de características cognitivas y emocionales obtenidas a partir de las respuestas del estudiante en los tests.
+- **Recommended Career (Carrera Recomendada):** Opción académica sugerida al estudiante por su alto nivel de alineación con su perfil vocacional.
+- **Vocational Compatibility (Compatibilidad Vocacional):** Porcentaje que mide la afinidad entre el perfil del estudiante y las exigencias de una carrera específica.
+- **Career Trajectory (Trayectoria Profesional):** Proyección de los escenarios académicos y laborales futuros basados en las decisiones de estudio del usuario.
+- **Labor Market (Mercado Laboral):** Información sobre la demanda de empleos, proyecciones a 5 años y salarios promedio de las distintas profesiones.
+- **Counseling Session (Sesión de Orientación):** Interacción directa en la plataforma entre el psicólogo y el estudiante para resolver dudas y brindar acompañamiento.
+- **Evolution Report (Reporte de Evolución):** Documento que agrupa los resultados históricos del estudiante para mostrar cómo cambian sus intereses en el tiempo.
+- **Curriculum (Malla Curricular):** Estructura académica que detalla los cursos, tiempos de estudio y requisitos de una carrera en una institución específica.
+- **Interest Community (Comunidad de Interés):** Espacio social colaborativo donde estudiantes con afinidades vocacionales similares interactúan y comparten experiencias.
+- **Follow-up Reminder (Recordatorio de Seguimiento):** Alerta programada por el psicólogo para asegurar el acompañamiento continuo del estudiante en su proceso de decisión.
+- **Premium Subscription (Suscripción Premium):** Nivel de acceso de pago que desbloquea herramientas avanzadas, como simulaciones de trayectorias y asesorías directas.
+<br>
+<br>
+<br>
+
+
 
 # Capítulo III: Requirements Specification
 
