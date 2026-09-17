@@ -2047,6 +2047,24 @@ Además, fomenta una relación bidireccional: los estudiantes reciben asesoría 
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado busca mantener consistencia entre plataformas y asegurar una comprensión rápida. Las etiquetas son cortas, descriptivas y acompañadas por íconos visualmente coherentes con las Style Guidelines.
+
+| Etiqueta | Descripción |
+|---|---|
+| **Inicio** | Pantalla principal donde el usuario visualiza el resumen o menú inicial de navegación. |
+| **Iniciar Test** | Botón principal para comenzar el test vocacional del estudiante. |
+| **Resultados** | Sección que muestra los gráficos y descripciones del perfil vocacional obtenido. |
+| **Carreras Recomendadas** | Módulo donde el estudiante explora las opciones sugeridas según su perfil Holland. |
+| **Simulaciones** | Espacio interactivo que muestra trayectorias académicas y laborales según los resultados. |
+| **Asesorías** | Zona de gestión de sesiones entre estudiantes y psicólogos. |
+| **Reportes Recientes** | Módulo donde se listan los resultados y análisis generados más recientemente. |
+| **Perfil** | Sección de configuración y personalización del usuario (datos, intereses, foto, etc.). |
+| **Configuración** | Ajustes técnicos de cuenta y preferencias generales del usuario. |
+| **Reportes (Psicólogo)** | Pantalla que centraliza los informes vocacionales o de progreso. |
+| **Evaluaciones (Psicólogo)** | Sección donde el psicólogo revisa y genera resultados de los tests aplicados. |
+| **Seguimiento (Psicólogo)** | Módulo donde se registran las observaciones y evolución de cada estudiante. |
+| **Botones de acción comunes** | *Iniciar Test, Ver Resultados, Explorar Carreras, Agendar Asesoría, Descargar Reporte, Ver Perfil, Guardar Cambios, Cerrar Sesión.* Estas etiquetas de acción facilitan la comprensión y el flujo guiado. |
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 * **Título:**
