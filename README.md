@@ -491,12 +491,81 @@ deserción o insatisfacción académica?
 
 ### 2.3.1. User Personas
 
+En esta sección se detalla la elaboración de las fichas de User Persona para nuestro proyecto, enfocándose en los segmentos objetivo de Estudiantes y Psicólogos educativos. Estos artefactos sintetizan de forma empática los hallazgos del análisis de entrevistas, como la ansiedad por la incertidumbre vocacional y la obsolescencia de las herramientas tradicionales, junto con las ventajas en el análisis competitivo, orientadas a la personalización profunda y el uso de inteligencia artificial. 
+
+
+<br>
+
+**Segmento 1: Estudiantes**
+
+
 <div align="center">
   <img src="images/David Herrera.png" alt="User Persona Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
   <img src="images/Leopolda Cotrina.png" alt="User Persona Psicologo"><br><br>
 </div>
 
 ### 2.3.2. User Task Matrix
+
+
+En esta sección se presenta el User Task Matrix, una herramienta que consolida y prioriza las actividades esenciales que los segmentos objetivo realizan para alcanzar sus metas de orientación. Para este análisis, se consideran nuestros dos segmentos objetivos: el Estudiante y la Psicóloga. A continuación, se considera cada tarea en función de su frecuencia (qué tan seguido se realiza) y su importancia (el impacto que tiene para el usuario).
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">User task</th>
+      <th colspan="2">David Herrera (estudiante)</th>
+      <th colspan="2">Leopolda Cotrina (psicóloga)</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Realizar test vocacional personalizado</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+      <td>Frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Explorar trayectorias profesionales simuladas</td>
+      <td>Frecuente</td>
+      <td>Alta</td>
+      <td>Frecuente</td>
+      <td>Media-Alta</td>
+    </tr>
+    <tr>
+      <td>Consultar información del mercado laboral</td>
+      <td>Frecuente</td>
+      <td>Media</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Acceder a asesoría personalizada</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Generar reportes y recomendaciones adaptativas</td>
+      <td>No tan frecuente</td>
+      <td>Media</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping
 
