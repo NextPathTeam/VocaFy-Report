@@ -407,6 +407,1364 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ## 3.1. User Stories
 
+<!-- HU 01 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 01</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Realizar test vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO realizar un test vocacional dentro de la plataforma PARA crear un perfil de intereses y aptitudes con recomendaciones personalizadas.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Test Vocacional Interactivo</b><br><br>
+        <b>Scenario 1: Completar test vocacional exitosamente</b><br>
+        GIVEN que accedo a la sección de test vocacional,<br>
+        WHEN inicio el test y respondo todas las preguntas hasta la última,<br>
+        THEN el sistema debe calcular mi perfil vocacional,<br>
+        AND mostrar mis resultados con porcentajes por área,<br>
+        AND generar una retroalimentación personalizada con recomendaciones de carreras.<br><br>
+        <b>Scenario 2: Navegación y guardado de respuestas durante el test</b><br>
+        GIVEN que estoy realizando el test vocacional en la pregunta 5 de 20,<br>
+        WHEN selecciono la opción 'riesgor',<br>
+        THEN el sistema debe llevarme a la pregunta 4 mostrando la opción elegida previamente;<br>
+        WHEN cambio mi respuesta y presiono 'Siguiente',<br>
+        THEN el sistema guarda la nueva respuesta y me muestra la pregunta 6 con el progreso actualizado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 02 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 02</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Visualizar resultados vocacionales</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO acceder a los resultados detallados de mis tests vocacionales PARA comprender mis áreas de fortaleza, afinidades e iniciar mi exploración profesional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Visualización de Resultados Vocacionales</b><br><br>
+        <b>Scenario 1: Visualización completa de informe vocacional</b><br>
+        GIVEN que he finalizado mi test vocacional,<br>
+        WHEN accedo al módulo 'Mis Resultados',<br>
+        THEN el sistema me despliega un resumen gráfico por áreas (Artística, Social, Investigativa, etc.),<br>
+        AND presenta un desglose de porcentaje de compatibilidad y sugerencias de carrera.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 03 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 03</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Realizar test de seguimiento y medir evolución vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO realizar tests de seguimiento periódicos PARA medir mi evolución vocacional y ajustar mis decisiones profesionales según mi desarrollo.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Tests de Seguimiento y Evolución</b><br><br>
+        <b>Scenario 1: Sugerencia de reevaluación periódica</b><br>
+        GIVEN que he completado mi primer test vocacional y han transcurrido 6 meses,<br>
+        WHEN ingreso a la plataforma,<br>
+        THEN el sistema sugiere realizar un test de seguimiento y despliega una gráfica comparativa con la evaluación anterior.<br><br>
+        <b>Scenario 2: Análisis histórico de progreso</b><br>
+        GIVEN que he completado múltiples tests vocacionales,<br>
+        WHEN accedo a mi historial de evolución,<br>
+        THEN el sistema muestra gráficos de progreso por área vocacional y un análisis de consistencia de mis intereses.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 04 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 04</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar resultados de estudiantes</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO acceder a los resultados vocacionales de mis estudiantes asignados PARA orientarles según sus intereses, habilidades y aptitudes.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Panel de Psicólogo - Consulta de Resultados</b><br><br>
+        <b>Scenario 1: Lista de estudiantes asignados y filtro de pendientes</b><br>
+        GIVEN que soy un psicólogo autenticado en el sistema,<br>
+        WHEN accedo a mi panel de control,<br>
+        THEN visualizo la lista de estudiantes a mi cargo con su nombre, curso y fecha del último test,<br>
+        AND dispongo de un filtro para identificar a quienes tienen evaluaciones pendientes de revisión.<br><br>
+        <b>Scenario 2: Revisión de expediente vocacional de un alumno</b><br>
+        GIVEN que me encuentro en la lista de alumnos asignados,<br>
+        WHEN selecciono un estudiante específico,<br>
+        THEN accedo a su perfil vocacional completo con gráficos comparativos de evolución y un área para agregar observaciones profesionales.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 05 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 05</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Programar sesiones de orientación</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO agendar sesiones de orientación individual o grupal con los estudiantes PARA brindar acompañamiento personalizado según los resultados del test.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión y Agendamiento de Sesiones de Orientación</b><br><br>
+        <b>Scenario 1: Crear sesión individual basada en resultados</b><br>
+        GIVEN que reviso el perfil vocacional de un estudiante,<br>
+        WHEN identifico la necesidad de una reunión individual,<br>
+        THEN puedo agendar la sesión con fecha, hora y observaciones preliminares, enviando una notificación automática al alumno.<br><br>
+        <b>Scenario 2: Organizar sesión grupal por afinidad vocacional</b><br>
+        GIVEN que identifico un grupo de estudiantes con perfiles afines,<br>
+        WHEN selecciono 'Crear sesión grupal',<br>
+        THEN el sistema sugiere agrupamientos por compatibilidad y me permite definir fecha, hora y objetivo en común para todos los convocados.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 06 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 06</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Enviar recomendaciones personalizadas</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO enviar observaciones y recomendaciones vocacionales a cada estudiante PARA apoyar su proceso de toma de decisiones profesionales.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Sistema de Recomendaciones Vocacionales Directas</b><br><br>
+        <b>Scenario 1: Redactar y adjuntar recomendaciones</b><br>
+        GIVEN que he evaluado los resultados de un alumno,<br>
+        WHEN redacto observaciones específicas y selecciono carreras o recursos de apoyo,<br>
+        THEN puedo enviar la recomendación como mensaje directamente al perfil del estudiante en la plataforma.<br><br>
+        <b>Scenario 2: Seguimiento del estado de la recomendación</b><br>
+        GIVEN que he enviado recomendaciones a varios alumnos,<br>
+        WHEN accedo a mi historial de comunicaciones,<br>
+        THEN puedo visualizar el estado de cada mensaje (enviado, leído)
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 07 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 07</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Programar recordatorios de seguimiento vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO programar recordatorios automáticos de seguimiento PARA asegurar el acompañamiento continuo de los estudiantes en su proceso de elección.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Configuración de Recordatorios de Seguimiento</b><br><br>
+        <b>Scenario 1: Establecer alertas de seguimiento por alumno</b><br>
+        GIVEN que accedo al módulo de configuración de seguimiento,<br>
+        WHEN defino la frecuencia de recordatorios y fechas clave para reevaluaciones,<br>
+        THEN el sistema programa las alertas automáticas en la agenda del psicólogo y del estudiante.<br><br>
+        <b>Scenario 2: Notificación de alumno prioritario</b><br>
+        GIVEN que el sistema detecta que un estudiante requiere seguimiento periódico,<br>
+        WHEN se cumple la fecha programada,<br>
+        THEN recibo una alerta prioritaria con enlace rápido a su expediente y opciones de contacto inmediato.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 08 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 08</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Generar reportes estadísticos de orientación vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO generar reportes estadísticos sobre los resultados de los estudiantes PARA identificar patrones grupales y adaptar las estrategias de orientación.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Reportes Estadísticos de Orientación Agregada</b><br><br>
+        <b>Scenario 1: Generar consolidado estadístico por grupo</b><br>
+        GIVEN que gestiono múltiples alumnos,<br>
+        WHEN solicito un reporte estadístico grupal,<br>
+        THEN el sistema genera datos consolidados sobre la distribución de perfiles, carreras más solicitadas y gráficos comparativos por cohorte.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 09 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 09</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-03</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a recursos vocacionales actualizados</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO acceder a una biblioteca de recursos vocacionales actualizados PARA apoyar a mis estudiantes con material informativo de calidad.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Biblioteca de Recursos Vocacionales</b><br><br>
+        <b>Scenario 1: Consulta y filtrado de material informativo</b><br>
+        GIVEN que accedo a la sección 'Recursos Vocacionales',<br>
+        WHEN filtro por categoría (guías, talleres, libros, videos),<br>
+        THEN el sistema muestra el listado de materiales ordenados por fecha de actualización.<br><br>
+        <b>Scenario 2: Descarga o lectura en línea</b><br>
+        GIVEN que he seleccionado un recurso relevante,<br>
+        WHEN presiono 'Descargar' o 'Ver en línea',<br>
+        THEN el sistema me permite guardar el documento PDF o visualizarlo directamente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 10 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 10</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-03</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Obtener reportes de orientación por grupo de estudiantes</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO recibir reportes vocacionales grupales por rango de fecha PARA analizar tendencias del alumnado y planificar intervenciones.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Reportes de Orientación Grupal</b><br><br>
+        <b>Scenario 1: Generación de informe por grupo y fechas</b><br>
+        GIVEN que accedo a la pestaña 'Reportes Grupales',<br>
+        WHEN selecciono un grupo de estudiantes y un rango de fechas,<br>
+        THEN el sistema genera un resumen con la distribución de habilidades y carreras afines.<br><br>
+        <b>Scenario 2: Exportación del informe grupal</b><br>
+        GIVEN que el informe ha sido generado,<br>
+        WHEN hago clic en 'Exportar',<br>
+        THEN el sistema descarga el documento estructurado en formato PDF o Excel.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- HU 11 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 11</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-03</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Recomendar actividades personalizadas</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO sugerir actividades específicas según el perfil vocacional del estudiante PARA reforzar sus áreas de mayor afinidad.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Asignación de Actividades Recomendadas</b><br><br>
+        <b>Scenario 1: Sugerencia automática y validación del psicólogo</b><br>
+        GIVEN que reviso el perfil de un estudiante,<br>
+        WHEN accedo al módulo de sugerencias de actividades,<br>
+        THEN el sistema me propone guías o ejercicios acordes a sus intereses y puedo modificarlos antes de enviárselos.<br><br>
+        <b>Scenario 2: Notificación de actividad asignada</b><br>
+        GIVEN que he validado la actividad recomendada,<br>
+        WHEN selecciono 'Enviar a estudiante',<br>
+        THEN el sistema le notifica inmediatamente con el enlace directo al recurso.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 12 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 12</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-04</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Evaluar el progreso vocacional del estudiante</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO evaluar el progreso del estudiante basándome en sus resultados históricos PARA orientarlo adecuadamente en futuras sesiones.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Evaluación del Progreso e Histórico</b><br><br>
+        <b>Scenario 1: Consulta de reportes históricos e IA</b><br>
+        GIVEN que accedo al expediente del alumno,<br>
+        WHEN consulto sus reportes históricos de pruebas y diagnósticos,<br>
+        THEN el sistema me despliega la evolución en áreas de interés, habilidades y nivel de certeza vocacional.<br><br>
+        <b>Scenario 2: Registro de observaciones en la ficha</b><br>
+        GIVEN que culmino una sesión de orientación,<br>
+        WHEN agrego mis notas clínicas en su ficha,<br>
+        THEN el sistema almacena la entrada asociándola a la fecha de la sesión.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 13 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 13</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-04</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Recibir alertas de próximas sesiones</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO recibir notificaciones de mis próximas sesiones programadas PARA organizar eficientemente mi agenda de atención.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Sistema de Alertas y Notificación de Citas</b><br><br>
+        <b>Scenario 1: Recordatorio diario de agenda</b><br>
+        GIVEN que tengo citas agendadas para la jornada,<br>
+        WHEN inicia el día laboral,<br>
+        THEN el sistema me envía una alerta con el resumen de estudiantes a atender y sus horarios.<br><br>
+        <b>Scenario 2: Alerta previa a la reunión</b><br>
+        GIVEN que falta menos de 1 hora para una sesión,<br>
+        WHEN se cumple el tiempo,<br>
+        THEN recibo un aviso emergente con la liga de la sesión y el perfil del alumno.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 14 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 14</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-04</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Generar reportes psicológicos automáticos</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO generar reportes automáticos sobre los perfiles de los estudiantes PARA facilitar la evaluación profesional y el archivo clínico.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Generación de Informes Psicológicos Automáticos</b><br><br>
+        <b>Scenario 1: Consolidación de informe profesional</b><br>
+        GIVEN que selecciono a un estudiante con evaluaciones completas,<br>
+        WHEN presiono 'Generar Informe Psicológico',<br>
+        THEN el sistema integra los resultados de las pruebas, observaciones del profesional y tendencias en un archivo exportable.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 15 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 15</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Búsqueda con filtros inteligentes</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO filtrar carreras por área, duración y modalidad PARA identificar opciones alineadas a mis preferencias.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Explorador de Carreras con Filtros</b><br><br>
+        <b>Scenario 1: Aplicar filtros combinados</b><br>
+        GIVEN que me encuentro en el explorador de carreras,<br>
+        WHEN selecciono los filtros de 'Área: Creativa', 'Duración: 5 años' y 'Modalidad: Presencial',<br>
+        THEN el sistema muestra únicamente las carreras que cumplen estrictamente todos los parámetros.<br><br>
+        <b>Scenario 2: Limpiar o reiniciar filtros</b><br>
+        GIVEN que tengo filtros aplicados,<br>
+        WHEN presiono 'Reiniciar filtros',<br>
+        THEN el sistema restablece la búsqueda y despliega el catálogo completo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 16 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 16</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Visualizar ficha detallada de carrera</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO acceder a la ficha completa de cada carrera PARA conocer su malla curricular, campo laboral y empleabilidad.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Ficha Técnica de Carrera Profesional</b><br><br>
+        <b>Scenario 1: Detalle de malla y mercado laboral</b><br>
+        GIVEN que exploro el catálogo de carreras,<br>
+        WHEN hago clic sobre una carrera (ej. 'Diseño Gráfico'),<br>
+        THEN el sistema me muestra la duración, plan de estudios por semestre, universidades que la imparten, campo laboral y rango salarial promedio.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 17 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 17</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Mostrar compatibilidad vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO ver el porcentaje de compatibilidad entre mi perfil vocacional y cada carrera PARA priorizar mis opciones.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Indicador de Compatibilidad Vocacional</b><br><br>
+        <b>Scenario 1: Cálculo de compatibilidad basado en test</b><br>
+        GIVEN que he completado mi test vocacional,<br>
+        WHEN navego por las fichas de carreras,<br>
+        THEN el sistema muestra un distintivo visual con el porcentaje de compatibilidad (ej. '88% Compatible').
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 18 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 18</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Comparar carreras seleccionadas</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO comparar carreras seleccionadas en una tabla PARA evaluar diferencias clave en duración, costos y empleabilidad.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Matriz Comparativa de Carreras</b><br><br>
+        <b>Scenario 1: Comparación lado a lado</b><br>
+        GIVEN que he marcado dos carreras de mi interés,<br>
+        WHEN presiono 'Comparar',<br>
+        THEN el sistema genera una tabla comparativa con duración, requisitos, oferta académica y porcentaje de afinidad.<br><br>
+        <b>Scenario 2: Límite de carreras a comparar</b><br>
+        GIVEN que intento seleccionar una cuarta carrera para comparar,<br>
+        WHEN sobrepaso el límite máximo de 3,<br>
+        THEN el sistema muestra un aviso indicando que solo es posible comparar hasta 3 opciones a la vez.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 19 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 19</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Guardar carreras favoritas</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO guardar carreras en mi lista de favoritas PARA revisarlas posteriormente en mi panel.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión de Carreras Favoritas</b><br><br>
+        <b>Scenario 1: Agregar a favoritos</b><br>
+        GIVEN que visualizo una carrera,<br>
+        WHEN presiono el icono de 'Favorito',<br>
+        THEN el sistema la almacena en mi lista personal.<br><br>
+        <b>Scenario 2: Remover de favoritos</b><br>
+        GIVEN que reviso mi lista de favoritos,<br>
+        WHEN presiono 'Quitar de favoritos',<br>
+        THEN la carrera es removida de mi selección.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 20 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 20</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Simular futuro profesional según perfil vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO acceder a una simulación de mi futuro profesional mediante un botón en el panel de la carrera PARA visualizar mi desarrollo y proyección laboral en correlación con mi perfil vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Simulación de Proyección Futura Profesional</b><br><br>
+        <b>Scenario 1: Acceso exitoso a la simulación con perfil previo</b><br>
+        GIVEN que soy un estudiante autenticado y he completado al menos un test vocacional,<br>
+        WHEN accedo a la ficha detallada de una carrera y presiono el botón 'Simular mi futuro profesional',<br>
+        THEN el sistema procesa la correlación entre la carrera y mi historial vocacional,<br>
+        AND muestra una interfaz interactiva con la proyección de mi futuro profesional (entorno laboral, roles recomendados y nivel de afinidad).<br><br>
+        <b>Scenario 2: Restricción por falta de historial vocacional</b><br>
+        GIVEN que soy un estudiante autenticado y NO he realizado ningún test vocacional,<br>
+        WHEN accedo a la ficha de una carrera e intento presionar el botón 'Simular mi futuro profesional',<br>
+        THEN el sistema inhabilita la función o muestra una alerta: 'Debes realizar al menos un test vocacional para generar tu perfil antes de acceder a la simulación',<br>
+        AND proporciona un enlace directo a la sección de Tests Vocacionales.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- HU 21 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 21</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-06</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Visualizar dashboard de progreso</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO visualizar un panel con mi progreso vocacional y próximos pasos PARA tener claridad sobre mi avance en la plataforma.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Dashboard de Progreso Estudiantil</b><br><br>
+        <b>Scenario 1: Resumen general de tareas e hitos</b><br>
+        GIVEN que he completado algunas actividades (tests, lecturas),<br>
+        WHEN accedo a 'Mi Progreso',<br>
+        THEN el sistema grafica mi porcentaje de avance total, tareas pendientes y siguientes hitos sugeridos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 22 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 22</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-06</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Generar plan vocacional personalizado</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO generar un plan con tareas y fechas basadas en mis resultados e intereses PARA seguir una ruta organizada.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Plan Vocacional Dinámico</b><br><br>
+        <b>Scenario 1: Creación automática de hoja de ruta</b><br>
+        GIVEN que he completado mi test y seleccionado carreras favoritas,<br>
+        WHEN solicito 'Generar Plan Vocacional',<br>
+        THEN el sistema crea una lista de tareas cronológicas con fechas límite (ej. explorar universidades, solicitar cita).<br><br>
+        <b>Scenario 2: Reajuste automático del plan</b><br>
+        GIVEN que he actualizado mi lista de carreras favoritas o intereses,<br>
+        WHEN accedo nuevamente a mi plan,<br>
+        THEN el sistema recalcula automáticamente las prioridades, tareas y fechas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 23 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 23</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-06</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Recibir recordatorios automáticos</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO recibir recordatorios automáticos sobre mis tareas vocacionales PARA cumplir mis plazos establecidos.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Notificaciones de Plan Vocacional</b><br><br>
+        <b>Scenario 1: Aviso de tarea próxima a vencer</b><br>
+        GIVEN que tengo una tarea en mi plan con fecha límite cercana,<br>
+        WHEN faltan 24 horas,<br>
+        THEN el sistema me envía una notificación push/correo con los detalles del pendiente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 24 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 24</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-06</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Revisar historial de logros</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO revisar mi historial de logros y hitos completados PARA reconocer mi avance personal en la orientación.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Historial de Logros e Hitos Completados</b><br><br>
+        <b>Scenario 1: Consulta de bitácora de metas</b><br>
+        GIVEN que he completado diversas etapas del proceso,<br>
+        WHEN accedo a 'Historial de Logros',<br>
+        THEN el sistema despliega la lista de hitos alcanzados indicando la fecha de cumplimiento y medalla obtenida.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 25 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 25</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Chat en tiempo real con psicólogo</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO iniciar un chat en tiempo real con un psicólogo PARA resolver dudas inmediatas sobre mis resultados vocacionales.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Chat en Vivo de Asesoría Vocacional</b><br><br>
+        <b>Scenario 1: Iniciar conversación con profesional disponible</b><br>
+        GIVEN que reviso mis resultados de test,<br>
+        WHEN presiono 'Hablar con un psicólogo',<br>
+        THEN el sistema abre una ventana de mensajería en directo con el profesional asignado.<br><br>
+        <b>Scenario 2: Notificación de nuevo mensaje en chat</b><br>
+        GIVEN que mantengo un chat abierto o en segundo plano,<br>
+        WHEN el psicólogo responde,<br>
+        THEN recibo una alerta sonora y emergente en pantalla en tiempo real.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 26 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 26</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Feedback inmediato sobre resultados del test</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO recibir retroalimentación automática al terminar mi test PARA comprender mis fortalezas y solicitar asesoría profesional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Retroalimentación Inmediata de Diagnóstico</b><br><br>
+        <b>Scenario 1: Despliegue de resumen interpretativo</b><br>
+        GIVEN que finalizo la última pregunta de la prueba,<br>
+        WHEN se procesan los datos,<br>
+        THEN el sistema muestra un resumen gráfico con una interpretación inmediata de mis aptitudes principales.<br><br>
+        <b>Scenario 2: Acceso a solicitar asesoría personalizada</b><br>
+        GIVEN que visualizo mi feedback inmediato,<br>
+        WHEN identifico un alto grado de indecisión,<br>
+        THEN se habilita un botón para agendar o solicitar una asesoría directa con un psicólogo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 27 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 27</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Comunicación entre psicólogo y estudiante</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO enviar observaciones y retroalimentación directa al estudiante PARA apoyarle en su proceso de elección de carrera.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Mensajería Bilateral Psicólogo-Estudiante</b><br><br>
+        <b>Scenario 1: Envío de notas de acompañamiento</b><br>
+        GIVEN que reviso el perfil de un estudiante,<br>
+        WHEN escribo un comentario orientativo y presiono 'Enviar',<br>
+        THEN el estudiante recibe la notificación de la nota profesional en su panel.<br><br>
+        <b>Scenario 2: Confirmación de lectura de notas</b><br>
+        GIVEN que el estudiante abre la notificación enviada,<br>
+        WHEN consulta el mensaje,<br>
+        THEN el sistema marca el comentario como 'Leído' en el panel del psicólogo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 28 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 28</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Retroalimentación en sesiones grupales</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO organizar sesiones de feedback grupal en la app PARA orientar a varios estudiantes simultáneamente.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Sesiones Grupales de Orientación en Vivo</b><br><br>
+        <b>Scenario 1: Convocatoria a reunión en grupo</b><br>
+        GIVEN que programo una sesión de retroalimentación en grupo,<br>
+        WHEN selecciono a los participantes y envío la invitación,<br>
+        THEN cada estudiante convocado recibe una notificación con la fecha, hora y enlace de videoconferencia.<br><br>
+        <b>Scenario 2: Interacción durante la sesión</b><br>
+        GIVEN que inicia la sesión grupal,<br>
+        WHEN el psicólogo comparte su pantalla o presentación,<br>
+        THEN los asistentes pueden realizar preguntas mediante chat o micrófono.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 29 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 29</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Alertas de actualización de perfil</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO recibir notificaciones cuando un psicólogo actualice mi perfil PARA estar al tanto de mis progresos.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Notificaciones de Actualización de Expediente</b><br><br>
+        <b>Scenario 1: Aviso de nuevos comentarios o ajustes</b><br>
+        GIVEN que el psicólogo ha añadido una nueva sugerencia o modificado una observación en mi ficha,<br>
+        WHEN guarda los cambios,<br>
+        THEN el sistema me envía una alerta a mi bandeja de notificaciones.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 30 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 30</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-08</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Reporte de evolución del estudiante</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO generar un reporte de evolución individual PARA evaluar el progreso vocacional del estudiante a lo largo del tiempo.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Reporte Individual de Evolución Longitudinal</b><br><br>
+        <b>Scenario 1: Generación de informe de progreso temporal</b><br>
+        GIVEN que selecciono a un alumno con historial de más de 3 meses,<br>
+        WHEN solicito el reporte de evolución,<br>
+        THEN el sistema genera una comparativa gráfica de cómo se han estabilizado o transformado sus intereses profesionales.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- HU 31 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 31</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-08</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Panel analítico para psicólogos</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO visualizar un panel analítico de mis alumnos asignados PARA identificar patrones de intereses y necesidades de orientación.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Dashboard Analítico Profesional</b><br><br>
+        <b>Scenario 1: Métricas de concentración de carreras e indecisión</b><br>
+        GIVEN que accedo al panel analítico,<br>
+        WHEN consulto los indicadores globales de mis alumnos,<br>
+        THEN el sistema muestra la distribución de perfiles Holland, top de carreras más elegidas y porcentaje de alumnos en estado de indecisión alta.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 32 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 32</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-08</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Comparación de resultados entre grupos</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO comparar resultados vocacionales entre grupos de estudiantes PARA identificar diferencias y necesidades específicas por grupo.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Analítica Comparativa entre Cohortes</b><br><br>
+        <b>Scenario 1: Comparar dos o más grupos asignados</b><br>
+        GIVEN que dirijo varios grupos,<br>
+        WHEN selecciono dos grupos para contrastar,<br>
+        THEN el sistema grafica las diferencias en orientaciones dominantes (ej. Grupo A más Artístico vs Grupo B más Técnico).
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 33 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 33</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-09</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Unirse a comunidades por intereses</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO unirme a comunidades temáticas por áreas vocacionales PARA compartir experiencias y aprender con otros estudiantes afines.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Suscripción a Comunidades Temáticas</b><br><br>
+        <b>Scenario 1: Explorar y unirse a comunidad vocacional</b><br>
+        GIVEN que reviso el catálogo de comunidades (ej. 'Apasionados por la Tecnología'),<br>
+        WHEN presiono 'Unirme',<br>
+        THEN el sistema me otorga acceso al foro y publicaciones de dicho grupo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 34 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 34</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-09</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Publicar y comentar en comunidades</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO publicar preguntas y comentar en comunidades PARA participar activamente con mis pares.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Publicación e Interacción Social</b><br><br>
+        <b>Scenario 1: Crear publicación y comentar en hilos</b><br>
+        GIVEN que pertenezco a una comunidad,<br>
+        WHEN redacto un post o comento en una publicación existente,<br>
+        THEN el sistema lo publica inmediatamente visible para los miembros del grupo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 35 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 35</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-09</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Reaccionar y reportar publicaciones</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO reaccionar o reportar publicaciones PARA expresar apoyo o mantener un ambiente seguro e informativo.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Moderación y Reacciones en la Comunidad</b><br><br>
+        <b>Scenario 1: Reaccionar a publicaciones</b><br>
+        GIVEN que leo un post de interés,<br>
+        WHEN presiono 'Me gusta',<br>
+        THEN el contador de reacciones se incrementa.<br><br>
+        <b>Scenario 2: Reportar contenido inapropiado</b><br>
+        GIVEN que detecto un comentario ofensivo o spam,<br>
+        WHEN presiono 'Reportar' e indico el motivo,<br>
+        THEN el sistema genera una alerta para la moderación de la plataforma.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 36 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 36</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-09</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Mensajería privada entre estudiantes</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO enviar mensajes privados a otros usuarios estudiantiles PARA conversar directamente sobre experiencias universitarias o de carreras.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Mensajería Privada Estudiante a Estudiante</b><br><br>
+        <b>Scenario 1: Iniciar conversación privada</b><br>
+        GIVEN que navego en el perfil de otro estudiante en la comunidad,<br>
+        WHEN presiono 'Enviar mensaje',<br>
+        THEN se habilita un chat directo 1 a 1 asegurando la privacidad.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 37 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 37</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-09</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Descubrir hilos recomendados</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante QUIERO descubrir hilos de conversación recomendados PARA participar en temas relevantes para mi perfil vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Recomendación Algorítmica de Hilos</b><br><br>
+        <b>Scenario 1: Recomendaciones personalizadas en feed</b><br>
+        GIVEN que tengo definidos mis intereses vocacionales,<br>
+        WHEN accedo a 'Descubrir Hilos',<br>
+        THEN el sistema me presenta los temas de discusión con mayor interacción afines a mis áreas principales.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 38 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 38</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-10</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Visualizar tablero de alumnos</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO ver un tablero con mis alumnos y su avance vocacional PARA identificar tempranamente quién necesita apoyo.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Tablero de Control de Avance Estudiantil</b><br><br>
+        <b>Scenario 1: Visualización general de estatus de alumnos</b><br>
+        GIVEN que accedo al módulo 'Mis Alumnos',<br>
+        WHEN consulto el tablero,<br>
+        THEN veo a cada estudiante con su foto, porcentaje de avance en el plan, fecha de última prueba y semáforo de riesgo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 39 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 39</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-10</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Aplicar filtros de riesgo y participación</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO aplicar filtros de riesgo o baja participación PARA priorizar mi acompañamiento en los casos más críticos.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Filtros de Riesgo Vocacional y Participación</b><br><br>
+        <b>Scenario 1: Filtrar alumnos en riesgo o inactivos</b><br>
+        GIVEN que me encuentro en el tablero de seguimiento,<br>
+        WHEN aplico el filtro 'Riesgo Alto / Baja Participación',<br>
+        THEN el sistema muestra únicamente a los alumnos con tests inconclusos o sin actividad en más de 30 días.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 40 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 40</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-10</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Registrar observaciones e intervenciones</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO registrar observaciones e intervenciones en la ficha del alumno PARA dar seguimiento a sus avances y acuerdos.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Bitácora de Intervenciones Profesionales</b><br><br>
+        <b>Scenario 1: Añadir nota de intervención clínica/vocacional</b><br>
+        GIVEN que reviso la ficha de un estudiante,<br>
+        WHEN registro una nueva observación de la sesión e indico los acuerdos,<br>
+        THEN la nota se guarda de forma permanente con sello de tiempo y mi firma digital.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 41 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 41</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-10</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Recibir recomendaciones de acción</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO psicólogo QUIERO recibir sugerencias automáticas de intervención PARA actuar oportunamente ante bajas de participación o alertas de indecisión.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Alertas y Recomendaciones Automáticas de Intervención</b><br><br>
+        <b>Scenario 1: Sugerencia automática de plan de acción</b><br>
+        GIVEN que un alumno presenta alta indecisión o inactividad prolongada,<br>
+        WHEN abro su expediente,<br>
+        THEN el sistema me despliega sugerencias de acción recomendadas (ej. 'Convocar a sesión 1 a 1', 'Asignar taller de exploración').
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3.2. Impact Mapping
 
