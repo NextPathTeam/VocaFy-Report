@@ -278,9 +278,20 @@ del ABET – EAC - Student Outcome 3.
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+VocaFy es una aplicación basada en inteligencia artificial, diseñada para ayudar a los estudiantes en la toma de decisiones académicas y profesionales. La aplicación analiza variables cognitivas, emocionales y vocacionales para brindar recomendaciones personalizadas sobre carreras, especializaciones y opciones de formación.
+
+La solución incorpora pruebas interactivas, orientación guiada, simulaciones de trayectoria profesional e información relacionada con el mercado laboral. De esta manera, VocaFy busca proporcionar una herramienta integral que facilite el proceso de elección de una carrera profesional.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+El equipo de VocaFy está conformado por los siguientes integrantes:
 
+| Código | Apellidos y Nombres |
+|---|---|
+| U202410420 | Fernando Sebastian Pérez Bellido |
+| U202411354 | Joaquin Cruzalegui Herrera |
+| U202411261 | Jesus Angel Yvan Miranda |
+| U20221F887 | Luciana Angelina Ravello Cárdenas |
+| U202624323 | Alisee Muriel Torres Juárez |
 
 ## 1.2. Solution Profile
 
