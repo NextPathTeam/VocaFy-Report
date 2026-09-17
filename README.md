@@ -329,6 +329,24 @@ del ABET – EAC - Student Outcome 3.
 
 ## 2.4. Big Picture Event Storming
 
+Para lograr una comprensión más detallada y compartida del dominio de negocio, se llevó a cabo una sesión colaborativa de Big Picture Event Storming. Esta técnica de visual de alto nivel nos permitió mapear el sistema completo de la plataforma, identificando los procesos clave que conectan a los estudiantes con los psicólogos a través de nuestra aplicación web. El objetivo principal de esta dinámica fue plasmar de manera gráfica el ciclo de vida completo de la orientación vocacional, desde el registro inicial del usuario hasta la visualización de trayectorias profesionales y la gestión de suscripciones premium, logrando mostrar tanto flujos críticos como oportunidades de mejora en el modelo de negocio.
+
+El desarrollo del Big Picture Event Storming se ejecutó siguiendo una estructura ligeramente secuencial. Primero, fue enfocada en descubrir los eventos de dominio (Domain Events) que cambian el estado del sistema. Después, nos centramos exclusivamente en las interacciones de los dos actores principales (el estudiante y el psicólogo) y los sistemas externos (Pasarela de Pagos y API de IA). También identificamos procesos automáticos que se convirtieron en políticas (policies). Finalmente, se verificó que todo siguiera un flujo coherente y lógico en el contexto de nuestro proyecto.
+
+Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de Miro](https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.).
+
+<br>
+
+<div align="center">
+  <img src="images/fase1.jpg" alt="Big Picture EventStorming 1"><br><br>
+  <img src="images/fase2.jpg" alt="Big Picture EventStorming 2"><br><br>
+  <img src="images/fase3.jpg" alt="Big Picture EventStorming 3"><br><br>
+  <img src="images/fase4.jpg" alt="Big Picture EventStorming 4"><br><br>
+  <img src="images/fase5.jpg" alt="Big Picture EventStorming 5"><br><br>
+  <img src="images/fase6.jpg" alt="Big Picture EventStorming 6"><br><br>
+  <img src="images/fase7.jpg" alt="Big Picture EventStorming 7">
+</div>
+
 ## 2.5. Ubiquitous Language
 
 
