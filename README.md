@@ -2163,7 +2163,7 @@ Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy d
 * **Focus:** Borde visible (`#004D40`) para accesibilidad.
 * **Transiciones:** Suaves (`0.2s`–`0.3s`) en botones e íconos.
 
-![NextPath Landing Page View](images//style-guidelines/landing-page-preview.jpg)
+![NextPath Landing Page View](images//style-guidelines/landing-page-preview.png)
 
 ## 4.2. Information Architecture
 
