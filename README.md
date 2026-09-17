@@ -2121,8 +2121,6 @@ El tono comunicacional es casual, respetuoso y motivador, equilibrando seriedad 
 
 ### 4.1.2. Web Style Guidelines
 
-### 4.1.2. Web Style Guidelines
-
 **Objetivo**
 
 Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy desde navegadores web, manteniendo consistencia en pantallas de escritorio y adaptabilidad en resoluciones responsivas.
@@ -2168,6 +2166,36 @@ Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy d
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+El sistema de organización de VocaFy combina tres modelos principales: jerárquico, secuencial y matricial, que se aplican según el tipo de contenido y el flujo de interacción.
+
+**Estructuras de organización:**
+
+* **Jerárquica:**
+  En la Landing Page, el contenido se estructura de manera jerárquica comenzando por la sección de Inicio, seguida por *Sobre Nosotros*, *Cómo Funciona*, *Comenzar Ahora* y *Contáctanos*. Esta disposición guía al visitante desde la comprensión general del producto hasta la acción final de registro o descarga, utilizando bloques visuales claros, íconos explicativos y llamados a la acción progresivos.
+
+* **Secuencial (Step-by-step):**
+  En la aplicación, la experiencia del estudiante sigue un flujo paso a paso alineado a su objetivo principal: descubrir su perfil vocacional. El recorrido se compone de las siguientes etapas:
+  1. Inicio de sesión o registro.
+  2. Pantalla de bienvenida.
+  3. Ejecución del test vocacional.
+  4. Resultados y reporte.
+  5. Recomendaciones de carrera.
+  6. Opciones de asesoría o descarga del reporte.
+  
+  Este orden lógico minimiza la carga cognitiva y mantiene la motivación del usuario durante el proceso.
+
+* **Matricial:**
+  Se aplica en módulos donde existen múltiples criterios de navegación cruzada, tales como la *Exploración de Carreras* o la *Gestión de Estudiantes*:
+  * **Estudiantes:** Pueden ordenar y filtrar las carreras sugeridas por afinidad, demanda laboral o universidad.
+  * **Psicólogos:** Pueden visualizar por estado de asesoría (*pendiente*, *en curso*, *completado*) o tipo de evaluación.
+
+---
+
+**Sistemas de categorización utilizados:**
+
+* **Por audiencia:** Diferenciación de contenidos, funcionalidades y vistas según el rol del usuario (*estudiante* o *psicólogo*).
+* **Por tópicos:** Clasificación temática en áreas clave: orientación vocacional, asesorías, reportes, simulaciones y recursos.
+* **Cronológica:** Registro temporal aplicado directamente en los módulos de *Historial de Asesorías* y *Reportes Recientes*.
 
 ### 4.2.2. Labeling Systems
 
