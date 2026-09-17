@@ -1,6 +1,6 @@
 
 <div align="center">
-<img width="80" height="80" alt="logo" src=""/>
+<img width="80" height="80" alt="logo" src="images/upc-logo.png"/>
 
 Universidad Peruana de Ciencias Aplicadas
 
@@ -2165,9 +2165,60 @@ El sistema de búsqueda en NextPath tiene como propósito reducir el tiempo que 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+####  <p align="center"> Vista de estudiante</p>
+<b> wireframe 1:</b> Inicio de sesion 
+<img src="images/wireframes/wireframe-registro.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 2: </b>Diseño de Menu dashboard estudiante <br>
+<img src="images/wireframes/wireframe-dashboard-estudiante.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 3:</b> Diseño de Menu elecion de test vocacionales <br>
+<img src="images/wireframes/wireframe-test-menu.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 4:</b> Diseño desarrollo de test <br>
+<img src="images/wireframes/wireframe-test-feedback.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 5:</b> Diseño de Menu Comunidad <br>
+<img src="images/wireframes/wireframe-comunidad.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 6</b> Diseño Menu Carreras a elecion <br>
+<img src="images/wireframes/wireframe-elecion-carrera.png" alt="Design Level EventStorming 1" size = 500 align="center"><br>
+
+<b> wireframe 7:</b> Menu Favoritos <br>
+<img src="images/wireframes/wireframe-favoritos.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 8:</b> Diseño de Menu tareas  <br>
+<img src="images/wireframes/wireframe-tareas.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 9:</b> Diseño de Sesiones en vivo Estudiante <br>
+<img src="images/wireframes/wireframe-sesion-estudiante.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 9:</b> Diseño de Menu Mensaje directo con psicologo<br>
+<img src="images/wireframes/wireframe-mensajes-estudiante.png" alt="Design Level EventStorming 1" size = 500><br>
+
+####  <p align="center"> Vista de Psicologo</p>
+
+<b> wireframe 10: Diseño de Menu Dashboard psicologo </b><br>
+<img src="images/wireframes/wireframe-dashboard-psicologo.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 11: Diseño de Menu monitoreo estudiante </b><br>
+<img src="images/wireframes/wireframe-monitoreo.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 12: Diseño de Menu Comparativa de grupos </b><br>
+<img src="images/wireframes/wireframe-comparar-grupos.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 13: Diseño de Menu Programacion de sesion en vivo </b><br>
+<img src="images/wireframes/wireframe-sesion-psicologo.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 14: Diseño de Menu Mensaje directo con estudiante </b><br>
+<img src="images/wireframes/wireframe-mensaje-psicologo.png" alt="Design Level EventStorming 1" size = 500><br>
+
+<b> wireframe 15: Diseño de Menu material vocacional </b><br>
+<img src="images/wireframes/wireframe-bibioteca.png" alt="Design Level EventStorming 1" size = 500><br>
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-
+  
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
