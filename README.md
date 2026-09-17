@@ -349,9 +349,9 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
 <table>
   <tr>
-    <th>Business Problem</th>
-    <th>Solution Ideas</th>
-    <th>Business Outcomes</th>
+    <th>1. Business Problem</th>
+    <th>5. Solution</th>
+    <th>2. Business Outcomes</th>
   </tr>
 
   <tr>
@@ -377,9 +377,9 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
   </tr>
 
   <tr>
-    <th>Users</th>
+    <th>3. Users</th>
     <td rowspan="2"></td>
-    <th>User Benefits</th>
+    <th>4. User Benefits</th>
   </tr>
 
   <tr>
@@ -399,9 +399,9 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
   </tr>
 
   <tr>
-    <th>Hypotheses</th>
-    <th>What's the most important thing we need to learn first?</th>
-    <th>What's the least amount of work we need to do to learn the next most important thing?</th>
+    <th>6. Hypothesis</th>
+    <th>7. What's the most important thing we need to learn first?</th>
+    <th>8. What's the least amount of work we need to do to learn the next most important thing?</th>
   </tr>
 
   <tr>
