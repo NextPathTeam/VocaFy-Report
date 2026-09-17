@@ -2355,7 +2355,47 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-  
+<b> Wireflow 1:</b> Como usuario quiero registrarme en Nextpath
+<img src="images/wireflow-1.png" alt="wireflow 1" size = 500 align="center"><br>
+
+<b> Wireflow 2:</b> Como estudiante quiero acceder a los test de la plataforma
+<img src="images/wireflow-2.png" alt="wireflow 2" size = 500 align="center"><br>
+
+<b> Wireflow 3:</b> Como estudiante quiero simular mi futuuro profecional
+<img src="images/wireflow-3.png" alt="wireflow 3" size = 500 align="center"><br>
+
+<b> Wireflow 4:</b> Como  estudiante quiero comparar las carreras a mi elecion
+<img src="images/wireflow-4.png" alt="wireflow 4" size = 500 align="center"><br>
+
+<b> Wireflow 5:</b> Como estudiante quiero marcar carreras como favoritas
+<img src="images/wireflow-5.png" alt="wireflow 5" size = 500 align="center"><br>
+
+<b> Wireflow 6:</b> Como estudiante quiero visualizar mis tareas pendientes
+<img src="images/wireflow-6.png" alt="wireflow 6" size = 500 align="center"><br>
+
+<b> Wireflow 7:</b> Como estudiante quiero unirme a sesiones con mi psicologo
+<img src="images/wireflow-7.png" alt="wireflow 7" size = 500 align="center"><br>
+
+<b> Wireflow 8:</b> Como estudiante quiero comunicarme directamente con mi psicologo
+<img src="images/wireflow-8.png" alt="wireflow 8" size = 500 align="center"><br>
+
+<b> Wireflow 9:</b> Como estudiante quiero acceder a la comunidad
+<img src="images/wireflow-9.png" alt="wireflow 9" size = 500 align="center"><br>
+
+<b> Wireflow 10:</b> Como psicólogo quiero acceder al progreso de mis estudiantes
+<img src="images/wireflow-10.png" alt="wireflow 10" size = 500 align="center"><br>
+
+<b> Wireflow 11:</b> Como psicólogo quiero ver una comparativa pro grupos
+<img src="images/wireflow-11.png" alt="wireflow 11" size = 500 align="center"><br>
+
+<b> Wireflow 12:</b> Como psicólogo quiero agendar sesiones con mis estudiantes
+<img src="images/wireflow-12.png" alt="wireflow 12" size = 500 align="center"><br>
+
+<b> Wireflow 13:</b> Como psicologo quiero compartir contenido vocacionla con mis estudiantes
+<img src="images/wireflow-13.png" alt="wireflow 13" size = 500 align="center"><br>
+
+<b> Wireflow 14:</b> Como psicólogo quiero comunicarme directamente con mis estudiantes
+<img src="images/wireflow-14.png" alt="wireflow 14" size = 500 align="center"><br>
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
