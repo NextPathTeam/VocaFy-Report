@@ -491,11 +491,118 @@ deserción o insatisfacción académica?
 
 ### 2.3.1. User Personas
 
+En esta sección se detalla la elaboración de las fichas de User Persona para nuestro proyecto, enfocándose en los segmentos objetivo de Estudiantes y Psicólogos. Estos artefactos sintetizan de forma empática los hallazgos del análisis de entrevistas, como la ansiedad por la incertidumbre vocacional y la obsolescencia de las herramientas tradicionales, junto con las ventajas en el análisis competitivo, orientadas a la personalización profunda y el uso de inteligencia artificial. 
+
+
+<br>
+
+**Segmento 1: Estudiantes**
+
+
+<div align="center">
+  <img src="images/David Herrera.png" alt="User Persona Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
+  <img src="images/Leopolda Cotrina.png" alt="User Persona Psicologo"><br><br>
+</div>
+
 ### 2.3.2. User Task Matrix
+
+
+En esta sección se presenta el User Task Matrix, una herramienta que consolida y prioriza las actividades esenciales que los segmentos objetivo realizan para alcanzar sus metas de orientación. Para este análisis, se consideran nuestros dos segmentos objetivos: el Estudiante y la Psicóloga. A continuación, se considera cada tarea en función de su frecuencia (qué tan seguido se realiza) y su importancia (el impacto que tiene para el usuario).
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">User task</th>
+      <th colspan="2">David Herrera (estudiante)</th>
+      <th colspan="2">Leopolda Cotrina (psicóloga)</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Realizar test vocacional personalizado</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+      <td>Frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Explorar trayectorias profesionales simuladas</td>
+      <td>Frecuente</td>
+      <td>Alta</td>
+      <td>Frecuente</td>
+      <td>Media-Alta</td>
+    </tr>
+    <tr>
+      <td>Consultar información del mercado laboral</td>
+      <td>Frecuente</td>
+      <td>Media</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Acceder a asesoría personalizada</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Generar reportes y recomendaciones adaptativas</td>
+      <td>No tan frecuente</td>
+      <td>Media</td>
+      <td>Muy frecuente</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping
 
+En esta sección se detallan los User Journey Maps en su versión As-Is para los dos segmentos objetivo del proyecto: los estudiantes y los psicólogos vocacionales. El objetivo de estos mapas es ilustrar el viaje de extremo a extremo (end-to-end journey) que experimentan ambos actores en la situación actual, exponiendo las deficiencias y puntos de dolor y que viven los usuarios antes de la existencia de Next Path.
+
+**Segmento 1: Estudiantes**
+
+
+<div align="center">
+  <img src="images/journey-map-estudiante.png" alt="Journey Map Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
+  <img src="images/journey-map-psicologa.png" alt="User Persona Psicologo"><br><br>
+</div>
+
 ### 2.3.4. Empathy Mapping
+
+
+En esta sección se detalla el diseño y los resultados de los Empathy Maps elaborados para profundizar en la psicología y el entorno de nuestros dos segmentos objetivos: los estudiantes y los psicólogos vocacionales.
+
+**Segmento 1: Estudiantes**
+
+
+<div align="center">
+  <img src="images/empathy-map-estudiante.png" alt="Empathy Map Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
+  <img src="images/empathy-map-psicologa.png" alt="Empathy Map Psicologos"><br><br>
+</div>
+
+
 
 ## 2.4. Big Picture Event Storming
 
@@ -1905,26 +2012,263 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ## 3.2. Impact Mapping
 
+IMPACT MAP: El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en Next Path, promoviendo una interacción constante con los estudiantes que utilizan la plataforma. 
+Actualmente, algunos profesionales mantienen cuentas inactivas o con baja participación, lo cual limita el impacto de la orientación vocacional personalizada. 
+El propósito es lograr que al menos el 40% de los psicólogos con cuenta activa atiendan a 5 estudiantes diferentes durante un lapso de 1 mes, fortaleciendo así la conexión entre oferta y demanda de orientación. 
+Este objetivo se alinea con la propuesta de valor de Next Path al garantizar acompañamiento humano de calidad, fortalecer la confianza del usuario y consolidar un ecosistema profesional sostenible, donde los psicólogos encuentren oportunidades reales de consulta y desarrollo profesional. 
+Además, fomenta una relación bidireccional: los estudiantes reciben asesoría personalizada, mientras que los psicólogos obtienen visibilidad, reputación y potencial de ingresos a través de la plataforma.
+
+![ImpactMapping2](images/impact-mapping/ImpactMapping2.jpg)
+
 ## 3.3. Product Backlog
 
+| N° | Story ID | Épica | Título | Descripción | Story Points |
+|:---:|:---:|:---:|---|---|:---:|
+| 1 | US01 | E-01 – Evaluación Vocacional | Realizar test vocacional | COMO estudiante QUIERO realizar un test vocacional dentro de la plataforma PARA crear un perfil de intereses y aptitudes con recomendaciones personalizadas. | 5 |
+| 2 | US02 | E-01 – Evaluación Vocacional | Visualizar resultados vocacionales | COMO estudiante QUIERO acceder a los resultados detallados de mis tests vocacionales PARA comprender mis áreas de fortaleza, afinidades e iniciar mi exploración profesional. | 3 |
+| 3 | US03 | E-01 – Evaluación Vocacional | Realizar test de seguimiento y medir evolución vocacional | COMO estudiante QUIERO realizar tests de seguimiento periódicos PARA medir mi evolución vocacional y ajustar mis decisiones profesionales según mi desarrollo. | 5 |
+| 4 | US04 | E-02 – Acompañamiento Psicopedagógico | Consultar resultados de estudiantes | COMO psicólogo QUIERO acceder a los resultados vocacionales de mis estudiantes asignados PARA orientarles según sus intereses, habilidades y aptitudes. | 3 |
+| 5 | US05 | E-02 – Acompañamiento Psicopedagógico | Programar sesiones de orientación | COMO psicólogo QUIERO agendar sesiones de orientación individual o grupal con los estudiantes PARA brindar acompañamiento personalizado según los resultados del test. | 5 |
+| 6 | US06 | E-02 – Acompañamiento Psicopedagógico | Enviar recomendaciones personalizadas | COMO psicólogo QUIERO enviar observaciones y recomendaciones vocacionales a cada estudiante PARA apoyar su proceso de toma de decisiones profesionales. | 3 |
+| 7 | US07 | E-02 – Acompañamiento Psicopedagógico | Programar recordatorios de seguimiento vocacional | COMO psicólogo QUIERO programar recordatorios automáticos de seguimiento PARA asegurar el acompañamiento continuo de los estudiantes en su proceso de elección. | 3 |
+| 8 | US08 | E-02 – Acompañamiento Psicopedagógico | Generar reportes estadísticos de orientación vocacional | COMO psicólogo QUIERO generar reportes estadísticos sobre los resultados de los estudiantes PARA identificar patrones grupales y adaptar las estrategias de orientación. | 5 |
+| 9 | US09 | E-03 – Recursos y Orientación Grupal | Acceder a recursos vocacionales actualizados | COMO psicólogo QUIERO acceder a una biblioteca de recursos vocacionales actualizados PARA apoyar a mis estudiantes con material informativo de calidad. | 2 |
+| 10 | US10 | E-03 – Recursos y Orientación Grupal | Obtener reportes de orientación por grupo de estudiantes | COMO psicólogo QUIERO recibir reportes vocacionales grupales por rango de fecha PARA analizar tendencias del alumnado y planificar intervenciones. | 5 |
+| 11 | US11 | E-03 – Recursos y Orientación Grupal | Recomendar actividades personalizadas | COMO psicólogo QUIERO sugerir actividades específicas según el perfil vocacional del estudiante PARA reforzar sus áreas de mayor afinidad. | 3 |
+| 12 | US12 | E-04 – Evaluación y Seguimiento Clínico | Evaluar el progreso vocacional del estudiante | COMO psicólogo QUIERO evaluar el progreso del estudiante basándome en sus resultados históricos PARA orientarlo adecuadamente en futuras sesiones. | 3 |
+| 13 | US13 | E-04 – Evaluación y Seguimiento Clínico | Recibir alertas de próximas sesiones | COMO psicólogo QUIERO recibir notificaciones de mis próximas sesiones programadas PARA organizar eficientemente mi agenda de atención. | 2 |
+| 14 | US14 | E-04 – Evaluación y Seguimiento Clínico | Generar reportes psicológicos automáticos | COMO psicólogo QUIERO generar reportes automáticos sobre los perfiles de los estudiantes PARA facilitar la evaluación profesional y el archivo clínico. | 5 |
+| 15 | US15 | E-05 – Exploración y Planificación de Carreras | Búsqueda con filtros inteligentes | COMO estudiante QUIERO filtrar carreras por área, duración y modalidad PARA identificar opciones alineadas a mis preferencias. | 3 |
+| 16 | US16 | E-05 – Exploración y Planificación de Carreras | Visualizar ficha detallada de carrera | COMO estudiante QUIERO acceder a la ficha completa de cada carrera PARA conocer su malla curricular, campo laboral y empleabilidad. | 2 |
+| 17 | US17 | E-05 – Exploración y Planificación de Carreras | Mostrar compatibilidad vocacional | COMO estudiante QUIERO ver el porcentaje de compatibilidad entre mi perfil vocacional y cada carrera PARA priorizar mis opciones. | 3 |
+| 18 | US18 | E-05 – Exploración y Planificación de Carreras | Comparar carreras seleccionadas | COMO estudiante QUIERO comparar carreras seleccionadas en una tabla PARA evaluar diferencias clave en duración, costos y empleabilidad. | 3 |
+| 19 | US19 | E-05 – Exploración y Planificación de Carreras | Guardar carreras favoritas | COMO estudiante QUIERO guardar carreras en mi lista de favoritas PARA revisarlas posteriormente en mi panel. | 2 |
+| 20 | US20 | E-05 – Exploración y Planificación de Carreras | Simular futuro profesional según perfil vocacional | COMO estudiante QUIERO acceder a una simulación de mi futuro profesional mediante un botón en el panel de la carrera PARA visualizar mi desarrollo y proyección laboral en correlación con mi perfil vocacional. | 8 |
+| 21 | US21 | E-06 – Gestión de Progreso y Metas | Visualizar dashboard de progreso | COMO estudiante QUIERO visualizar un panel con mi progreso vocacional y próximos pasos PARA tener claridad sobre mi avance en la plataforma. | 3 |
+| 22 | US22 | E-06 – Gestión de Progreso y Metas | Generar plan vocacional personalizado | COMO estudiante QUIERO generar un plan con tareas y fechas basadas en mis resultados e intereses PARA seguir una ruta organizada. | 5 |
+| 23 | US23 | E-06 – Gestión de Progreso y Metas | Recibir recordatorios automáticos | COMO estudiante QUIERO recibir recordatorios automáticos sobre mis tareas vocacionales PARA cumplir mis plazos establecidos. | 2 |
+| 24 | US24 | E-06 – Gestión de Progreso y Metas | Revisar historial de logros | COMO estudiante QUIERO revisar mi historial de logros y hitos completados PARA reconocer mi avance personal en la orientación. | 2 |
+| 25 | US25 | E-07 – Comunicación y Asesoría en Vivo | Chat en tiempo real con psicólogo | COMO estudiante QUIERO iniciar un chat en tiempo real con un psicólogo PARA resolver dudas inmediatas sobre mis resultados vocacionales. | 8 |
+| 26 | US26 | E-07 – Comunicación y Asesoría en Vivo | Feedback inmediato sobre resultados del test | COMO estudiante QUIERO recibir retroalimentación automática al terminar mi test PARA comprender mis fortalezas y solicitar asesoría profesional. | 3 |
+| 27 | US27 | E-07 – Comunicación y Asesoría en Vivo | Comunicación entre psicólogo y estudiante | COMO psicólogo QUIERO enviar observaciones y retroalimentación directa al estudiante PARA apoyarle en su proceso de elección de carrera. | 3 |
+| 28 | US28 | E-07 – Comunicación y Asesoría en Vivo | Retroalimentación en sesiones grupales | COMO psicólogo QUIERO organizar sesiones de feedback grupal en la app PARA orientar a varios estudiantes simultáneamente. | 5 |
+| 29 | US29 | E-07 – Comunicación y Asesoría en Vivo | Alertas de actualización de perfil | COMO estudiante QUIERO recibir notificaciones cuando un psicólogo actualice mi perfil PARA estar al tanto de mis progresos. | 2 |
+| 30 | US30 | E-08 – Analítica Avanzada y Tendencias | Reporte de evolución del estudiante | COMO psicólogo QUIERO generar un reporte de evolución individual PARA evaluar el progreso vocacional del estudiante a lo largo del tiempo. | 5 |
+| 31 | US31 | E-08 – Analítica Avanzada y Tendencias | Panel analítico para psicólogos | COMO psicólogo QUIERO visualizar un panel analítico de mis alumnos asignados PARA identificar patrones de intereses y necesidades de orientación. | 5 |
+| 32 | US32 | E-08 – Analítica Avanzada y Tendencias | Comparación de resultados entre grupos | COMO psicólogo QUIERO comparar resultados vocacionales entre grupos de estudiantes PARA identificar diferencias y necesidades específicas por grupo. | 5 |
+| 33 | US33 | E-09 – Comunidad Estudiantil y Redes | Unirse a comunidades por intereses | COMO estudiante QUIERO unirme a comunidades temáticas por áreas vocacionales PARA compartir experiencias y aprender con otros estudiantes afines. | 3 |
+| 34 | US34 | E-09 – Comunidad Estudiantil y Redes | Publicar y comentar en comunidades | COMO estudiante QUIERO publicar preguntas y comentar en comunidades PARA participar activamente con mis pares. | 5 |
+| 35 | US35 | E-09 – Comunidad Estudiantil y Redes | Reaccionar y reportar publicaciones | COMO estudiante QUIERO reaccionar o reportar publicaciones PARA expresar apoyo o mantener un ambiente seguro e informativo. | 3 |
+| 36 | US36 | E-09 – Comunidad Estudiantil y Redes | Mensajería privada entre estudiantes | COMO estudiante QUIERO enviar mensajes privados a otros usuarios estudiantiles PARA conversar directamente sobre experiencias universitarias o de carreras. | 5 |
+| 37 | US37 | E-09 – Comunidad Estudiantil y Redes | Descubrir hilos recomendados | COMO estudiante QUIERO descubrir hilos de conversación recomendados PARA participar en temas relevantes para mi perfil vocacional. | 5 |
+| 38 | US38 | E-10 – Monitoreo e Intervención Temprana | Visualizar tablero de alumnos | COMO psicólogo QUIERO ver un tablero con mis alumnos y su avance vocacional PARA identificar tempranamente quién necesita apoyo. | 5 |
+| 39 | US39 | E-10 – Monitoreo e Intervención Temprana | Aplicar filtros de riesgo y participación | COMO psicólogo QUIERO aplicar filtros de riesgo o baja participación PARA priorizar mi acompañamiento en los casos más críticos. | 3 |
+| 40 | US40 | E-10 – Monitoreo e Intervención Temprana | Registrar observaciones e intervenciones | COMO psicólogo QUIERO registrar observaciones e intervenciones en la ficha del alumno PARA dar seguimiento a sus avances y acuerdos. | 3 |
+| 41 | US41 | E-10 – Monitoreo e Intervención Temprana | Recibir recomendaciones de acción | COMO psicólogo QUIERO recibir sugerencias automáticas de intervención PARA actuar oportunamente ante bajas de participación o alertas de indecisión. | 5 |
 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
+El presente documento forma parte del proyecto VocaFy, una plataforma diseñada para acompañar a estudiantes en la toma de decisiones académicas y vocacionales de manera confiable y clara. Nuestro objetivo es brindar una experiencia consistente en todos los puntos de contacto, tanto en web como en dispositivos móviles, reforzando los valores de innovación, orden y confianza que definen el proyecto.
+
+Este documento actúa como una guía de diseño integral que permite a diseñadores, desarrolladores y colaboradores trabajar con una referencia única. Así, aseguramos coherencia visual, comunicación alineada y experiencias unificadas para el usuario.
+
 ### 4.1.1. General Style Guidelines
 
+**Branding**
+
+El branding de VocaFy busca reflejar innovación, cercanía y orientación confiable. El logotipo representa un ícono de ubicación con flecha ascendente, simbolizando progreso y dirección. 
+
+La mascota “Panda” complementa el tono empático y amigable, reforzando la conexión emocional con el público joven. Todos los elementos deben ser consistentes en escala, color y proporción en cualquier soporte.
+
+![NextPath Mascot](images/style-guidelines/mascot-panda.jpg)
+
+---
+
+**Color**
+
+La paleta principal transmite equilibrio, profesionalismo y confianza. Se prioriza el verde petróleo como color central, acompañado de tonos neutros que refuerzan la legibilidad y limpieza visual.
+
+| Uso | Color | Código HEX |
+|---|---|:---:|
+| **Primario** | Verde petróleo | `#10817F` |
+| **Secundario (hover)** | Verde petróleo oscuro | `#004D40` |
+| **Texto principal** | Gris oscuro | `#4F4F4F` |
+| **Texto claro** | Blanco | `#FFFFFF` |
+| **Fondo** | Gris claro | `#F5F5F5` |
+| **Botones CTA** | Verde petróleo + blanco | `#10817F` + `#FFFFFF` |
+
+---
+
+**Tipografía**
+
+Se adopta **Montserrat** como tipografía principal por su legibilidad, modernidad y neutralidad visual.
+
+* **Principio:** Uso de espaciado amplio y altura de línea de 1.5, priorizando la lectura en pantallas.
+
+---
+
+**Espaciado y composición**
+
+El diseño sigue un sistema de cuadrícula uniforme (**8px Grid System**). Se mantiene un espaciado generoso entre componentes para evitar sobrecarga visual, garantizando claridad, equilibrio y jerarquía visual.
+
+---
+
+**Tono y lenguaje**
+
+El tono comunicacional es casual, respetuoso y motivador, equilibrando seriedad y entusiasmo. Evita tecnicismos innecesarios y promueve mensajes positivos que transmiten acompañamiento y empatía hacia el estudiante.
+
 ### 4.1.2. Web Style Guidelines
+
+**Objetivo**
+
+Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy desde navegadores web, manteniendo consistencia en pantallas de escritorio y adaptabilidad en resoluciones responsivas.
+
+---
+
+**Assets**
+
+* **Logo principal:** Ícono de ubicación con flecha ascendente (colores: `#10817F` o blanco sobre fondo oscuro).
+* **Mascota:** Panda vectorial estilo flat, usado en secciones de ayuda y mensajes motivacionales.
+* **Íconos:** Estilo lineal, con trazos finos y consistentes.
+* **Imágenes de apoyo:** Mockups de la aplicación en contextos educativos, acompañados de frases inspiradoras.
+
+---
+
+**Component Library**
+
+* **Botones primarios:** Relleno verde petróleo (`#10817F`), texto blanco, bordes redondeados (radius `8px`).
+* **Botones secundarios:** Fondo gris claro (`#F5F5F5`), texto verde petróleo (`#10817F`).
+* **Navbar:** Fija superior, fondo blanco, opción "Comenzar ahora" resaltada con fondo verde-azulado.
+* **Cards:** Fondo blanco, esquinas redondeadas (radius `12px`), sombra leve.
+* **Inputs:** Borde gris claro (`#E0E0E0`), placeholder gris suave, esquinas redondeadas.
+* **CTA (Call To Action):** Bloques hero con fondo verde petróleo y tipografía blanca.
+
+---
+
+**Layout y Espaciado**
+
+* Márgenes laterales amplios (mínimo `24px`).
+* Contenido centrado y jerarquizado en tres niveles: encabezado, cuerpo y llamada a la acción.
+* Consistencia en botones, paddings y sombras para reforzar la estructura visual.
+
+---
+
+**Interacción y Feedback**
+
+* **Hover:** Aclarado de fondo y leve aumento de sombra.
+* **Focus:** Borde visible (`#004D40`) para accesibilidad.
+* **Transiciones:** Suaves (`0.2s`–`0.3s`) en botones e íconos.
+
+![NextPath Landing Page View](images//style-guidelines/landing-page-preview.png)
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+El sistema de organización de VocaFy combina tres modelos principales: jerárquico, secuencial y matricial, que se aplican según el tipo de contenido y el flujo de interacción.
+
+**Estructuras de organización:**
+
+* **Jerárquica:**
+  En la Landing Page, el contenido se estructura de manera jerárquica comenzando por la sección de Inicio, seguida por *Sobre Nosotros*, *Cómo Funciona*, *Comenzar Ahora* y *Contáctanos*. Esta disposición guía al visitante desde la comprensión general del producto hasta la acción final de registro o descarga, utilizando bloques visuales claros, íconos explicativos y llamados a la acción progresivos.
+
+* **Secuencial (Step-by-step):**
+  En la aplicación, la experiencia del estudiante sigue un flujo paso a paso alineado a su objetivo principal: descubrir su perfil vocacional. El recorrido se compone de las siguientes etapas:
+  1. Inicio de sesión o registro.
+  2. Pantalla de bienvenida.
+  3. Ejecución del test vocacional.
+  4. Resultados y reporte.
+  5. Recomendaciones de carrera.
+  6. Opciones de asesoría o descarga del reporte.
+  
+  Este orden lógico minimiza la carga cognitiva y mantiene la motivación del usuario durante el proceso.
+
+* **Matricial:**
+  Se aplica en módulos donde existen múltiples criterios de navegación cruzada, tales como la *Exploración de Carreras* o la *Gestión de Estudiantes*:
+  * **Estudiantes:** Pueden ordenar y filtrar las carreras sugeridas por afinidad, demanda laboral o universidad.
+  * **Psicólogos:** Pueden visualizar por estado de asesoría (*pendiente*, *en curso*, *completado*) o tipo de evaluación.
+
+---
+
+**Sistemas de categorización utilizados:**
+
+* **Por audiencia:** Diferenciación de contenidos, funcionalidades y vistas según el rol del usuario (*estudiante* o *psicólogo*).
+* **Por tópicos:** Clasificación temática en áreas clave: orientación vocacional, asesorías, reportes, simulaciones y recursos.
+* **Cronológica:** Registro temporal aplicado directamente en los módulos de *Historial de Asesorías* y *Reportes Recientes*.
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado busca mantener consistencia entre plataformas y asegurar una comprensión rápida. Las etiquetas son cortas, descriptivas y acompañadas por íconos visualmente coherentes con las Style Guidelines.
+
+| Etiqueta | Descripción |
+|---|---|
+| **Inicio** | Pantalla principal donde el usuario visualiza el resumen o menú inicial de navegación. |
+| **Iniciar Test** | Botón principal para comenzar el test vocacional del estudiante. |
+| **Resultados** | Sección que muestra los gráficos y descripciones del perfil vocacional obtenido. |
+| **Carreras Recomendadas** | Módulo donde el estudiante explora las opciones sugeridas según su perfil Holland. |
+| **Simulaciones** | Espacio interactivo que muestra trayectorias académicas y laborales según los resultados. |
+| **Asesorías** | Zona de gestión de sesiones entre estudiantes y psicólogos. |
+| **Reportes Recientes** | Módulo donde se listan los resultados y análisis generados más recientemente. |
+| **Perfil** | Sección de configuración y personalización del usuario (datos, intereses, foto, etc.). |
+| **Configuración** | Ajustes técnicos de cuenta y preferencias generales del usuario. |
+| **Reportes (Psicólogo)** | Pantalla que centraliza los informes vocacionales o de progreso. |
+| **Evaluaciones (Psicólogo)** | Sección donde el psicólogo revisa y genera resultados de los tests aplicados. |
+| **Seguimiento (Psicólogo)** | Módulo donde se registran las observaciones y evolución de cada estudiante. |
+| **Botones de acción comunes** | *Iniciar Test, Ver Resultados, Explorar Carreras, Agendar Asesoría, Descargar Reporte, Ver Perfil, Guardar Cambios, Cerrar Sesión.* Estas etiquetas de acción facilitan la comprensión y el flujo guiado. |
+
 ### 4.2.3. SEO Tags and Meta Tags
 
+* **Título:**
+  ```html
+  <title>Tu Perfil Vocacional | NextPath</title>
+  ```
+
+* **Codificación de caracteres:**
+  ```html
+  <meta charset="utf-8">
+  ```
+
+* **Descripción:**
+  ```html
+  <meta name="description" content="Accede a tus resultados vocacionales, explora carreras compatibles, comunícate con tu psicólogo y simula tu trayectoria en base al mercado laboral actual.">
+  ```
+
+* **Palabras Claves:**
+  ```html
+  <meta name="keywords" content="perfil vocacional, resultados de test, simulación de trayectoria, mercado laboral, asesoría psicológica, seguimiento vocacional">
+  ```
+
+* **Autor y Derechos de Autor:**
+  ```html
+  <meta name="author" content="NextPath Team">
+  <meta name="copyright" content="Copyright 2026 VocaFy Team">
+  ```
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda en VocaFy tiene como propósito reducir el tiempo que toma localizar información relevante, utilizando filtros personalizados según el rol del usuario.
+
+**Componentes principales:**
+
+* **Buscador general:** Presente en la parte superior de la interfaz principal de las aplicaciones, permite buscar carreras, estudiantes o reportes:
+  * **Estudiante:** Puede buscar por carrera, universidad o nivel de afinidad.
+  * **Psicólogo:** Puede buscar asesorías o reportes por nombre o fecha de sesión.
+
+* **Filtros específicos:** Cada búsqueda incluye filtros dinámicos adaptados al perfil:
+  * **Estudiantes:** Área de conocimiento, nivel de empleabilidad o universidad.
+  * **Psicólogos:** Tipo de test, estado del reporte y nivel de progreso.
+
+* **Búsqueda predictiva:** El motor de búsqueda incluye sugerencias automáticas basadas en el historial del usuario y en perfiles similares, optimizando el acceso a información relevante.
+
+| Etiqueta | Descripción |
+|---|---|
+| **Filtro por nivel de empleabilidad (Estudiante)** | Clasifica las carreras recomendadas según su demanda laboral o proyección profesional. |
+| **Filtro por universidad (Estudiante)** | Permite visualizar las instituciones donde se ofrece una carrera específica. |
+| **Filtro por afinidad personal (Estudiante)** | Ordena los resultados según la coincidencia con el perfil Holland del usuario. |
+| **Filtro por estado de asesoría (Psicólogo)** | Clasifica las sesiones según su estado: *pendiente, en curso, completada*. |
+| **Filtro por fecha (Psicólogo)** | Permite visualizar evaluaciones o asesorías según su fecha de realización. |
+| **Filtro predictivo (Todos los roles)** | Motor inteligente que sugiere resultados automático
 
 ### 4.2.5. Navigation Systems
 
