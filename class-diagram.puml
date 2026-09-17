@@ -1,0 +1,355 @@
+```plantuml
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+' 1. USER REGISTRATION & PROFILE CONFIGURATION
+package "User Registration & Profile Context" {
+    enum UserRole {
+        STUDENT
+        PSYCHOLOGIST
+    }
+
+    enum RegistrationStatus {
+        SUCCESS_REGISTERED
+        REJECTED_INVALID_DATA
+        DUPLICATION_PREVENTED
+    }
+
+    abstract class User {
+        - id: String
+        - email: String
+        - passwordHash: String
+        - role: UserRole
+        - isSessionActive: Boolean
+        + signUp(): RegistrationStatus
+        + logIn(password: String): Boolean
+        + keepSessionActive(): Void
+        + requestPasswordReset(): Void
+        + updatePassword(newPassword: String): Boolean
+    }
+
+    class Student {
+        - schoolOrUniversity: String
+        - currentCycle: String
+        - linkedPsychologistCode: String
+    }
+
+    class Psychologist {
+        - professionalLicense: String
+        - specialty: String
+        - uniqueLinkingCode: String
+    }
+
+    class PasswordResetToken {
+        - token: String
+        - expirationDate: DateTime
+        - isUsed: Boolean
+        + isValid(): Boolean
+    }
+
+    class PsychologistLink {
+        - studentId: String
+        - psychologistCode: String
+        - isLinked: Boolean
+        + linkPsychologist(code: String): Boolean
+        + removePsychologist(): Boolean
+    }
+
+    User <|-- Student
+    User <|-- Psychologist
+    User "1" *-- "0..*" PasswordResetToken
+    Student "1" -- "0..1" PsychologistLink
+}
+
+' 2. SEARCH
+package "Search Context" {
+    class CareerSearch {
+        - searchQuery: String
+        - filtersApplied: Map<String, String>
+        - searchHistory: List<String>
+        + searchByNavigationBar(query: String): List<Object>
+        + searchByFilters(filters: Map): List<Object>
+        + saveSearch(): Void
+    }
+}
+
+' 3. VOCATIONAL EVALUATION
+package "Vocational Evaluation Context" {
+    enum TestStatus {
+        STARTED
+        PAUSED
+        COMPLETED
+        ABANDONED
+    }
+
+    class VocationalTest {
+        - id: String
+        - studentId: String
+        - startedAt: DateTime
+        - completedAt: DateTime
+        - status: TestStatus
+        + startTest(): Void
+        + pauseTest(): Void
+        + completeTest(): Void
+        + updateAnswer(questionId: String, answer: String): Void
+    }
+
+    class VocationalProfile {
+        - id: String
+        - studentId: String
+        - primaryTraits: List<String>
+        - feedbackSummary: String
+        - calculatedAt: DateTime
+    }
+
+    class AIVocationalService <<External API>> {
+        + generateFeedback(testId: String): String
+        + calculateVocationalProfile(testId: String): VocationalProfile
+    }
+
+    VocationalTest "1" *-- "1" VocationalProfile
+    VocationalTest ..> AIVocationalService
+}
+
+' 4. CAREER EXPLORATION & PLANNING
+package "Career Exploration & Planning Context" {
+    class Career {
+        - id: String
+        - title: String
+        - description: String
+        - fieldOfStudy: String
+        - averageSalary: Double
+    }
+
+    class CareerCompatibility {
+        - careerId: String
+        - studentProfileId: String
+        - compatibilityPercentage: Double
+        + calculateCompatibility(): Double
+    }
+
+    class VocationalPlan {
+        - id: String
+        - studentId: String
+        - roadmapSteps: List<String>
+        - generatedAt: DateTime
+        - isAdjusted: Boolean
+        + adjustPlan(newPreferences: Object): Void
+    }
+
+    class AICareerService <<External API>> {
+        + compareCareers(careerIds: List<String>): Object
+        + simulateCareerTrajectory(profileId: String, careerId: String): String
+        + generateVocationalPlan(profileId: String): VocationalPlan
+    }
+
+    Career "1" -- "0..*" CareerCompatibility
+    VocationalProfile "1" -- "0..*" CareerCompatibility
+    VocationalProfile "1" -- "0..1" VocationalPlan
+    VocationalPlan ..> AICareerService
+}
+
+' 5. STUDENT MONITORING AND EVALUATION
+package "Student Monitoring Context" {
+    class HistoricalProfile {
+        - studentId: String
+        - assignedPsychologistId: String
+        - evaluationHistory: List<Object>
+        + viewHistoricalProfile(): Object
+    }
+
+    class ProfessionalObservation {
+        - id: String
+        - studentId: String
+        - psychologistId: String
+        - observationText: String
+        - createdAt: DateTime
+        + addObservation(): Boolean
+    }
+
+    HistoricalProfile "1" *-- "0..*" ProfessionalObservation
+}
+
+' 6. REPORTS
+package "Reports Context" {
+    class VocationalReport {
+        - id: String
+        - studentId: String
+        - reportType: String
+        - contentSummary: String
+        - isValidatedByPsychologist: Boolean
+        + validateReport(): Void
+    }
+
+    class GroupComparisonReport {
+        - id: String
+        - psychologistId: String
+        - selectedGroupIds: List<String>
+        - aggregatedConclusions: String
+        + compareStudentGroups(): Void
+    }
+
+    class AIReportService <<External API>> {
+        + generateTestReport(studentId: String): String
+        + generateIndividualEvolutionReport(studentId: String): String
+        + generateAutomaticConclusions(groupIds: List<String>): String
+    }
+
+    VocationalReport ..> AIReportService
+    GroupComparisonReport ..> AIReportService
+}
+
+' 7. PAYMENT AND SUBSCRIPTION
+package "Payment & Subscription Context" {
+    class Subscription {
+        - id: String
+        - studentId: String
+        - planType: String
+        - isActive: Boolean
+        - expirationDate: DateTime
+        + activatePremium(): Void
+    }
+
+    class PaymentTransaction {
+        - transactionId: String
+        - amount: Double
+        - paymentStatus: String
+        - processedAt: DateTime
+    }
+
+    class PaymentGateway <<External Service>> {
+        + processPayment(cardDetails: Object, amount: Double): Boolean
+    }
+
+    Subscription "1" *-- "0..*" PaymentTransaction
+    PaymentTransaction ..> PaymentGateway
+}
+
+' 8. SCHEDULING AND SESSION MANAGEMENT
+package "Scheduling & Session Context" {
+    enum SessionStatus {
+        SCHEDULED
+        COMPLETED
+        CANCELLED
+        CONFLICT_DETECTED
+    }
+
+    abstract class Session {
+        - id: String
+        - psychologistId: String
+        - scheduledDateTime: DateTime
+        - durationMinutes: Integer
+        - status: SessionStatus
+        - notes: String
+        + scheduleSession(): Boolean
+        + cancelSession(): Void
+        + saveNotes(notes: String): Void
+    }
+
+    class IndividualSession {
+        - studentId: String
+    }
+
+    class GroupSession {
+        - maxParticipants: Integer
+        - participantStudentIds: List<String>
+        - groupingCriteria: String
+        + addParticipant(studentId: String): Boolean
+        + suggestOptimalGrouping(studentProfiles: List<Object>): List<String>
+    }
+
+    Session <|-- IndividualSession
+    Session <|-- GroupSession
+}
+
+' 9. COMMUNITY AND CHAT
+package "Community & Chat Context" {
+    class Community {
+        - id: String
+        - title: String
+        - description: String
+        - category: String
+        + join(studentId: String): Boolean
+        + publishPost(post: CommunityPost): Void
+    }
+
+    class CommunityPost {
+        - id: String
+        - communityId: String
+        - authorId: String
+        - content: String
+        - createdAt: DateTime
+        - isReported: Boolean
+        + addComment(comment: CommunityComment): Void
+        + react(userId: String, reactionType: String): Void
+        + report(reason: String): Void
+    }
+
+    class CommunityComment {
+        - id: String
+        - postId: String
+        - authorId: String
+        - content: String
+        - createdAt: DateTime
+    }
+
+    class ChatMessage {
+        - id: String
+        - senderId: String
+        - receiverId: String
+        - content: String
+        - sentAt: DateTime
+        - isRead: Boolean
+        + sendMessage(): Boolean
+        + markAsRead(): Void
+    }
+
+    Community "1" *-- "0..*" CommunityPost
+    CommunityPost "1" *-- "0..*" CommunityComment
+}
+
+' 10. SYSTEM NOTIFICATIONS
+package "System Notifications Context" {
+    enum NotificationType {
+        SESSION_ALERT
+        DAILY_AGENDA
+        CHAT_MESSAGE
+        FOLLOW_UP_ALERT
+        TASK_REMINDER
+    }
+
+    enum NotificationStatus {
+        PENDING
+        SENT
+        FAILED
+    }
+
+    class Notification {
+        - id: String
+        - recipientUserId: String
+        - title: String
+        - message: String
+        - type: NotificationType
+        - status: NotificationStatus
+        - createdAt: DateTime
+        + send(): Boolean
+    }
+
+    class NotificationService <<Domain Service>> {
+        + notifyUpcomingSession(sessionId: String, studentId: String): Void
+        + notifyDailyAgenda(psychologistId: String): Void
+        + notifyNewChatMessage(chatMessageId: String, receiverId: String): Void
+        + notifyFollowUpTest(studentId: String): Void
+    }
+
+    NotificationService ..> Notification
+}
+
+' INTER-CONTEXT RELATIONS
+Student "1" -- "0..1" Subscription : has
+Student "1" -- "1" HistoricalProfile : monitored via
+Session ..> NotificationService : triggers session alerts
+ChatMessage ..> NotificationService : triggers message alerts
+VocationalTest ..> HistoricalProfile : updates history
+@enduml
