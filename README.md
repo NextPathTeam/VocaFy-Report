@@ -2072,6 +2072,57 @@ Además, fomenta una relación bidireccional: los estudiantes reciben asesoría 
 
 ### 4.1.1. General Style Guidelines
 
+## 4.1. Style Guidelines
+
+El presente documento forma parte del proyecto NextPath, una plataforma diseñada para acompañar a estudiantes en la toma de decisiones académicas y vocacionales de manera confiable y clara. Nuestro objetivo es brindar una experiencia consistente en todos los puntos de contacto, tanto en web como en dispositivos móviles, reforzando los valores de innovación, orden y confianza que definen el proyecto.
+
+Este documento actúa como una guía de diseño integral que permite a diseñadores, desarrolladores y colaboradores trabajar con una referencia única. Así, aseguramos coherencia visual, comunicación alineada y experiencias unificadas para el usuario.
+
+### 4.1.1. General Style Guidelines
+
+**Branding**
+
+El branding de NextPath busca reflejar innovación, cercanía y orientación confiable. El logotipo representa un ícono de ubicación con flecha ascendente, simbolizando progreso y dirección. 
+
+La mascota “Panda” complementa el tono empático y amigable, reforzando la conexión emocional con el público joven. Todos los elementos deben ser consistentes en escala, color y proporción en cualquier soporte.
+
+![NextPath Mascot](images/style-guidelines/mascot-panda.jpg)
+
+---
+
+**Color**
+
+La paleta principal transmite equilibrio, profesionalismo y confianza. Se prioriza el verde petróleo como color central, acompañado de tonos neutros que refuerzan la legibilidad y limpieza visual.
+
+| Uso | Color | Código HEX |
+|---|---|:---:|
+| **Primario** | Verde petróleo | `#10817F` |
+| **Secundario (hover)** | Verde petróleo oscuro | `#004D40` |
+| **Texto principal** | Gris oscuro | `#4F4F4F` |
+| **Texto claro** | Blanco | `#FFFFFF` |
+| **Fondo** | Gris claro | `#F5F5F5` |
+| **Botones CTA** | Verde petróleo + blanco | `#10817F` + `#FFFFFF` |
+
+---
+
+**Tipografía**
+
+Se adopta **Montserrat** como tipografía principal por su legibilidad, modernidad y neutralidad visual.
+
+* **Principio:** Uso de espaciado amplio y altura de línea de 1.5, priorizando la lectura en pantallas.
+
+---
+
+**Espaciado y composición**
+
+El diseño sigue un sistema de cuadrícula uniforme (**8px Grid System**). Se mantiene un espaciado generoso entre componentes para evitar sobrecarga visual, garantizando claridad, equilibrio y jerarquía visual.
+
+---
+
+**Tono y lenguaje**
+
+El tono comunicacional es casual, respetuoso y motivador, equilibrando seriedad y entusiasmo. Evita tecnicismos innecesarios y promueve mensajes positivos que transmiten acompañamiento y empatía hacia el estudiante.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
