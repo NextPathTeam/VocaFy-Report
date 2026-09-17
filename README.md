@@ -2163,7 +2163,7 @@ El sistema de búsqueda en NextPath tiene como propósito reducir el tiempo que 
 
 
 ## 4.4. Web Applications UX/UI Design
-
+Esta sección incluye secciones internas donde se presenta y explica la propuesta visual y de interacción para las aplicaciones que constituyen la experiencia de usuario con los productos digitales.
 ### 4.4.1. Web Applications Wireframes
 ####  <p align="center"> Vista de estudiante</p>
 <b> wireframe 1:</b> Inicio de sesion 
