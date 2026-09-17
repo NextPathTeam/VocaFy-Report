@@ -428,9 +428,9 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
 ## 1.3. Segmentos objetivo
 - Estudiantes: 
-  − Demografía: Joven entre 17 y 25 años, que inicia sus estudios universitarios. 
-  − Necesidades: Decidir qué carrera va a estudiar de manera segura. 
-  − Dolor: Dudas en el proceso de elegir una carrera debido a factores externos o diversos intereses. 
+  - Demografía: Joven entre 17 y 25 años, que inicia sus estudios universitarios. 
+  - Necesidades: Decidir qué carrera va a estudiar de manera segura. 
+  - Dolor: Dudas en el proceso de elegir una carrera debido a factores externos o diversos intereses. 
 - Psicólogos: 
   - Demografía: Adulto entre 30 y 60 años, especialista en psicología educativa o vocacional. 
   - Necesidades:  Contar con un recurso complementario que permita evaluar mejor los perfiles de los estudiantes. 
