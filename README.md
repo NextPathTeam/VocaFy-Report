@@ -2121,6 +2121,50 @@ El tono comunicacional es casual, respetuoso y motivador, equilibrando seriedad 
 
 ### 4.1.2. Web Style Guidelines
 
+### 4.1.2. Web Style Guidelines
+
+**Objetivo**
+
+Definir la experiencia visual e interactiva para usuarios que acceden a VocaFy desde navegadores web, manteniendo consistencia en pantallas de escritorio y adaptabilidad en resoluciones responsivas.
+
+---
+
+**Assets**
+
+* **Logo principal:** Ícono de ubicación con flecha ascendente (colores: `#10817F` o blanco sobre fondo oscuro).
+* **Mascota:** Panda vectorial estilo flat, usado en secciones de ayuda y mensajes motivacionales.
+* **Íconos:** Estilo lineal, con trazos finos y consistentes.
+* **Imágenes de apoyo:** Mockups de la aplicación en contextos educativos, acompañados de frases inspiradoras.
+
+---
+
+**Component Library**
+
+* **Botones primarios:** Relleno verde petróleo (`#10817F`), texto blanco, bordes redondeados (radius `8px`).
+* **Botones secundarios:** Fondo gris claro (`#F5F5F5`), texto verde petróleo (`#10817F`).
+* **Navbar:** Fija superior, fondo blanco, opción "Comenzar ahora" resaltada con fondo verde-azulado.
+* **Cards:** Fondo blanco, esquinas redondeadas (radius `12px`), sombra leve.
+* **Inputs:** Borde gris claro (`#E0E0E0`), placeholder gris suave, esquinas redondeadas.
+* **CTA (Call To Action):** Bloques hero con fondo verde petróleo y tipografía blanca.
+
+---
+
+**Layout y Espaciado**
+
+* Márgenes laterales amplios (mínimo `24px`).
+* Contenido centrado y jerarquizado en tres niveles: encabezado, cuerpo y llamada a la acción.
+* Consistencia en botones, paddings y sombras para reforzar la estructura visual.
+
+---
+
+**Interacción y Feedback**
+
+* **Hover:** Aclarado de fondo y leve aumento de sombra.
+* **Focus:** Borde visible (`#004D40`) para accesibilidad.
+* **Transiciones:** Suaves (`0.2s`–`0.3s`) en botones e íconos.
+
+![NextPath Landing Page View](images//style-guidelines/landing-page-preview.jpg)
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
