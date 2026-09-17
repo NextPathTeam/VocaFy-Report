@@ -2272,6 +2272,24 @@ El sistema de búsqueda en Next Path tiene como propósito reducir el tiempo que
 
 ### 4.2.5. Navigation Systems
 
+El sistema de navegación de NextPath está diseñado para guiar al usuario de forma clara y coherente a través de la Landing Page y la aplicación. Se busca que todas las interacciones sean predecibles, rápidas y consistentes con el objetivo de cada rol.
+
+**Tipos de navegación implementados:**
+
+* **Navegación global:**
+  En la Landing Page, el Header incluye accesos directos principales a *Inicio*, *Sobre Nosotros*, *Cómo Funciona*, *Comenzar Ahora* y *Contáctanos*.
+
+* **Navegación local:**
+  Dentro de cada módulo se encuentran subniveles específicos según el contexto de uso:
+  * **Módulo Reportes Vocacionales (Psicólogo):** Opciones para consultar historiales, abrir evaluaciones existentes o generar nuevos informes analíticos.
+
+* **Navegación secuencial:**
+  Se implementa mediante migas de pan (*breadcrumbs*) y flujos paso a paso para mantener claridad sobre la ubicación del usuario dentro de la jerarquía.
+
+* **Navegación adaptada por rol:**
+  * **Estudiante:** Experiencia centrada en el flujo de realización del test vocacional, exploración de carreras afines y seguimiento de su plan vocacional.
+  * **Psicólogo:** Panel especializado enfocado en la gestión de sesiones clínicas, registro de notas u observaciones profesionales y análisis del progreso longitudinal.
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
