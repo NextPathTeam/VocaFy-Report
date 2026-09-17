@@ -279,7 +279,6 @@ del ABET – EAC - Student Outcome 3.
 
 ### 1.1.1. Descripción de la Startup
 VocaFy es una aplicación basada en inteligencia artificial, diseñada para ayudar a los estudiantes en la toma de decisiones académicas y profesionales. La aplicación analiza variables cognitivas, emocionales y vocacionales para brindar recomendaciones personalizadas sobre carreras, especializaciones y opciones de formación.
-
 La solución incorpora pruebas interactivas, orientación guiada, simulaciones de trayectoria profesional e información relacionada con el mercado laboral. De esta manera, VocaFy busca proporcionar una herramienta integral que facilite el proceso de elección de una carrera profesional.
 
 ### 1.1.2. Perfiles de integrantes del equipo
@@ -296,25 +295,26 @@ El equipo de VocaFy está conformado por los siguientes integrantes:
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
-	En los últimos años, la orientación vocacional se ha convertido en un aspecto de creciente interés dentro del ámbito educativo, debido a su influencia directa en la permanencia y el éxito académico. Diversos estudios han evidenciado que un número importante de estudiantes ingresa a la educación superior con dudas respecto a su elección profesional, lo que posteriormente se traduce en deserción, cambios de carrera o insatisfacción con la formación recibida. Aunque existen iniciativas y herramientas digitales orientadas a apoyar este proceso, la mayoría no ofrece un acompañamiento integral ni aprovecha plenamente los avances tecnológicos disponibles, lo que evidencia la necesidad de explorar alternativas más innovadoras y personalizadas.
+
+En los últimos años, la orientación vocacional se ha convertido en un aspecto de creciente interés dentro del ámbito educativo, debido a su influencia directa en la permanencia y el éxito académico. Diversos estudios han evidenciado que un número importante de estudiantes ingresa a la educación superior con dudas respecto a su elección profesional, lo que posteriormente se traduce en deserción, cambios de carrera o insatisfacción con la formación recibida. Aunque existen iniciativas y herramientas digitales orientadas a apoyar este proceso, la mayoría no ofrece un acompañamiento integral ni aprovecha plenamente los avances tecnológicos disponibles, lo que evidencia la necesidad de explorar alternativas más innovadoras y personalizadas.
 
 5W (What, Why, Where, Who, Why)
 	
-	•What?
-Existe una dificultad recurrente en los estudiantes al momento de elegir una carrera o área de formación, debido a la falta de herramientas de orientación vocacional personalizadas y efectivas.
-•Why?
-La orientación vocacional tradicional se basa en pruebas estandarizadas y asesorías generales que no consideran integralmente los intereses, habilidades y rasgos de personalidad de cada estudiante, ni las demandas actuales del mercado laboral.
-•Where?
-El problema se presenta tanto en instituciones educativas urbanas como rurales, principalmente en los niveles de secundaria y educación superior, donde el acceso a orientación especializada es limitado o generalista.
-•Who?
-Afecta principalmente a estudiantes en etapa de decisión o redefinición de carrera, así como a instituciones educativas que enfrentan altos índices de deserción y baja satisfacción estudiantil.
-•When?
-Se manifiesta en momentos críticos como la transición del colegio a la universidad o durante los primeros ciclos de formación, etapas en las que los estudiantes experimentan mayor incertidumbre respecto a su futuro profesional.
+- What?
+  Existe una dificultad recurrente en los estudiantes al momento de elegir una carrera o área de formación, debido a la falta de herramientas de orientación vocacional personalizadas y efectivas.
+- Why?
+  La orientación vocacional tradicional se basa en pruebas estandarizadas y asesorías generales que no consideran integralmente los intereses, habilidades y rasgos de personalidad de cada estudiante, ni las demandas actuales del mercado laboral.
+- Where?
+  El problema se presenta tanto en instituciones educativas urbanas como rurales, principalmente en los niveles de secundaria y educación superior, donde el acceso a orientación especializada es limitado o generalista.
+- Who?
+  Afecta principalmente a estudiantes en etapa de decisión o redefinición de carrera, así como a instituciones educativas que enfrentan altos índices de deserción y baja satisfacción estudiantil.
+- When?
+  Se manifiesta en momentos críticos como la transición del colegio a la universidad o durante los primeros ciclos de formación, etapas en las que los estudiantes experimentan mayor incertidumbre respecto a su futuro profesional.
 2H (How, How Much)
-•How?
-Los estudiantes suelen apoyarse en test genéricos, consejos de familiares o información dispersa en internet, lo cual no garantiza decisiones sólidas ni alineadas con su perfil.
-•How Much?
-El impacto es significativo, reflejándose en altas tasas de deserción universitaria (superiores al 30% en algunos contextos), pérdida de recursos económicos y de tiempo, además de la disminución en la motivación y satisfacción personal de los estudiantes.
+- How?
+  Los estudiantes suelen apoyarse en test genéricos, consejos de familiares o información dispersa en internet, lo cual no garantiza decisiones sólidas ni alineadas con su perfil.
+- How Much?
+  El impacto es significativo, reflejándose en altas tasas de deserción universitaria (superiores al 30% en algunos contextos), pérdida de recursos económicos y de tiempo, además de la disminución en la motivación y satisfacción personal de los estudiantes.
 
 
 ### 1.2.2. Lean UX Process
@@ -324,18 +324,18 @@ Actualmente, se necesita una herramienta que facilite la orientación académica
 
 
 #### 1.2.2.2. Lean UX Assumptions
-¿Quién es el usuario?
-Principalmente estudiantes universitarios entre 17 y 25 años y psicólogos que participan en la orientación vocacional.
-¿Dónde encaja nuestro producto en su trabajo o vida?
-En la toma de decisiones académicas y de orientación vocacional, en momentos críticos como la elección o cambio de carrera.
-¿Qué problemas tiene nuestro producto y cómo los puede resolver?
-La dificultad para transmitir una certeza completa al elegir una carrera adecuada, la falta de orientación personalizada y el desconocimiento del mercado laboral. El producto resuelve esto con evaluaciones basadas en IA, simulaciones de trayectorias y asesorías personalizadas.
-¿Cuándo y cómo es usado nuestro producto?
-Durante la transición de colegio a universidad o en los primeros ciclos universitarios, a través de una aplicación web disponible.
-¿Qué características son importantes?
-Es fácil de utilizar, tiene tests vocacionales interactivos, reportes personalizados, simulación de escenarios profesionales y acceso a información actualizada del mercado laboral.
-¿Cómo debe verse nuestro producto y cómo comportarse?
-Debe ser intuitivo, atractivo visualmente y confiable, con respuestas rápidas y recomendaciones personalizadas que transmitan seguridad al usuario.
+- ¿Quién es el usuario?
+  Principalmente estudiantes universitarios entre 17 y 25 años y psicólogos que participan en la orientación vocacional.
+- ¿Dónde encaja nuestro producto en su trabajo o vida?
+  En la toma de decisiones académicas y de orientación vocacional, en momentos críticos como la elección o cambio de carrera.
+- ¿Qué problemas tiene nuestro producto y cómo los puede resolver?
+  La dificultad para transmitir una certeza completa al elegir una carrera adecuada, la falta de orientación personalizada y el desconocimiento del mercado laboral. El producto resuelve esto con evaluaciones basadas en IA, simulaciones de trayectorias y asesorías personalizadas.
+- ¿Cuándo y cómo es usado nuestro producto?
+  Durante la transición de colegio a universidad o en los primeros ciclos universitarios, a través de una aplicación web disponible.
+- ¿Qué características son importantes?
+  Es fácil de utilizar, tiene tests vocacionales interactivos, reportes personalizados, simulación de escenarios profesionales y acceso a información actualizada del mercado laboral.
+- ¿Cómo debe verse nuestro producto y cómo comportarse?
+  Debe ser intuitivo, atractivo visualmente y confiable, con respuestas rápidas y recomendaciones personalizadas que transmitan seguridad al usuario.
 
 
 
