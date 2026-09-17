@@ -2008,6 +2008,29 @@ Además, fomenta una relación bidireccional: los estudiantes reciben asesoría 
 
 ### 4.2.4. Searching Systems
 
+El sistema de búsqueda en NextPath tiene como propósito reducir el tiempo que toma localizar información relevante, utilizando filtros personalizados según el rol del usuario.
+
+**Componentes principales:**
+
+* **Buscador general:** Presente en la parte superior de la interfaz principal de las aplicaciones, permite buscar carreras, estudiantes o reportes:
+  * **Estudiante:** Puede buscar por carrera, universidad o nivel de afinidad.
+  * **Psicólogo:** Puede buscar asesorías o reportes por nombre o fecha de sesión.
+
+* **Filtros específicos:** Cada búsqueda incluye filtros dinámicos adaptados al perfil:
+  * **Estudiantes:** Área de conocimiento, nivel de empleabilidad o universidad.
+  * **Psicólogos:** Tipo de test, estado del reporte y nivel de progreso.
+
+* **Búsqueda predictiva:** El motor de búsqueda incluye sugerencias automáticas basadas en el historial del usuario y en perfiles similares, optimizando el acceso a información relevante.
+
+| Etiqueta | Descripción |
+|---|---|
+| **Filtro por nivel de empleabilidad (Estudiante)** | Clasifica las carreras recomendadas según su demanda laboral o proyección profesional. |
+| **Filtro por universidad (Estudiante)** | Permite visualizar las instituciones donde se ofrece una carrera específica. |
+| **Filtro por afinidad personal (Estudiante)** | Ordena los resultados según la coincidencia con el perfil Holland del usuario. |
+| **Filtro por estado de asesoría (Psicólogo)** | Clasifica las sesiones según su estado: *pendiente, en curso, completada*. |
+| **Filtro por fecha (Psicólogo)** | Permite visualizar evaluaciones o asesorías según su fecha de realización. |
+| **Filtro predictivo (Todos los roles)** | Motor inteligente que sugiere resultados automático
+
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
