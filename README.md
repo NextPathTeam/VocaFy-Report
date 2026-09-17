@@ -569,7 +569,7 @@ En esta sección se presenta el User Task Matrix, una herramienta que consolida 
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección se detallan los User Journey Maps en su versión As-Is para los dos segmentos objetivo del proyecto: el Estudiante y la Psicóloga educativa. El objetivo de estos mapas es ilustrar el viaje de extremo a extremo (end-to-end journey) que experimentan ambos actores en la situación actual, exponiendo las deficiencias y puntos de dolor y que viven los usuarios antes de la existencia de Next Path.
+En esta sección se detallan los User Journey Maps en su versión As-Is para los dos segmentos objetivo del proyecto: los estudiantes y los psicólogos vocacionales. El objetivo de estos mapas es ilustrar el viaje de extremo a extremo (end-to-end journey) que experimentan ambos actores en la situación actual, exponiendo las deficiencias y puntos de dolor y que viven los usuarios antes de la existencia de Next Path.
 
 **Segmento 1: Estudiantes**
 
@@ -585,6 +585,24 @@ En esta sección se detallan los User Journey Maps en su versión As-Is para los
 </div>
 
 ### 2.3.4. Empathy Mapping
+
+
+En esta sección se detalla el diseño y los resultados de los Empathy Maps elaborados para profundizar en la psicología y el entorno de nuestros dos segmentos objetivos: los estudiantes y los psicólogos vocacionales.
+
+**Segmento 1: Estudiantes**
+
+
+<div align="center">
+  <img src="images/empathy-map-estudiante.png" alt="Empathy Map Estudiantes"><br><br>
+</div>
+<br>
+
+**Segmento 2: Psicólogos Profesionales**
+<div align="center">
+  <img src="images/empathy-map-psicologa.png" alt="Empathy Map Psicologos"><br><br>
+</div>
+
+
 
 ## 2.4. Big Picture Event Storming
 
