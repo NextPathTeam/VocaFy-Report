@@ -1908,13 +1908,15 @@ IMPACT MAP 1:El objetivo principal de Next Path es aumentar el porcentaje de usu
  Para mejorar este indicador, se busca alcanzar una tasa del 60% de finalización del test dentro de los primeros 6 meses posteriores al lanzamiento oficial, mediante la implementación de mecanismos de motivación, acompañamiento digital y mejora de la experiencia de usuario (UX). 
  Este objetivo contribuye directamente al fortalecimiento de la propuesta de valor de Next Path, centrada en ofrecer una orientación vocacional confiable, accesible y con resultados personalizados que guíen decisiones reales de los estudiantes. 
 
+![ImpactMapping1](images/impact-mapping/ImpactMapping1.jpg)
+
 IMPACT MAP 2: El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en Next Path, promoviendo una interacción constante con los estudiantes que utilizan la plataforma. 
 Actualmente, algunos profesionales mantienen cuentas inactivas o con baja participación, lo cual limita el impacto de la orientación vocacional personalizada. 
 El propósito es lograr que al menos el 40% de los psicólogos con cuenta activa atiendan a 5 estudiantes diferentes durante un lapso de 1 mes, fortaleciendo así la conexión entre oferta y demanda de orientación. 
 Este objetivo se alinea con la propuesta de valor de Next Path al garantizar acompañamiento humano de calidad, fortalecer la confianza del usuario y consolidar un ecosistema profesional sostenible, donde los psicólogos encuentren oportunidades reales de consulta y desarrollo profesional. 
 Además, fomenta una relación bidireccional: los estudiantes reciben asesoría personalizada, mientras que los psicólogos obtienen visibilidad, reputación y potencial de ingresos a través de la plataforma.
 
-
+![ImpactMapping2](images/impact-mapping/ImpactMapping2.jpg)
 
 ## 3.3. Product Backlog
 
