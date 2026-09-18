@@ -3256,6 +3256,52 @@ Por lo tanto, en este primer ciclo no se construyeron ni desplegaron servicios d
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa para desarrollar la primera versión funcional de la Landing Page de NextPath. La organización del trabajo se gestionó distribuyendo las responsabilidades entre los cinco integrantes del equipo y utilizando GitHub como plataforma central para administrar el código fuente y coordinar la integración de los cambios.   
+
+El desarrollo de la Landing Page se llevó a cabo de forma incremental, asignando líderes y colaboradores (según la matriz LACX) para las distintas secciones estructurales del producto, tales como Hero & Propuesta de valor, Sobre nosotros & Identidad, ¿Cómo funciona?, Comenzar ahora & Call to Action, y la sección de Contáctanos & Footer. Esto aseguró que todos los miembros del equipo tuvieran una participación activa y equitativa en la implementación de este primer entregable.   
+
+Además, el equipo empleó una estrategia de ramificación (Branching) basada en GitFlow, creando ramas específicas (feature/) para programar las interfaces y funcionalidades de manera aislada antes de integrarlas al flujo principal del proyecto. Esta dinámica permitió mantener una separación limpia entre las distintas secciones de código (HTML5, CSS3 y JavaScript) durante su construcción y facilitó su posterior integración.   
+
+Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de Conventional Commits para registrar los cambios en el repositorio. Los commits permitieron mantener la trazabilidad de las secciones integradas (feat:) y de las correcciones de estilos o maquetación realizadas (fix:) durante el desarrollo de la Landing Page.
+
+<table>
+  <thead>
+    <tr>
+      <th width="25%">Aspect</th>
+      <th>Collaboration Practice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top"><b>Task Distribution</b></td>
+      <td>Las actividades del Sprint 1 fueron distribuidas entre los cinco integrantes de acuerdo con los requerimientos específicos de la Landing Page.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Version Control</b></td>
+      <td>Se utilizó Git y GitHub para gestionar las diferentes versiones del código fuente.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Branching</b></td>
+      <td>Se utilizaron ramas (feature/) para desarrollar secciones específicas antes de integrarlas al flujo principal (main) del proyecto.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Commits</b></td>
+      <td>Se registraron los cambios mediante commits descriptivos (estándar Conventional Commits) para mantener la trazabilidad del desarrollo.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Integration</b></td>
+      <td>Los avances desarrollados fueron integrados mediante el flujo de trabajo establecido para el repositorio central de la Landing Page.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Deployment</b></td>
+      <td>El equipo coordinó la configuración y validación del despliegue de la Landing Page estática mediante GitHub Pages.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
