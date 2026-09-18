@@ -2867,7 +2867,7 @@ Para el diseño de la experiencia e interfaz de usuario de NextPath se utilizar�
 
 Software Development
 
-El desarrollo de los productos de software de NextPath contempla diferentes tecnologías de acuerdo con el tipo de producto digital. La Landing Page se desarrolla mediante HTML5, CSS3 y JavaScript. Las Frontend Web Applications utilizan Vue Framework, HTML5, CSS3 y JavaScript, con PrimeVue como biblioteca de componentes de UI. Los Web Services se desarrollan mediante RESTful API architectural style utilizando ASP.NET Core Framework, Entity Framework Core y C#. :contentReference[oaicite:3]{index=3}
+El desarrollo de los productos de software de NextPath contempla diferentes tecnologías de acuerdo con el tipo de producto digital. La Landing Page se desarrolla mediante HTML5, CSS3 y JavaScript. 
 
 <table>
 <thead>
@@ -3025,7 +3025,7 @@ La estructura principal de ramas será:
 
 ### 5.1.4. Software Deployment Configuration
 
-El deployment de NextPath contempla la publicación de los productos de software que forman parte de la solución: **Landing Page, Frontend Web Applications y RESTful Web Services**.
+El deployment de NextPath contempla la publicación de los productos de software que forman parte de la solución: Landing Page.
 
 La configuración de deployment permite trasladar los productos desarrollados desde el entorno de desarrollo hacia un entorno accesible para los usuarios, verificando previamente su funcionamiento y disponibilidad.
 Landing Page Deployment
