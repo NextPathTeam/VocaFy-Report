@@ -620,7 +620,7 @@ Datos del entrevistado:
   * **Edad:** 49 años
   * **Distrito:** Santiago de Surco
   * **Timing:** 10:30
-<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-silvia.jpg" /></p>
+<p align="center"><img alt="Entrevista-Silvia" src="images/entrevista-silvia.jpg" /></p>
 <p align="center"><i>Evidencia de entrevista: Silvia </i></p>
 
 
@@ -628,6 +628,24 @@ Datos del entrevistado:
 La experta Silvia sostiene que los test vocacionales tradicionales presentan limitaciones importantes en su aplicación. Desde su perspectiva, estas herramientas se encuentran desactualizadas, carecen de pertinencia frente a las carreras emergentes y su formato rígido entrega resultados estáticos que no orientan de manera efectiva al estudiante.
 
 Frente a este escenario, Silvia propone la incorporación de la Inteligencia Artificial (IA) y los medios digitales como un soporte técnico valioso dentro de la orientación. Sin embargo, enfatiza que estas soluciones tecnológicas deben funcionar como herramientas complementarias y nunca como un reemplazo de la labor profesional del psicólogo, debiendo integrarse siempre bajo el marco del criterio, la contención y el acompañamiento clínico.
+
+**Entrevista 1:**
+**Entrevistador(a):** >Fernando Sebastián Pérez Bellido
+
+Datos del entrevistado:
+  * **Nombre:** Victor
+  * **Apellido:** Paz
+  * **Edad:** 22 años
+  * **Distrito:** Santiago de Surco
+  * **Timing:** 17:55
+<p align="center"><img alt="Entrevista-Victor" src="images/entrevista-victor.jpg" /></p>
+<p align="center"><i>Evidencia de entrevista: Victor </i></p>
+
+
+**Resumen descriptivo:**
+El psicólogo Víctor Paz señala que los test vocacionales convencionales presentan márgenes de error debido a la indecisión de los estudiantes, la falta de comprensión y las respuestas poco objetivas o deshonestas. Además, resalta la importancia de conectar no solo las habilidades del alumno con las carreras, sino también sus pasiones e intereses profundos con el contexto real del mercado laboral.
+
+Ante este panorama, considera que una aplicación interactiva y las herramientas digitales son apoyos bienvenidos tanto para el estudiante como para el profesional. No obstante, subraya que estas plataformas deben funcionar como un complemento y no como un reemplazo, siendo indispensable la asesoría personalizada del psicólogo para contrastar las respuestas cuantitativas con el testimonio y el sentir genuino de la persona.
 
 ### 2.2.3. Análisis de entrevistas
 
