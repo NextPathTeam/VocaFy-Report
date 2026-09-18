@@ -3191,11 +3191,11 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 | Team Member | GitHub Username | [US01 • Hero + Propuesta de valor] | [US02 • Sobre nosotros + Identidad] | [US03 • ¿Cómo funciona? + Proceso] | [US04 • Comenzar ahora + Call to Action] | [US05 • Contáctanos + Footer] |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| Sebastián Pérez | FernBellido22 | **L** | C | C | C | C |
-| Joaquin Cruzalegui | JoaquinCruzalegui | C | **L** | C | C | C |
-| Luciana Ravello | Lucyrcar-ID | C | C | **L** | C | C |
-| Jesús Miranda | Jesus-Miranda-678 | C | C | C | **L** | C |
-| Alisee Torres | lLisee1 | C | C | C | C | **L** |
+| Pérez, Sebastián | FernBellido22 | **L** | C | C | C | C |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | **L** | C | C | C |
+| Ravello, Luciana | Lucyrcar-ID | C | C | **L** | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | C | **L** | C |
+| Torres, Alisee | lLisee1 | C | C | C | C | **L** |
 
 > **L** = Leader | **C** = Collaborator
 
