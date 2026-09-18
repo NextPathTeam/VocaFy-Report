@@ -3302,6 +3302,19 @@ El despliegue de la primera versión de la Landing Page de NextPath se realizar�
 </tbody>
 </table>
 
+- Configuración de GitHub Pages del repositorio.
+<div align="center">
+  <img src="images/despliegue.png" alt="despliegue">
+</div>
+
+- Landing Page funcionando en la URL pública.
+https://vocafyteam.github.io/NextPath-LandingPage/
+
+- Vista responsive o prueba desde un dispositivo móvil.
+<div align="center">
+  <img src="images/landing mobile.jpeg" alt="despliegue">
+</div>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
