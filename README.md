@@ -3115,7 +3115,7 @@ Entre las actividades principales planificadas se incluyeron:
 | :--- | :--- |
 | **Sprint #** | Sprint 1 |
 | **Sprint Planning Background** | En este sprint se aborda el desarrollo de la Landing Page de NextPath utilizando HTML5, CSS3 y JavaScript puro, a partir de los wireframes y mockups de alta fidelidad previamente diseñados. El objetivo es construir una primera versión funcional del sitio web público que comunique la propuesta de valor del producto, explique la metodología de evaluación vocacional, presente la identidad de marca y habilite canales de captación de usuarios interesados. |
-| **Date** | 2026/04/15 |
+| **Date** | 2026/09/07 |
 | **Time** | 6:00 PM |
 | **Location** | Reunión virtual mediante la plataforma Google Meet |
 | **Prepared By** | Equipo NextPath |
