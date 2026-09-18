@@ -2735,13 +2735,777 @@ El Component Diagram de Analytics & AI Service representa los componentes encarg
 
 ## 5.1. Software Configuration Management
 
+La gestión de configuración del software de NextPath permite organizar y controlar los artefactos generados durante el desarrollo, mantener la trazabilidad de los cambios y facilitar el trabajo colaborativo entre los integrantes del equipo.
+
+Para esta entrega, esta sección documenta las herramientas utilizadas durante el desarrollo del producto, la administración del código fuente, las convenciones adoptadas para mantener la consistencia del código y la configuración utilizada para el despliegue de los productos digitales de NextPath.
+
+
 ### 5.1.1. Software Development Environment Configuration
+
+El entorno de desarrollo de NextPath ha sido configurado considerando la colaboración entre los integrantes del equipo durante las diferentes etapas del ciclo de vida del producto digital. Para ello, se utilizan herramientas de gestión, diseño, desarrollo, documentación, control de versiones y despliegue que permiten organizar los artefactos y facilitar el trabajo colaborativo.
+
+Las herramientas utilizadas se organizan de acuerdo con las siguientes actividades: Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
+
+#### Project Management
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Projects</td>
+<td>Planificación, organización y seguimiento de las actividades, issues, user stories y tareas relacionadas con el desarrollo de NextPath.</td>
+<td>https://github.com/features/issues</td>
+</tr>
+<tr>
+<td>Trello</td>
+<td>Gestión visual de tareas y seguimiento del avance del trabajo realizado por los integrantes del equipo.</td>
+<td>https://trello.com/</td>
+</tr>
+</tbody>
+</table>
+
+#### Requirements Management
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Issues</td>
+<td>Registro, organización y seguimiento de requerimientos, actividades y problemas identificados durante el desarrollo del proyecto.</td>
+<td>https://github.com/features/issues</td>
+</tr>
+<tr>
+<td>Markdown</td>
+<td>Elaboración y mantenimiento de documentación estructurada de requerimientos y otros artefactos del proyecto dentro de los repositorios.</td>
+<td>https://www.markdownguide.org/</td>
+</tr>
+</tbody>
+</table>
+
+#### Product UX/UI Design
+
+Para el diseño de la experiencia e interfaz de usuario de NextPath se utilizarán las herramientas establecidas por las indicaciones del proyecto para cada tipo de artefacto.
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UXPressia</td>
+<td>Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps para representar las características, necesidades y experiencias de los usuarios.</td>
+<td>https://uxpressia.com/</td>
+</tr>
+<tr>
+<td>Figma</td>
+<td>Diseño de Wireframes, Mock-ups y Prototypes de las interfaces de NextPath.</td>
+<td>https://www.figma.com/</td>
+</tr>
+<tr>
+<td>FigJam</td>
+<td>Elaboración colaborativa de Wireflows, User Flows y otros esquemas de interacción.</td>
+<td>https://www.figma.com/figjam/</td>
+</tr>
+<tr>
+<td>Miro</td>
+<td>Elaboración colaborativa de diagramas y actividades de EventStorming.</td>
+<td>https://miro.com/</td>
+</tr>
+<tr>
+<td>Structurizr</td>
+<td>Elaboración de diagramas de Software Architecture utilizando el modelo C4.</td>
+<td>https://structurizr.com/</td>
+</tr>
+<tr>
+<td>Lucidchart</td>
+<td>Elaboración de diagramas UML y otros diagramas requeridos para representar aspectos del diseño de software.</td>
+<td>https://www.lucidchart.com/</td>
+</tr>
+</tbody>
+</table>
+
+#### Software Development
+
+El desarrollo de los productos de software de NextPath contempla diferentes tecnologías de acuerdo con el tipo de producto digital. La Landing Page se desarrolla mediante HTML5, CSS3 y JavaScript. Las Frontend Web Applications utilizan Vue Framework, HTML5, CSS3 y JavaScript, con PrimeVue como biblioteca de componentes de UI. Los Web Services se desarrollan mediante RESTful API architectural style utilizando ASP.NET Core Framework, Entity Framework Core y C#. :contentReference[oaicite:3]{index=3}
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia / descarga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visual Studio Code</td>
+<td>Editor de código fuente utilizado para desarrollar y mantener los productos de software del proyecto.</td>
+<td>https://code.visualstudio.com/</td>
+</tr>
+<tr>
+<td>HTML5</td>
+<td>Lenguaje de marcado utilizado para estructurar el contenido de la Landing Page y las interfaces web.</td>
+<td>https://developer.mozilla.org/en-US/docs/Web/HTML</td>
+</tr>
+<tr>
+<td>CSS3</td>
+<td>Lenguaje utilizado para definir la presentación visual, estilos y comportamiento responsive de las interfaces.</td>
+<td>https://developer.mozilla.org/en-US/docs/Web/CSS</td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td>Lenguaje utilizado para implementar la interacción y comportamiento dinámico de las interfaces web.</td>
+<td>https://developer.mozilla.org/en-US/docs/Web/JavaScript</td>
+</tr>
+<tr>
+<td>Vue.js</td>
+<td>Framework utilizado para el desarrollo de las Frontend Web Applications de NextPath.</td>
+<td>https://vuejs.org/</td>
+</tr>
+<tr>
+<td>PrimeVue</td>
+<td>Biblioteca de componentes de interfaz de usuario utilizada en las Frontend Web Applications.</td>
+<td>https://primevue.org/</td>
+</tr>
+<tr>
+<td>ASP.NET Core</td>
+<td>Framework utilizado para el desarrollo de los Web Services bajo RESTful API architectural style.</td>
+<td>https://dotnet.microsoft.com/apps/aspnet</td>
+</tr>
+<tr>
+<td>Entity Framework Core</td>
+<td>Framework ORM utilizado para la interacción entre los Web Services y la base de datos.</td>
+<td>https://learn.microsoft.com/ef/core/</td>
+</tr>
+<tr>
+<td>C#</td>
+<td>Lenguaje de programación utilizado para el desarrollo de los Web Services.</td>
+<td>https://learn.microsoft.com/dotnet/csharp/</td>
+</tr>
+<tr>
+<td>MySQL Server / PostgreSQL</td>
+<td>Sistema de gestión de base de datos relacional considerado para la persistencia de información de la solución.</td>
+<td>https://www.mysql.com/ / https://www.postgresql.org/</td>
+</tr>
+</tbody>
+</table>
+
+#### Software Deployment
+
+Para el deployment de los productos de NextPath se consideran herramientas y servicios que permitan publicar las diferentes aplicaciones y mantenerlas disponibles en un entorno accesible.
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Pages</td>
+<td>Servicio utilizado para realizar el deployment de la Landing Page desarrollada con HTML5, CSS3 y JavaScript.</td>
+<td>https://pages.github.com/</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>Repositorio y plataforma utilizada como fuente del código para los procesos de integración, colaboración y deployment.</td>
+<td>https://github.com/</td>
+</tr>
+</tbody>
+</table>
+
+La primera versión de la Landing Page se encuentra desplegada mediante GitHub Pages y puede ser accedida desde la siguiente dirección:
+
+**Landing Page:** https://securezoneteam.github.io/NodeSecure-Landing-Page/
+
+#### Software Documentation
+
+La documentación técnica y funcional de NextPath se mantiene mediante herramientas que permiten registrar y actualizar los diferentes artefactos generados durante el ciclo de vida del proyecto.
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Propósito</th>
+<th>Ruta de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Markdown</td>
+<td>Elaboración y mantenimiento del Project Report, documentación técnica y otros documentos almacenados en los repositorios.</td>
+<td>https://www.markdownguide.org/</td>
+</tr>
+<tr>
+<td>Swagger / OpenAPI</td>
+<td>Documentación y descripción de los endpoints de los Web Services mediante OpenAPI Specification.</td>
+<td>https://swagger.io/</td>
+</tr>
+<tr>
+<td>GitHub README</td>
+<td>Presentación y documentación de los repositorios, instrucciones de uso y descripción de los productos de software.</td>
+<td>https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes</td>
+</tr>
+</tbody>
+</table>
+
+#### Development Environment Summary
+
+<table>
+<thead>
+<tr>
+<th>Actividad</th>
+<th>Herramientas principales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Management</td>
+<td>GitHub Projects, Trello</td>
+</tr>
+<tr>
+<td>Requirements Management</td>
+<td>GitHub Issues, Markdown</td>
+</tr>
+<tr>
+<td>Product UX/UI Design</td>
+<td>UXPressia, Figma, FigJam, Miro</td>
+</tr>
+<tr>
+<td>Software Architecture</td>
+<td>Structurizr, Lucidchart</td>
+</tr>
+<tr>
+<td>Software Development</td>
+<td>Visual Studio Code, HTML5, CSS3, JavaScript, Vue.js, PrimeVue, ASP.NET Core, Entity Framework Core, C#</td>
+</tr>
+<tr>
+<td>Database Management</td>
+<td>MySQL Server / PostgreSQL</td>
+</tr>
+<tr>
+<td>Software Deployment</td>
+<td>GitHub Pages, GitHub</td>
+</tr>
+<tr>
+<td>Software Documentation</td>
+<td>Markdown, GitHub README, Swagger / OpenAPI</td>
+</tr>
+</tbody>
+</table>
 
 ### 5.1.2. Source Code Management
 
+Para la gestión del código fuente de NextPath se utilizará **Git** como sistema de control de versiones y **GitHub** como plataforma para el almacenamiento remoto de los repositorios, colaboración entre los integrantes del equipo y gestión de las diferentes versiones del proyecto.
+
+El control de versiones permitirá mantener un historial de cambios, trabajar de manera paralela mediante ramas, integrar las funcionalidades desarrolladas y mantener versiones estables de los diferentes productos de software.
+
+#### GitHub Repositories
+
+Los diferentes productos que forman parte de NextPath se gestionarán mediante repositorios independientes, permitiendo mantener organizado el código correspondiente a cada producto.
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Repositorio</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Report</td>
+<td>VocaFyTeam/NextPath-Report</td>
+<td>Almacenar la documentación y los artefactos correspondientes al Project Report de NextPath.</td>
+</tr>
+<tr>
+<td>Landing Page</td>
+<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
+<td>Almacenar el código fuente de la Landing Page desarrollada con HTML5, CSS3 y JavaScript.</td>
+</tr>
+<tr>
+<td>Frontend Web Application</td>
+<td>Por completar</td>
+<td>Almacenar el código fuente de la aplicación web desarrollada con Vue.js.</td>
+</tr>
+<tr>
+<td>RESTful Web Services</td>
+<td>Por completar</td>
+<td>Almacenar el código fuente de los servicios RESTful desarrollados con ASP.NET Core y C#.</td>
+</tr>
+</tbody>
+</table>
+
+**Project Report Repository:**
+
+https://github.com/VocaFyTeam/NextPath-Report
+
+**Landing Page Repository:**
+
+https://github.com/SecureZoneTeam/NodeSecure-Landing-Page
+
+#### GitFlow Branching Strategy
+
+Para organizar el desarrollo colaborativo se utilizará una estrategia de ramas basada en **GitFlow**. Esta estrategia permite separar el desarrollo de nuevas funcionalidades de las versiones estables del proyecto.
+
+La estructura principal de ramas será:
+
+<table>
+<thead>
+<tr>
+<th>Rama</th>
+<th>Propósito</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>main</code></td>
+<td>Contiene las versiones estables y listas para producción de los productos de software.</td>
+<td><code>main</code></td>
+</tr>
+<tr>
+<td><code>develop</code></td>
+<td>Rama principal de integración donde se incorporan las funcionalidades desarrolladas antes de generar una versión estable.</td>
+<td><code>develop</code></td>
+</tr>
+<tr>
+<td><code>feature/&lt;name&gt;</code></td>
+<td>Ramas utilizadas para desarrollar nuevas funcionalidades o realizar cambios específicos.</td>
+<td><code>feature/landing-page</code></td>
+</tr>
+<tr>
+<td><code>release/&lt;version&gt;</code></td>
+<td>Ramas utilizadas para preparar una nueva versión estable del producto.</td>
+<td><code>release/1.0.0</code></td>
+</tr>
+<tr>
+<td><code>hotfix/&lt;name&gt;</code></td>
+<td>Ramas utilizadas para corregir errores críticos encontrados en una versión estable.</td>
+<td><code>hotfix/fix-navbar</code></td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Para el desarrollo de NextPath se establecen convenciones de estilo y programación con el objetivo de mantener un código consistente, legible, mantenible y comprensible para todos los integrantes del equipo. Estas convenciones se aplican a los lenguajes utilizados en los diferentes productos de software de la solución: HTML5, CSS3, JavaScript y C#.
+
+De acuerdo con las indicaciones del proyecto, los nombres de variables, funciones, clases, componentes, identificadores y demás elementos definidos en el código se escribirán en inglés.
+
+#### HTML5 Coding Conventions
+
+Para la estructura de las páginas web se utilizará HTML5, aplicando una organización semántica y consistente de los elementos.
+
+<table>
+<thead>
+<tr>
+<th>Convención</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Semantic HTML</td>
+<td>Se utilizarán elementos HTML5 semánticos para representar correctamente la estructura y propósito del contenido.</td>
+<td><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code></td>
+</tr>
+<tr>
+<td>Lowercase</td>
+<td>Las etiquetas y atributos HTML se escribirán utilizando letras minúsculas.</td>
+<td><code>&lt;section&gt;</code></td>
+</tr>
+<tr>
+<td>Descriptive Class Names</td>
+<td>Las clases deberán representar claramente la función o contenido del elemento.</td>
+<td><code>hero-section</code>, <code>feature-card</code></td>
+</tr>
+<tr>
+<td>Kebab-case</td>
+<td>Los nombres compuestos de clases e identificadores utilizarán guiones.</td>
+<td><code>contact-button</code></td>
+</tr>
+<tr>
+<td>English Naming</td>
+<td>Las clases, identificadores y nombres definidos por el equipo se escribirán en inglés.</td>
+<td><code>career-section</code></td>
+</tr>
+<tr>
+<td>Accessibility</td>
+<td>Se utilizarán atributos que favorezcan la accesibilidad de los elementos de la interfaz.</td>
+<td><code>alt</code>, <code>aria-label</code></td>
+</tr>
+<tr>
+<td>Indentation</td>
+<td>Se mantendrá una indentación uniforme para facilitar la lectura del código.</td>
+<td>4 espacios</td>
+</tr>
+</tbody>
+</table>
+
+
 ### 5.1.4. Software Deployment Configuration
+
+El deployment de NextPath contempla la publicación de los productos de software que forman parte de la solución: **Landing Page, Frontend Web Applications y RESTful Web Services**.
+
+La configuración de deployment permite trasladar los productos desarrollados desde el entorno de desarrollo hacia un entorno accesible para los usuarios, verificando previamente su funcionamiento y disponibilidad.
+
+#### Landing Page Deployment
+
+La Landing Page de NextPath está desarrollada utilizando **HTML5, CSS3 y JavaScript**. Debido a que se trata de una aplicación web estática, su publicación se realiza mediante **GitHub Pages**.
+
+El proceso de deployment comprende las siguientes actividades:
+
+1. Mantener el código fuente de la Landing Page en su repositorio de GitHub.
+2. Verificar que los archivos HTML, CSS, JavaScript, imágenes y demás recursos necesarios se encuentren correctamente organizados.
+3. Realizar las pruebas correspondientes en el entorno local.
+4. Realizar el commit de los cambios utilizando la convención de **Conventional Commits**.
+5. Realizar el push de los cambios hacia el repositorio remoto.
+6. Configurar GitHub Pages como mecanismo de publicación.
+7. Seleccionar la rama correspondiente para el deployment.
+8. Seleccionar la carpeta que contiene los archivos que serán publicados.
+9. Esperar la generación del sitio por parte de GitHub Pages.
+10. Acceder a la URL pública generada.
+11. Verificar el funcionamiento de las secciones, enlaces, imágenes y estilos.
+12. Verificar el comportamiento responsive de la Landing Page en diferentes tamaños de pantalla.
+
+#### Landing Page Production Environment
+
+<table>
+<thead>
+<tr>
+<th>Configuración</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product</td>
+<td>Landing Page</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td>HTML5, CSS3, JavaScript</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
+</tr>
+<tr>
+<td>Deployment Platform</td>
+<td>GitHub Pages</td>
+</tr>
+<tr>
+<td>Deployment Type</td>
+<td>Static Web Hosting</td>
+</tr>
+<tr>
+<td>Production URL</td>
+<td>https://securezoneteam.github.io/NodeSecure-Landing-Page/</td>
+</tr>
+</tbody>
+</table>
+
+**Production URL:**
+
+https://securezoneteam.github.io/NodeSecure-Landing-Page/
+
+#### Frontend Web Application Deployment
+
+La Frontend Web Application de NextPath será desarrollada utilizando **Vue.js**, junto con HTML5, CSS3, JavaScript y PrimeVue.
+
+El deployment de la aplicación requiere generar una versión de producción a partir del código fuente almacenado en su repositorio correspondiente.
+
+El proceso de deployment comprende las siguientes actividades:
+
+1. Mantener el código fuente de la Frontend Web Application en su repositorio correspondiente.
+2. Instalar las dependencias necesarias para ejecutar el proyecto.
+3. Ejecutar la aplicación en el entorno local.
+4. Verificar el funcionamiento de las funcionalidades implementadas.
+5. Ejecutar las pruebas correspondientes antes del deployment.
+6. Generar el build de producción de la aplicación.
+7. Configurar el servicio de hosting seleccionado.
+8. Conectar el servicio de deployment con el repositorio.
+9. Seleccionar la rama correspondiente para la publicación.
+10. Configurar el comando de construcción de la aplicación.
+11. Configurar el directorio generado por el proceso de build.
+12. Ejecutar el deployment.
+13. Acceder a la URL pública de la aplicación.
+14. Verificar la navegación y las funcionalidades disponibles.
+15. Verificar el comportamiento responsive en diferentes dispositivos.
+
+#### Frontend Web Application Production Environment
+
+<table>
+<thead>
+<tr>
+<th>Configuración</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product</td>
+<td>Frontend Web Application</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>Vue.js</td>
+</tr>
+<tr>
+<td>Technologies</td>
+<td>HTML5, CSS3, JavaScript</td>
+</tr>
+<tr>
+<td>UI Component Library</td>
+<td>PrimeVue</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Deployment Platform</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Production URL</td>
+<td>Por completar</td>
+</tr>
+</tbody>
+</table>
+
+#### RESTful Web Services Deployment
+
+Los Web Services de NextPath serán desarrollados utilizando el estilo arquitectónico **RESTful API**, mediante **ASP.NET Core Framework, Entity Framework Core y C#**.
+
+Los servicios proporcionarán las operaciones necesarias para soportar los procesos de negocio de la solución y serán documentados mediante **OpenAPI Specification utilizando Swagger**.
+
+El proceso de deployment comprende las siguientes actividades:
+
+1. Mantener el código fuente de los Web Services en su repositorio correspondiente.
+2. Restaurar las dependencias del proyecto.
+3. Configurar las variables necesarias para el entorno de ejecución.
+4. Configurar la conexión con la base de datos.
+5. Ejecutar los Web Services en el entorno local.
+6. Ejecutar las pruebas unitarias correspondientes.
+7. Ejecutar las pruebas de integración y aceptación correspondientes.
+8. Verificar los endpoints de la API.
+9. Verificar la documentación de los endpoints mediante Swagger.
+10. Generar la versión de producción del Web Service.
+11. Configurar el servicio de hosting seleccionado.
+12. Conectar el servicio de deployment con el repositorio.
+13. Configurar las variables de entorno necesarias.
+14. Ejecutar el deployment.
+15. Verificar la disponibilidad de los endpoints mediante la URL pública.
+16. Verificar el funcionamiento de Swagger/OpenAPI en el entorno desplegado.
+
+#### RESTful Web Services Production Environment
+
+<table>
+<thead>
+<tr>
+<th>Configuración</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product</td>
+<td>RESTful Web Services</td>
+</tr>
+<tr>
+<td>Architecture Style</td>
+<td>RESTful API</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>ASP.NET Core</td>
+</tr>
+<tr>
+<td>Programming Language</td>
+<td>C#</td>
+</tr>
+<tr>
+<td>ORM</td>
+<td>Entity Framework Core</td>
+</tr>
+<tr>
+<td>API Documentation</td>
+<td>OpenAPI / Swagger</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Deployment Platform</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Production URL</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Swagger URL</td>
+<td>Por completar</td>
+</tr>
+</tbody>
+</table>
+
+#### Deployment Configuration Summary
+
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Technology</th>
+<th>Deployment Platform</th>
+<th>Repository</th>
+<th>Production URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Landing Page</td>
+<td>HTML5, CSS3, JavaScript</td>
+<td>GitHub Pages</td>
+<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
+<td>https://securezoneteam.github.io/NodeSecure-Landing-Page/</td>
+</tr>
+<tr>
+<td>Frontend Web Application</td>
+<td>Vue.js, HTML5, CSS3, JavaScript, PrimeVue</td>
+<td>Por completar</td>
+<td>Por completar</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>RESTful Web Services</td>
+<td>ASP.NET Core, C#, Entity Framework Core</td>
+<td>Por completar</td>
+<td>Por completar</td>
+<td>Por completar</td>
+</tr>
+</tbody>
+</table>
+
+#### Deployment Validation
+
+Después de realizar el deployment de cada producto se deberá verificar que la versión publicada funcione correctamente en el entorno de producción.
+
+<table>
+<thead>
+<tr>
+<th>Validación</th>
+<th>Landing Page</th>
+<th>Frontend Web Application</th>
+<th>RESTful Web Services</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application accessible through public URL</td>
+<td>✓</td>
+<td>Por completar</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Navigation verified</td>
+<td>✓</td>
+<td>Por completar</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Responsive behavior verified</td>
+<td>✓</td>
+<td>Por completar</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Main functionalities verified</td>
+<td>✓</td>
+<td>Por completar</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>API endpoints verified</td>
+<td>N/A</td>
+<td>Por completar</td>
+<td>Por completar</td>
+</tr>
+<tr>
+<td>Swagger/OpenAPI verified</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>Por completar</td>
+</tr>
+</tbody>
+</table>
+
+#### Deployment Evidence
+
+Las evidencias de deployment permitirán demostrar que cada producto fue correctamente publicado y se encuentra disponible en el entorno correspondiente.
+
+<table>
+<thead>
+<tr>
+<th>Producto</th>
+<th>Evidencia</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Landing Page</td>
+<td>Screenshot + Production URL</td>
+<td>Captura de la Landing Page publicada junto con su URL pública.</td>
+</tr>
+<tr>
+<td>Frontend Web Application</td>
+<td>Screenshot + Production URL</td>
+<td>Captura de la aplicación publicada junto con su URL pública.</td>
+</tr>
+<tr>
+<td>RESTful Web Services</td>
+<td>Screenshot + Swagger URL</td>
+<td>Captura de los servicios desplegados y de su documentación mediante Swagger.</td>
+</tr>
+<tr>
+<td>Deployment Configuration</td>
+<td>Screenshot</td>
+<td>Captura de la configuración utilizada en la plataforma de deployment.</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>Repository URL</td>
+<td>Referencia al repositorio utilizado como fuente para el deployment.</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
