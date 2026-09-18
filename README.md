@@ -593,6 +593,7 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
+**Segmento 1**
 **Entrevista 2:**
 **Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
 
@@ -607,7 +608,26 @@ Datos del entrevistado:
 
 
 **Resumen descriptivo:**
-La entrevista con Joaquin, un estudiante , Muestra que investiga pors su cuenta de forma básica :a dado algunos test por parte de su colegio , pero aun se siente inseguro con respecto a que carreras escoger y a su futuro . El considera que sería útil contar con una plataforma con IA , que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
+La entrevista con Joaquin, un estudiante, muestra que investiga pors su cuenta de forma básica :a dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
+
+**Segmento 2**
+**Entrevista 1:**
+**Entrevistador(a):** >Joaquin Cruzalegui Herrera
+
+Datos del entrevistado:
+  * **Nombre:** Silvia
+  * **Apellido:** Herrera
+  * **Edad:** 49 años
+  * **Distrito:** Santiago de Surco
+  * **Timing:** 10:30
+<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-silvia.jpg" /></p>
+<p align="center"><i>Evidencia de entrevista: Silvia </i></p>
+
+
+**Resumen descriptivo:**
+La experta Silvia sostiene que los test vocacionales tradicionales presentan limitaciones importantes en su aplicación. Desde su perspectiva, estas herramientas se encuentran desactualizadas, carecen de pertinencia frente a las carreras emergentes y su formato rígido entrega resultados estáticos que no orientan de manera efectiva al estudiante.
+
+Frente a este escenario, Silvia propone la incorporación de la Inteligencia Artificial (IA) y los medios digitales como un soporte técnico valioso dentro de la orientación. Sin embargo, enfatiza que estas soluciones tecnológicas deben funcionar como herramientas complementarias y nunca como un reemplazo de la labor profesional del psicólogo, debiendo integrarse siempre bajo el marco del criterio, la contención y el acompañamiento clínico.
 
 ### 2.2.3. Análisis de entrevistas
 
