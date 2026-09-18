@@ -446,6 +446,10 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Tras analizar a la competencia, la estrategia de VocaFy se centra en aprovechar la personalización y el uso de inteligencia artificial como ejes diferenciadores. A diferencia de “Mi Carrera”, que aporta datos oficiales pero limitados al ámbito nacional, Next Path puede ofrecer información actualizada y con un alcance más amplio.
+
+Frente a QuEstudiar, la táctica es marcar la diferencia con un acompañamiento cercano y profundo, que no solo muestre opciones educativas, sino que guíe en el proceso de decisión. Y en relación con los test vocacionales genéricos, la clave está en destacar la confiabilidad y la visión integral, mostrando que la plataforma no se queda en un resultado rápido, sino que acompaña al estudiante en la construcción de su proyecto de vida académico y profesional.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
