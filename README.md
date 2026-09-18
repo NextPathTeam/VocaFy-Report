@@ -3168,6 +3168,82 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+En esta sección se muestran las pruebas de desarrollo del Sprint actual, centradas en la creación de la Landing Page de NextPath para el producto VocaFy. En esta etapa, se dio prioridad a construir la estructura web principal y a organizar los directorios del proyecto. También trabajamos en mejorar la experiencia de usuario y la interfaz, cambiando los estilos visuales, haciendo que el menú de navegación fuera más fácil de usar y ajustando cómo se cargan los scripts. Por último, se definió la identidad de marca al integrar recursos gráficos importantes. Así logramos una primera versión atractiva y funcional, pensada para atraer a personas que buscan orientación vocacional.
+
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>01af248</td>
+      <td>feat: add initial landing page</td>
+      <td>-</td>
+      <td>11/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>293bfa4</td>
+      <td>feat: new folder creation</td>
+      <td>-</td>
+      <td>11/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>c5084fe</td>
+      <td>fix: we fix the landing style</td>
+      <td>-</td>
+      <td>15/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>fe48a0b</td>
+      <td>fix: adjust scripts and images</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>be6b5bf</td>
+      <td>feat: add logo on browser tab</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>7a7d051</td>
+      <td>fix: adjustment of the nav toggle</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>f25101c</td>
+      <td>fix: change logo and panda images</td>
+      <td>-</td>
+      <td>17/09/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
