@@ -649,6 +649,27 @@ Ante este panorama, considera que una aplicación interactiva y las herramientas
 
 ### 2.2.3. Análisis de entrevistas
 
+### Análisis General de Entrevistas a Expertos (Psicólogos)
+
+A partir de las entrevistas realizadas a los especialistas en orientación vocacional y psicología educativa, Silvia y Víctor Paz, se consolidaron los hallazgos cualitativos respecto al estado actual del proceso de elección de carrera, las limitaciones metodológicas vigentes y las oportunidades de innovación tecnológica.
+
+---
+
+#### 1. Diagnóstico y Limitaciones de los Métodos Tradicionales
+* **Herramientas desactualizadas e inflexibles:** Ambos especialistas coinciden en que las pruebas psicométricas convencionales presentan baremos obsoletos frente a las demandas de profesiones híbridas y emergentes.
+* **Sesgo de respuesta y fatiga del evaluado:** Se identifica que los cuestionarios extensos y de respuesta forzada generan pérdida de objetividad, respuestas poco honestas o falta de comprensión en las preguntas por parte de los postulantes.
+* **Resultados numéricos descontextualizados:** Las evaluaciones estándar arrojan puntuaciones o clasificaciones rígidas que no ofrecen un plan de acción aplicable ni resuelven la indecisión vocacional de fondo.
+
+#### 2. Integración Multidimensional del Perfil del Estudiante
+* **Alineación de habilidades y pasiones:** Resulta insuficiente identificar únicamente en qué área académica destaca el alumno; es imprescindible vincular su talento con aquello que realmente le apasiona para prevenir la deserción y la insatisfacción universitaria.
+* **Evaluación holística:** Los expertos destacan la necesidad de articular intereses vocacionales, rasgos de personalidad y capacidades cognitivas para contrastarlos de forma realista con las opciones profesionales.
+* **Contexto del mercado laboral:** Es prioritario incorporar datos actualizados sobre empleabilidad, remuneración promedio y demanda laboral real del entorno, evitando decisiones basadas exclusivamente en percepciones idealizadas de las carreras.
+
+#### 3. Rol de la Tecnología y la Inteligencia Artificial
+* **Acelerador diagnóstico complementario:** La inteligencia artificial y las herramientas digitales representan un soporte valioso para optimizar la recopilación de datos, sintetizar información preliminar y ofrecer accesibilidad multiplataforma.
+* **No sustitución del criterio clínico:** Ambos especialistas remarcan que la tecnología no reemplaza la labor del orientador. La intervención profesional es insustituible para la contención emocional, la lectura del contexto sociofamiliar y la contrastación de las métricas cuantitativas con el testimonio y el sentir genuino del estudiante.
+
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
