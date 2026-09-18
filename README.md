@@ -3128,6 +3128,18 @@ Entre las actividades principales planificadas se incluyeron:
 
 #### 5.2.X.2. Aspect Leaders and Collaborators
 
+A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades de maquetación y desarrollo de la Landing Page de NextPath:
+
+| Team Member | GitHub Username | [US01 • Hero + Propuesta de valor] | [US02 • Sobre nosotros + Identidad] | [US03 • ¿Cómo funciona? + Proceso] | [US04 • Comenzar ahora + Call to Action] | [US05 • Contáctanos + Footer] |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Sebastián Pérez | FernBellido22 | **L** | C | C | C | C |
+| Joaquin Cruzalegui | JoaquinCruzalegui | C | **L** | C | C | C |
+| Luciana Ravello | Lucyrcar-ID | C | C | **L** | C | C |
+| Jesús Miranda | Jesus-Miranda-678 | C | C | C | **L** | C |
+| Alisee Torres | lLisee1 | C | C | C | C | **L** |
+
+> **L** = Leader | **C** = Collaborator
+
 #### 5.2.X.3. Sprint Backlog 1
 
 #### 5.2.X.4. Development Evidence for Sprint Review
