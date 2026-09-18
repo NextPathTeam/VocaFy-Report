@@ -2121,13 +2121,13 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ## 3.2. Impact Mapping
 
-IMPACT MAP: El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en Next Path, promoviendo una interacción constante con los estudiantes que utilizan la plataforma. 
-Actualmente, algunos profesionales mantienen cuentas inactivas o con baja participación, lo cual limita el impacto de la orientación vocacional personalizada. 
-El propósito es lograr que al menos el 40% de los psicólogos con cuenta activa atiendan a 5 estudiantes diferentes durante un lapso de 1 mes, fortaleciendo así la conexión entre oferta y demanda de orientación. 
-Este objetivo se alinea con la propuesta de valor de Next Path al garantizar acompañamiento humano de calidad, fortalecer la confianza del usuario y consolidar un ecosistema profesional sostenible, donde los psicólogos encuentren oportunidades reales de consulta y desarrollo profesional. 
-Además, fomenta una relación bidireccional: los estudiantes reciben asesoría personalizada, mientras que los psicólogos obtienen visibilidad, reputación y potencial de ingresos a través de la plataforma.
+El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en NextPath, promoviendo una interacción constante y de valor con los estudiantes que utilizan la plataforma. Actualmente, se identifica que ciertos profesionales mantienen perfiles con baja frecuencia de uso o inactividad prolongada, lo cual limita el impacto del acompañamiento vocacional personalizado.
 
-![ImpactMapping2](images/impact-mapping/ImpactMapping2.jpg)
+Para revertir esta situación, el propósito es lograr que al menos el 40% de los psicólogos con cuenta activa atiendan a un mínimo de 5 estudiantes diferentes durante un lapso de 1 mes, dinamizando el ecosistema y fortaleciendo la vinculación entre la oferta y la demanda de orientación.
+
+Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimiento psicopedagógico cercano, riguroso y humano, sustentado en la confianza y la continuidad. Asimismo, consolida una relación de beneficio mutuo: mientras los estudiantes reciben orientación profesional adaptada a sus perfiles vocacionales, los psicólogos potencian su visibilidad, reputación profesional y oportunidades de consulta dentro de la plataforma.
+
+![ImpactMapping2](images/impact-mapping/Impact-map-1.png)
 
 ## 3.3. Product Backlog
 
