@@ -2740,13 +2740,13 @@ La gestión de configuración del software de NextPath permite organizar y contr
 Para esta entrega, esta sección documenta las herramientas utilizadas durante el desarrollo del producto, la administración del código fuente, las convenciones adoptadas para mantener la consistencia del código y la configuración utilizada para el despliegue de los productos digitales de NextPath.
 
 
-### 5.1.1. Software Development Environment Configuration
+5.1.1. Software Development Environment Configuration
 
 El entorno de desarrollo de NextPath ha sido configurado considerando la colaboración entre los integrantes del equipo durante las diferentes etapas del ciclo de vida del producto digital. Para ello, se utilizan herramientas de gestión, diseño, desarrollo, documentación, control de versiones y despliegue que permiten organizar los artefactos y facilitar el trabajo colaborativo.
 
 Las herramientas utilizadas se organizan de acuerdo con las siguientes actividades: Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
-#### Project Management
+Project Management
 
 <table>
 <thead>
@@ -2765,7 +2765,7 @@ Las herramientas utilizadas se organizan de acuerdo con las siguientes actividad
 </tbody>
 </table>
 
-#### Requirements Management
+Requirements Management
 
 <table>
 <thead>
@@ -2789,7 +2789,7 @@ Las herramientas utilizadas se organizan de acuerdo con las siguientes actividad
 </tbody>
 </table>
 
-#### Product UX/UI Design
+Product UX/UI Design
 
 Para el diseño de la experiencia e interfaz de usuario de NextPath se utilizarán las herramientas establecidas por las indicaciones del proyecto para cada tipo de artefacto.
 
@@ -2830,7 +2830,7 @@ Para el diseño de la experiencia e interfaz de usuario de NextPath se utilizar�
 </tbody>
 </table>
 
-#### Software Development
+Software Development
 
 El desarrollo de los productos de software de NextPath contempla diferentes tecnologías de acuerdo con el tipo de producto digital. La Landing Page se desarrolla mediante HTML5, CSS3 y JavaScript. Las Frontend Web Applications utilizan Vue Framework, HTML5, CSS3 y JavaScript, con PrimeVue como biblioteca de componentes de UI. Los Web Services se desarrollan mediante RESTful API architectural style utilizando ASP.NET Core Framework, Entity Framework Core y C#. :contentReference[oaicite:3]{index=3}
 
@@ -2882,7 +2882,7 @@ Para la gestión del código fuente de NextPath se utilizará **Git** como siste
 
 El control de versiones permitirá mantener un historial de cambios, trabajar de manera paralela mediante ramas, integrar las funcionalidades desarrolladas y mantener versiones estables de los diferentes productos de software.
 
-#### GitHub Repositories
+GitHub Repositories
 
 Los diferentes productos que forman parte de NextPath se gestionarán mediante repositorios independientes, permitiendo mantener organizado el código correspondiente a cada producto.
 
@@ -2916,7 +2916,7 @@ https://github.com/VocaFyTeam/NextPath-Report
 
 https://github.com/SecureZoneTeam/NodeSecure-Landing-Page
 
-#### GitFlow
+GitFlow
 
 Para organizar el desarrollo colaborativo se utilizará una estrategia de ramas basada en **GitFlow**. Esta estrategia permite separar el desarrollo de nuevas funcionalidades de las versiones estables del proyecto.
 
@@ -2958,7 +2958,7 @@ La estructura principal de ramas será:
   Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de NodeSecure, el equipo adopta convenciones de estilo para HTML, CSS y JavaScript. Los identificadores y comentarios del código se mantienen consistentes dentro del repositorio.
 
 
-  #### HTML & CSS
+  HTML & CSS
   - Uso de minúsculas para nombres de elementos y atributos HTML.
   - Uso de comillas dobles para los atributos.
   - Indentación consistente de 2 espacios.
@@ -2968,7 +2968,7 @@ La estructura principal de ramas será:
   - Aplicar media queries para adaptar la interfaz a desktop, tablet y mobile.
 
 
-  #### JavaScript
+  JavaScript
   - Uso de `const` para variables que no se reasignan y `let` cuando el valor puede cambiar.
   - Nombres de variables y funciones en camelCase.
   - Nombres de clases y constructores en PascalCase cuando corresponda.
@@ -2977,14 +2977,14 @@ La estructura principal de ramas será:
   - Usar punto y coma de manera consistente.
 
 
-  #### Gherkin (Acceptance Criteria)
+  Gherkin (Acceptance Criteria)
   - Uso de Given, When, Then y And en inglés.
   - Una sola acción principal por paso When.
   - Escenarios con nombres descriptivos del comportamiento esperado.
   - Uso de tablas Gherkin cuando sea necesario representar datos de ejemplo.
 
 
-  #### Conventional Commits
+  Conventional Commits
   Todos los mensajes de commit del proyecto deben seguir la especificación de Conventional Commits.
 
 
@@ -2993,8 +2993,7 @@ La estructura principal de ramas será:
 El deployment de NextPath contempla la publicación de los productos de software que forman parte de la solución: **Landing Page, Frontend Web Applications y RESTful Web Services**.
 
 La configuración de deployment permite trasladar los productos desarrollados desde el entorno de desarrollo hacia un entorno accesible para los usuarios, verificando previamente su funcionamiento y disponibilidad.
-
-#### Landing Page Deployment
+Landing Page Deployment
 
 La Landing Page de NextPath está desarrollada utilizando **HTML5, CSS3 y JavaScript**. Debido a que se trata de una aplicación web estática, su publicación se realiza mediante **GitHub Pages**.
 
@@ -3013,7 +3012,7 @@ El proceso de deployment comprende las siguientes actividades:
 11. Verificar el funcionamiento de las secciones, enlaces, imágenes y estilos.
 12. Verificar el comportamiento responsive de la Landing Page en diferentes tamaños de pantalla.
 
-#### Landing Page Production Environment
+Landing Page Production Environment
 
 <table>
 <thead>
@@ -3054,7 +3053,7 @@ El proceso de deployment comprende las siguientes actividades:
 
 https://securezoneteam.github.io/NodeSecure-Landing-Page/
 
-#### Deployment Configuration Summary
+Deployment Configuration Summary
 
 <table>
 <thead>
