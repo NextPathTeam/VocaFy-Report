@@ -3142,6 +3142,30 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 #### 5.2.1.3. Sprint Backlog 1
 
+**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados[cite: 9, 10, 18].
+
+**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive[cite: 9, 10, 18].*
+
+**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**[cite: 9, 10]
+
+| Sprint # | User Story ID | User Story Título | SP | Work-Item / Task ID | Task Título | Descripción | Estimación | Asignado a | Status |
+| :--- | :--- | :--- | :---: | :--- | :--- | :--- | :---: | :--- | :---: |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T01 | Maquetar Hero section | Diseñar y maquetar hero section con HTML y CSS puro: titular principal ("Conviértete en un profesional"), subtítulo descriptivo enfocado en autoconocimiento vocacional y botón CTA ("Comenzar") visible above the fold. | 4h | Sebastián Pérez | Done |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T02 | Implementar navegación del CTA principal | Configurar evento click en el botón CTA mediante JavaScript vanilla para ejecutar un desplazamiento suave directo hacia la sección de conversión 'Comenzar ahora'. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T03 | Validar diseño responsive en Hero | Validar breakpoints en mobile (375px), tablet (768px) y desktop (1280px), verificando alineación de textos y adaptabilidad de la imagen de fondo educativo sin cortes visuales. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T04 | Maquetar sección Sobre nosotros | Construir contenedor en HTML5 y estilos CSS para presentar la misión de NextPath, integrando texto explicativo sobre IA y autoconocimiento junto al logotipo oficial de marca. | 3h | Joaquin Cruzalegui | Done |
+| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T05 | Integrar componentes gráficos de marca | Incorporar elementos SVG de la identidad corporativa y optimizar la disposición flexbox/grid para mantener balance y legibilidad en diferentes resoluciones. | 2h | Joaquin Cruzalegui | Done |
+| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T06 | Maquetar tarjetas explicativas de proceso | Maquetar tres cards modulares ('Descúbrete', 'Conecta', 'Traza tu plan') con HTML y CSS, asociando cada una a su ícono temático y descripción del flujo paso a paso. | 3h | Luciana Ravello | Done |
+| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T07 | Añadir efectos de interacción en cards | Implementar microinteracciones en CSS (:hover, transiciones suaves de escala y elevación de sombras) para destacar cada paso de la metodología al pasar el cursor. | 2h | Luciana Ravello | Done |
+| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T08 | Maquetar tarjeta de conversión y mascota Panda | Maquetar contenedor central con la ilustración oficial de la mascota Panda de NextPath, mensaje motivacional y botones de acceso/descarga ('App Store' y 'Google Play'). | 3h | Jesús Miranda | Done |
+| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T09 | Configurar interactividad de botones de acceso | Añadir lógica en JavaScript para gestionar eventos de clic en los botones de acceso, configurando redirecciones consistentes o retroalimentación accesible al usuario. | 2h | Jesús Miranda | Done |
+| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T10 | Maquetar sección de contacto y pie institucional | Maquetar bloque inferior con fondo verde petróleo, título 'Contáctanos', botones hacia redes sociales y franja de copyright 2026. | 3h | Alisee Torres | Done |
+| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T11 | Configurar hipervínculos de comunidades oficiales | Enlazar botones con accesos externos a perfiles oficiales (Instagram, Facebook, LinkedIn) configurando atributos de apertura segura `target="_blank"` y `rel="noopener noreferrer"`. | 2h | Alisee Torres | Done |
+| Sprint 1 | — | Setup del proyecto | — | T12 | Estructuración base del repositorio web | Crear estructura de carpetas (`css/`, `js/`, `assets/img/`, `assets/icons/`) y archivos base (`index.html`, `styles.css`, `main.js`), verificando enlace libre de errores en consola. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T13 | Configuración de variables CSS y tokens | Declarar en `:root` de CSS la paleta de colores oficial (verde petróleo, fondos oscuros, textos neutros), tipografías, variables de espaciado y breakpoints responsive. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T14 | Configuración de navegación y smooth scrolling | Implementar en JavaScript vanilla o CSS nativo el desplazamiento suave (*smooth scroll*) al hacer clic en los enlaces del Navbar hacia sus respectivas secciones ancla. | 1h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T15 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y configurar el despliegue automático del repositorio mediante Netlify. | 2h | Team | Done |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
