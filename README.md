@@ -142,7 +142,8 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Luciana Ravello Cárdenas</u>
+            Logró trabajar en equipo para realizar grandes aportes en el Big Picture Event Storming, el lenguaje ubiquo y el design level event storming.<br>
             <br><br>
         </td>
         <td>
@@ -165,7 +166,8 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Luciana Ravello Cárdenas</u>
+            Logró establecer metas y planificar tareas  para realizar el Big Picture Event Storming, el lenguaje ubiquo y el design level event storming, conclusiones y recomendaciones.</u><br>
             <br><br>
         </td>
         <td>
