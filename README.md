@@ -593,6 +593,20 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
+**Entrevista 2:**
+**Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
+Datos del entrevistado:
+  * **Nombre:** Joaquin
+  * **Apellido:** zavala
+  * **Edad:** 16 años
+  * **Distrito:** –
+  * **Timing:** 07:07
+<p align="center"><img alt="Entrevista-Jesus" src="assets/entrevista-jesus.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Joaquin </i></p>
+
+
+**Resumen descriptivo:**
+La entrevista con Joaquin, un estudiante , Muestra que investiga pors su cuenta de forma básica :a dado algunos test por parte de su colegio , pero aun se siente inseguro con respecto a que carreras escoger y a su futuro . El considera que sería útil contar con una plataforma con IA , que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
 ### 2.2.3. Análisis de entrevistas
 
