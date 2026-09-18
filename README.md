@@ -593,6 +593,41 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
+**Segmento 1**
+**Entrevista 2:**
+**Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
+
+Datos del entrevistado:
+  * **Nombre:** Joaquin
+  * **Apellido:** zavala
+  * **Edad:** 16 años
+  * **Distrito:** –
+  * **Timing:** 07:07
+<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-jesus.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Joaquin </i></p>
+
+
+**Resumen descriptivo:**
+La entrevista con Joaquin, un estudiante, muestra que investiga pors su cuenta de forma básica :a dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
+
+**Segmento 2**
+**Entrevista 1:**
+**Entrevistador(a):** >Joaquin Cruzalegui Herrera
+
+Datos del entrevistado:
+  * **Nombre:** Silvia
+  * **Apellido:** Herrera
+  * **Edad:** 49 años
+  * **Distrito:** Santiago de Surco
+  * **Timing:** 10:30
+<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-silvia.jpg" /></p>
+<p align="center"><i>Evidencia de entrevista: Silvia </i></p>
+
+
+**Resumen descriptivo:**
+La experta Silvia sostiene que los test vocacionales tradicionales presentan limitaciones importantes en su aplicación. Desde su perspectiva, estas herramientas se encuentran desactualizadas, carecen de pertinencia frente a las carreras emergentes y su formato rígido entrega resultados estáticos que no orientan de manera efectiva al estudiante.
+
+Frente a este escenario, Silvia propone la incorporación de la Inteligencia Artificial (IA) y los medios digitales como un soporte técnico valioso dentro de la orientación. Sin embargo, enfatiza que estas soluciones tecnológicas deben funcionar como herramientas complementarias y nunca como un reemplazo de la labor profesional del psicólogo, debiendo integrarse siempre bajo el marco del criterio, la contención y el acompañamiento clínico.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -3078,23 +3113,168 @@ Deployment Configuration Summary
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.X. Sprint N
+### 5.2.1. Sprint 1
 
-#### 5.2.X.1. Sprint Planning N
+#### 5.2.1.1. Sprint Planning 1
 
-#### 5.2.X.2. Aspect Leaders and Collaborators
+El Sprint Planning 1 tuvo como objetivo principal completar, maquetar y desplegar la Landing Page del proyecto NextPath, estableciendo así la presencia digital inicial de la plataforma orientada a la orientación vocacional estudiantil y el acompañamiento profesional.
 
-#### 5.2.X.3. Sprint Backlog N
+Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Netlify.
 
-#### 5.2.X.4. Development Evidence for Sprint Review
+Entre las actividades principales planificadas se incluyeron:
+* Implementación de la barra de navegación fija (*Navbar*) con accesos directos (*Inicio*, *Sobre nosotros*, *Cómo funciona*, *Comenzar ahora*, *Contáctanos*).
+* Desarrollo de la sección **Hero Banner / Inicio** con el lema *"Conviértete en un profesional"* y botón principal de llamado a la acción (*CTA*).
+* Maquetación de la sección **Sobre nosotros** destacando el enfoque de autoconocimiento asistido por IA e identidad visual corporativa.
+* Construcción de la sección interactiva **¿Cómo funciona?** estructurada en tres tarjetas secuenciales (*Descúbrete*, *Conecta*, *Traza tu plan*).
+* Desarrollo del bloque de conversión **Comenzar ahora** con enlaces hacia tiendas móviles (*App Store*, *Google Play*) acompañado de la mascota institucional Panda.
+* Creación del pie de página **Contáctanos** con enlaces a redes sociales oficiales (*Instagram*, *Facebook*, *LinkedIn*) y derechos reservados.
+* Ajustes de estilos CSS y validación de diseño responsive para pantallas de escritorio y dispositivos móviles.
+* Configuración del flujo de despliegue continuo mediante Netlify.
 
-#### 5.2.X.5. Execution Evidence for Sprint Review
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | En este sprint se aborda el desarrollo de la Landing Page de NextPath utilizando HTML5, CSS3 y JavaScript puro, a partir de los wireframes y mockups de alta fidelidad previamente diseñados. El objetivo es construir una primera versión funcional del sitio web público que comunique la propuesta de valor del producto, explique la metodología de evaluación vocacional, presente la identidad de marca y habilite canales de captación de usuarios interesados. |
+| **Date** | 2026/09/07 |
+| **Time** | 6:00 PM |
+| **Location** | Reunión virtual mediante la plataforma Google Meet |
+| **Prepared By** | Equipo NextPath |
+| **Attendees (to planning meeting)** | [Nombres de los integrantes de tu equipo] |
+| **Sprint 0 Review Summary** | Durante el Sprint 0 se completó la fase de investigación, definición de arquitectura base (modelo C4) y especificación de requerimientos del sistema. Se definieron las épicas, historias de usuario y prototipos de alta fidelidad, permitiendo al equipo iniciar la fase de implementación de la Landing Page con especificaciones claras de UI/UX. |
+| **Sprint 0 Retrospective Summary** | El equipo demostró sincronización y compromiso técnico en el Sprint 0; no obstante, se identificó la necesidad de reforzar la gestión de ramas bajo GitFlow y la coordinación en la integración de estilos para evitar conflictos en el desarrollo colaborativo del código frontend. |
+| **Sprint 1 Goal** | Desarrollar, maquetar e implementar completamente la Landing Page institucional de NextPath y realizar su despliegue continuo. El resultado permitirá dar a conocer la solución, explicar el proceso de orientación vocacional asistida por IA y captar el interés tanto de estudiantes como de psicólogos orientadores. Esto se validará cuando las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos se encuentren completamente publicadas y accesibles vía web. |
+| **Sprint 1 Velocity** | 10 |
+| **Sum of Story Points** | 9 |
 
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades de maquetación y desarrollo de la Landing Page de NextPath:
 
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+| Team Member | GitHub Username | [US01 • Hero + Propuesta de valor] | [US02 • Sobre nosotros + Identidad] | [US03 • ¿Cómo funciona? + Proceso] | [US04 • Comenzar ahora + Call to Action] | [US05 • Contáctanos + Footer] |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Sebastián Pérez | FernBellido22 | **L** | C | C | C | C |
+| Joaquin Cruzalegui | JoaquinCruzalegui | C | **L** | C | C | C |
+| Luciana Ravello | Lucyrcar-ID | C | C | **L** | C | C |
+| Jesús Miranda | Jesus-Miranda-678 | C | C | C | **L** | C |
+| Alisee Torres | lLisee1 | C | C | C | C | **L** |
+
+> **L** = Leader | **C** = Collaborator
+
+#### 5.2.1.3. Sprint Backlog 1
+
+**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados[cite: 9, 10, 18].
+
+**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive[cite: 9, 10, 18].*
+
+**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**[cite: 9, 10]
+
+| Sprint # | User Story ID | User Story Título | SP | Work-Item / Task ID | Task Título | Descripción | Estimación | Asignado a | Status |
+| :--- | :--- | :--- | :---: | :--- | :--- | :--- | :---: | :--- | :---: |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T01 | Maquetar Hero section | Diseñar y maquetar hero section con HTML y CSS puro: titular principal ("Conviértete en un profesional"), subtítulo descriptivo enfocado en autoconocimiento vocacional y botón CTA ("Comenzar") visible above the fold. | 4h | Sebastián Pérez | Done |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T02 | Implementar navegación del CTA principal | Configurar evento click en el botón CTA mediante JavaScript vanilla para ejecutar un desplazamiento suave directo hacia la sección de conversión 'Comenzar ahora'. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T03 | Validar diseño responsive en Hero | Validar breakpoints en mobile (375px), tablet (768px) y desktop (1280px), verificando alineación de textos y adaptabilidad de la imagen de fondo educativo sin cortes visuales. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T04 | Maquetar sección Sobre nosotros | Construir contenedor en HTML5 y estilos CSS para presentar la misión de NextPath, integrando texto explicativo sobre IA y autoconocimiento junto al logotipo oficial de marca. | 3h | Joaquin Cruzalegui | Done |
+| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T05 | Integrar componentes gráficos de marca | Incorporar elementos SVG de la identidad corporativa y optimizar la disposición flexbox/grid para mantener balance y legibilidad en diferentes resoluciones. | 2h | Joaquin Cruzalegui | Done |
+| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T06 | Maquetar tarjetas explicativas de proceso | Maquetar tres cards modulares ('Descúbrete', 'Conecta', 'Traza tu plan') con HTML y CSS, asociando cada una a su ícono temático y descripción del flujo paso a paso. | 3h | Luciana Ravello | Done |
+| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T07 | Añadir efectos de interacción en cards | Implementar microinteracciones en CSS (:hover, transiciones suaves de escala y elevación de sombras) para destacar cada paso de la metodología al pasar el cursor. | 2h | Luciana Ravello | Done |
+| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T08 | Maquetar tarjeta de conversión y mascota Panda | Maquetar contenedor central con la ilustración oficial de la mascota Panda de NextPath, mensaje motivacional y botones de acceso/descarga ('App Store' y 'Google Play'). | 3h | Jesús Miranda | Done |
+| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T09 | Configurar interactividad de botones de acceso | Añadir lógica en JavaScript para gestionar eventos de clic en los botones de acceso, configurando redirecciones consistentes o retroalimentación accesible al usuario. | 2h | Jesús Miranda | Done |
+| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T10 | Maquetar sección de contacto y pie institucional | Maquetar bloque inferior con fondo verde petróleo, título 'Contáctanos', botones hacia redes sociales y franja de copyright 2026. | 3h | Alisee Torres | Done |
+| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T11 | Configurar hipervínculos de comunidades oficiales | Enlazar botones con accesos externos a perfiles oficiales (Instagram, Facebook, LinkedIn) configurando atributos de apertura segura `target="_blank"` y `rel="noopener noreferrer"`. | 2h | Alisee Torres | Done |
+| Sprint 1 | — | Setup del proyecto | — | T12 | Estructuración base del repositorio web | Crear estructura de carpetas (`css/`, `js/`, `assets/img/`, `assets/icons/`) y archivos base (`index.html`, `styles.css`, `main.js`), verificando enlace libre de errores en consola. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T13 | Configuración de variables CSS y tokens | Declarar en `:root` de CSS la paleta de colores oficial (verde petróleo, fondos oscuros, textos neutros), tipografías, variables de espaciado y breakpoints responsive. | 2h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T14 | Configuración de navegación y smooth scrolling | Implementar en JavaScript vanilla o CSS nativo el desplazamiento suave (*smooth scroll*) al hacer clic en los enlaces del Navbar hacia sus respectivas secciones ancla. | 1h | Sebastián Pérez | Done |
+| Sprint 1 | — | Setup del proyecto | — | T15 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y configurar el despliegue automático del repositorio mediante Netlify. | 2h | Team | Done |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se muestran las pruebas de desarrollo del Sprint actual, centradas en la creación de la Landing Page de NextPath para el producto VocaFy. En esta etapa, se dio prioridad a construir la estructura web principal y a organizar los directorios del proyecto. También trabajamos en mejorar la experiencia de usuario y la interfaz, cambiando los estilos visuales, haciendo que el menú de navegación fuera más fácil de usar y ajustando cómo se cargan los scripts. Por último, se definió la identidad de marca al integrar recursos gráficos importantes. Así logramos una primera versión atractiva y funcional, pensada para atraer a personas que buscan orientación vocacional.
+
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>01af248</td>
+      <td>feat: add initial landing page</td>
+      <td>-</td>
+      <td>11/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>293bfa4</td>
+      <td>feat: new folder creation</td>
+      <td>-</td>
+      <td>11/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>c5084fe</td>
+      <td>fix: we fix the landing style</td>
+      <td>-</td>
+      <td>15/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>fe48a0b</td>
+      <td>fix: adjust scripts and images</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>be6b5bf</td>
+      <td>feat: add logo on browser tab</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>7a7d051</td>
+      <td>fix: adjustment of the nav toggle</td>
+      <td>-</td>
+      <td>16/09/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - LandingPage</td>
+      <td>main</td>
+      <td>f25101c</td>
+      <td>fix: change logo and panda images</td>
+      <td>-</td>
+      <td>17/09/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, el alcance del equipo de desarrollo de NextPath se focalizó exclusivamente en la maquetación, estilos y despliegue del Frontend correspondiente a la Landing Page (utilizando HTML5, CSS3 y JavaScript). 
+
+Por lo tanto, en este primer ciclo no se construyeron ni desplegaron servicios de backend (APIs) ni endpoints funcionales de lógica de negocio. La implementación de los servicios del servidor y la conexión a las bases de datos comenzarán a desarrollarse a partir del Sprint 2.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 
