@@ -620,7 +620,7 @@ Datos del entrevistado:
   * **Edad:** 49 años
   * **Distrito:** Santiago de Surco
   * **Timing:** 10:30
-<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-silvia.jpg" /></p>
+<p align="center"><img alt="Entrevista-Silvia" src="images/entrevista-silvia.jpg" /></p>
 <p align="center"><i>Evidencia de entrevista: Silvia </i></p>
 
 
@@ -629,7 +629,49 @@ La experta Silvia sostiene que los test vocacionales tradicionales presentan lim
 
 Frente a este escenario, Silvia propone la incorporación de la Inteligencia Artificial (IA) y los medios digitales como un soporte técnico valioso dentro de la orientación. Sin embargo, enfatiza que estas soluciones tecnológicas deben funcionar como herramientas complementarias y nunca como un reemplazo de la labor profesional del psicólogo, debiendo integrarse siempre bajo el marco del criterio, la contención y el acompañamiento clínico.
 
+**Entrevista 1:**
+**Entrevistador(a):** >Fernando Sebastián Pérez Bellido
+
+Datos del entrevistado:
+  * **Nombre:** Victor
+  * **Apellido:** Paz
+  * **Edad:** 22 años
+  * **Distrito:** Santiago de Surco
+  * **Timing:** 17:55
+<p align="center"><img alt="Entrevista-Victor" src="images/entrevista-victor.jpg" /></p>
+<p align="center"><i>Evidencia de entrevista: Victor </i></p>
+
+
+**Resumen descriptivo:**
+El psicólogo Víctor Paz señala que los test vocacionales convencionales presentan márgenes de error debido a la indecisión de los estudiantes, la falta de comprensión y las respuestas poco objetivas o deshonestas. Además, resalta la importancia de conectar no solo las habilidades del alumno con las carreras, sino también sus pasiones e intereses profundos con el contexto real del mercado laboral.
+
+Ante este panorama, considera que una aplicación interactiva y las herramientas digitales son apoyos bienvenidos tanto para el estudiante como para el profesional. No obstante, subraya que estas plataformas deben funcionar como un complemento y no como un reemplazo, siendo indispensable la asesoría personalizada del psicólogo para contrastar las respuestas cuantitativas con el testimonio y el sentir genuino de la persona.
+
+**Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411261_upc_edu_pe/IQC7ixQ3sUbPSo3fHhyXFmKiAdRbTO0KwG08G-QHDK8I3oY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KupKxd)
 ### 2.2.3. Análisis de entrevistas
+### Análisis General de Entrevistas a Estudiantes
+Los estudiantes presentan un panorama de desorientación e inseguridad marcado por la falta de un acompañamiento vocacional efectivo, pues consideran que la orientación brindada por sus colegios y los test convencionales son deficientes, ambiguos o insuficientes para tomar una decisión clara. Esta carencia los expone a una sobrecarga de información confusa y poco confiable en internet, lo que genera estados emocionales de ansiedad y presión frente a su futuro profesional. Ante esta problemática, surge la necesidad de contar con herramientas tecnológicas avanzadas, como NetPath, que entregue respuestas sobre carreras concretas y faciliten un proceso de exploración más estructurado, accesible y adaptado a sus intereses reales. 
+
+### Análisis General de Entrevistas a Expertos (Psicólogos)
+
+A partir de las entrevistas realizadas a los especialistas en orientación vocacional y psicología educativa, Silvia y Víctor Paz, se consolidaron los hallazgos cualitativos respecto al estado actual del proceso de elección de carrera, las limitaciones metodológicas vigentes y las oportunidades de innovación tecnológica.
+
+---
+
+#### 1. Diagnóstico y Limitaciones de los Métodos Tradicionales
+* **Herramientas desactualizadas e inflexibles:** Ambos especialistas coinciden en que las pruebas psicométricas convencionales presentan baremos obsoletos frente a las demandas de profesiones híbridas y emergentes.
+* **Sesgo de respuesta y fatiga del evaluado:** Se identifica que los cuestionarios extensos y de respuesta forzada generan pérdida de objetividad, respuestas poco honestas o falta de comprensión en las preguntas por parte de los postulantes.
+* **Resultados numéricos descontextualizados:** Las evaluaciones estándar arrojan puntuaciones o clasificaciones rígidas que no ofrecen un plan de acción aplicable ni resuelven la indecisión vocacional de fondo.
+
+#### 2. Integración Multidimensional del Perfil del Estudiante
+* **Alineación de habilidades y pasiones:** Resulta insuficiente identificar únicamente en qué área académica destaca el alumno; es imprescindible vincular su talento con aquello que realmente le apasiona para prevenir la deserción y la insatisfacción universitaria.
+* **Evaluación holística:** Los expertos destacan la necesidad de articular intereses vocacionales, rasgos de personalidad y capacidades cognitivas para contrastarlos de forma realista con las opciones profesionales.
+* **Contexto del mercado laboral:** Es prioritario incorporar datos actualizados sobre empleabilidad, remuneración promedio y demanda laboral real del entorno, evitando decisiones basadas exclusivamente en percepciones idealizadas de las carreras.
+
+#### 3. Rol de la Tecnología y la Inteligencia Artificial
+* **Acelerador diagnóstico complementario:** La inteligencia artificial y las herramientas digitales representan un soporte valioso para optimizar la recopilación de datos, sintetizar información preliminar y ofrecer accesibilidad multiplataforma.
+* **No sustitución del criterio clínico:** Ambos especialistas remarcan que la tecnología no reemplaza la labor del orientador. La intervención profesional es insustituible para la contención emocional, la lectura del contexto sociofamiliar y la contrastación de las métricas cuantitativas con el testimonio y el sentir genuino del estudiante.
+
 
 ## 2.3. Needfinding
 
@@ -3152,11 +3194,11 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 | Team Member | GitHub Username | [US01 • Hero + Propuesta de valor] | [US02 • Sobre nosotros + Identidad] | [US03 • ¿Cómo funciona? + Proceso] | [US04 • Comenzar ahora + Call to Action] | [US05 • Contáctanos + Footer] |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| Sebastián Pérez | FernBellido22 | **L** | C | C | C | C |
-| Joaquin Cruzalegui | JoaquinCruzalegui | C | **L** | C | C | C |
-| Luciana Ravello | Lucyrcar-ID | C | C | **L** | C | C |
-| Jesús Miranda | Jesus-Miranda-678 | C | C | C | **L** | C |
-| Alisee Torres | lLisee1 | C | C | C | C | **L** |
+| Pérez, Sebastián | FernBellido22 | **L** | C | C | C | C |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | **L** | C | C | C |
+| Ravello, Luciana | Lucyrcar-ID | C | C | **L** | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | C | **L** | C |
+| Torres, Alisee | lLisee1 | C | C | C | C | **L** |
 
 > **L** = Leader | **C** = Collaborator
 
@@ -3376,9 +3418,18 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 # Conclusiones
 
-# Conclusiones y recomendaciones
+## Conclusiones
+- El análisis y desarrollo del proyecto demuestra que la desinformación y la utilización exclusiva de pruebas vocacionales genéricas son factores críticos que limitan que los jóvenes tomen decisiones informadas. Con nuestra  propuesta, solucionamos eficientemente este problema clave, proporcionando un entorno que reúne evaluaciones personalizadas y datos del mercado laboral, disminuyendo así la incertidumbre en los estudiantes.
+-  Las validaciones confirmaron que los estudiantes no solo busca descubrir su perfil, sino que valora enormemente la simulación de trayectorias profesionales para proyectar su futuro. Por otro lado, los psicólogos educativos validaron nuestra premisa sobre su limitación de tiempo y recursos; destacando que perciben nuestra aplicación como una herramienta de apoyo complementaria y no como un reemplazo de su labor profesional.
+- Las validaciones tempranas respaldaron nuestras hipótesis principales, demostrando que la solución tiene una alta viabilidad para alcanzar las métricas establecidas en el proceso Lean UX. La retroalimentación obtenida proyecta que la herramienta logrará una alta valoración de utilidad por parte de los usuarios (apuntando al 80% de satisfacción esperada), facilitará la reducción del tiempo de evaluación para los psicólogos (acercándonos a la meta del 30% de optimización), y brindará a los estudiantes la confianza necesaria mediante simulaciones, encaminándonos a alcanzar el 70% de seguridad proyectada en su decisión vocacional.
 
-# Video About-the-Team
+## Recomendaciones
+
+- **Desarrollo del Core de la Web Application:** Tras la implementación de la Landing Page en este primer Sprint, el siguiente paso es desarrollar el flujo principal de las Web Applications. Esto incluye la programación del registro de usuarios, los paneles de control (dashboards) diferenciados para estudiantes y psicólogos, y la interfaz de los tests vocacionales.
+- **Integración de Web Services y Motores de IA:** Se recomienda priorizar la construcción de los Web Services que conectarán el frontend con la base de datos y los modelos de Inteligencia Artificial responsables de analizar las variables cognitivas y emocionales. Asimismo, se debe planificar la integración de APIs externas que provean información actualizada sobre el mercado laboral para alimentar las simulaciones de trayectorias.   
+- **Ejecución de Pruebas Piloto y Medición de Métricas**: Una vez desplegado el MVP completo, se recomienda ejecutar el periodo piloto de 2 meses con psicólogos y las 8 semanas de prueba beta con estudiantes. Esto permitirá recolectar datos cuantitativos reales para iterar la plataforma según las verdaderas necesidades de los segmentos objetivo antes de un lanzamiento comercial.
+
+## Video About-the-Team
 
 # Bibliografía
 
