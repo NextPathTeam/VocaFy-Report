@@ -2902,7 +2902,7 @@ Los diferentes productos que forman parte de NextPath se gestionarán mediante r
 </tr>
 <tr>
 <td>Landing Page</td>
-<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
+<td>VocaFy Team/NextPath-Landing-Page</td>
 <td>Almacenar el código fuente de la Landing Page desarrollada con HTML5, CSS3 y JavaScript.</td>
 </tr>
 </tbody>
@@ -2914,7 +2914,7 @@ https://github.com/VocaFyTeam/NextPath-Report
 
 **Landing Page Repository:**
 
-https://github.com/SecureZoneTeam/NodeSecure-Landing-Page
+https://github.com/VocaFyTeam/NextPath-LandingPage
 
 GitFlow
 
@@ -2955,7 +2955,7 @@ La estructura principal de ramas será:
 </table>
 
 ### 5.1.3. Source Code Style Guide & Conventions
-  Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de NodeSecure, el equipo adopta convenciones de estilo para HTML, CSS y JavaScript. Los identificadores y comentarios del código se mantienen consistentes dentro del repositorio.
+  Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de NextPath, el equipo adopta convenciones de estilo para HTML, CSS y JavaScript. Los identificadores y comentarios del código se mantienen consistentes dentro del repositorio.
 
 
   HTML & CSS
@@ -3032,7 +3032,7 @@ Landing Page Production Environment
 </tr>
 <tr>
 <td>Repository</td>
-<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
+<td>VocaFy TeamTeam/NextPath-Landing-Page</td>
 </tr>
 <tr>
 <td>Deployment Platform</td>
@@ -3044,14 +3044,14 @@ Landing Page Production Environment
 </tr>
 <tr>
 <td>Production URL</td>
-<td>https://securezoneteam.github.io/NodeSecure-Landing-Page/</td>
+<td>https://vocafyteam.github.io/NextPath-LandingPage/</td>
 </tr>
 </tbody>
 </table>
 
 **Production URL:**
 
-https://securezoneteam.github.io/NodeSecure-Landing-Page/
+https://vocafyteam.github.io/NextPath-LandingPage/
 
 Deployment Configuration Summary
 
@@ -3070,8 +3070,8 @@ Deployment Configuration Summary
 <td>Landing Page</td>
 <td>HTML5, CSS3, JavaScript</td>
 <td>GitHub Pages</td>
-<td>SecureZoneTeam/NodeSecure-Landing-Page</td>
-<td>https://securezoneteam.github.io/NodeSecure-Landing-Page/</td>
+<td>VocaFy TeamTeam/NextPath-Landing-Page</td>
+<td>https://vocafyteam.github.io/NextPath-LandingPage/</td>
 </tr>
 </tbody>
 </table>
