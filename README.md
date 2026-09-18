@@ -433,8 +433,8 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
   - Dolor: Dudas en el proceso de elegir una carrera debido a factores externos o diversos intereses. 
 - Psicólogos: 
   - Demografía: Adulto entre 30 y 60 años, especialista en psicología educativa o vocacional. 
-  - Necesidades:  Contar con un recurso complementario que permita evaluar mejor los perfiles de los estudiantes. 
-  - Dolor:  Limitación de tiempo y recursos para ofrecer orientación personalizada a gran cantidad de estudiantes. 
+  - Necesidades: Contar con un recurso complementario que permita evaluar mejor los perfiles de los estudiantes. 
+  - Dolor: Limitación de tiempo y recursos para ofrecer orientación personalizada a gran cantidad de estudiantes. 
 
 
 
@@ -444,7 +444,116 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
 ### 2.1.1. Análisis competitivo
 
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>VocaFy</th>
+      <th>Mi Carrera (MTPE)</th>
+      <th>QuEstudiar</th>
+      <th>Test vocacional genérico</th>
+    </tr>
+
+  <tr align="center" valign="middle">
+      <td></td>
+      <td><img src="images/competidores/vocafy.png" alt="VocaFy Logo" width="100" height="auto"></td>
+      <td><img src="images/competidores/micarrera.png" alt="Mi Carrera Logo" width="100" height="auto"></td>
+      <td><img src="images/competidores/questudiar.png" alt="QuEstudiar Logo" width="100" height="auto"></td>
+      <td><img src="images/competidores/testVoca.png" alt="Test Genérico Logo" width="100" height="auto"></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Perfil Overview</strong></td>
+      <td>Aplicación basada en IA que integra diagnóstico, asesoría, simulación de trayectorias y datos del mercado laboral.</td>
+      <td>Plataforma oficial del Ministerio de Trabajo y Promoción del Empleo (Perú), brinda información sobre carreras, demanda laboral y orientación básica.</td>
+      <td>Portal privado que centraliza información de universidades y carreras, con tests vocacionales en línea y comparadores de programas.</td>
+      <td>Herramientas en línea gratuitas o pagadas, simples, sin personalización, que solo entregan un resultado básico de afinidad.</td>
+    </tr>
+    <tr>
+      <td><strong>Ventaja Competitiva</strong></td>
+      <td>Personalización profunda mediante IA + simulación de escenarios profesionales.</td>
+      <td>Respaldo oficial, estadísticas laborales confiables.</td>
+      <td>Comparación amplia de oferta educativa en universidades e institutos.</td>
+      <td>Accesibilidad y rapidez.</td>
+    </tr>
+    <tr>
+      <td colspan="5" align="center"><strong>Perfil de marketing</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Mercado objetivo</strong></td>
+      <td>Estudiantes de secundaria, universitarios iniciales y jóvenes en redefinición de carrera (mercado global escalable).</td>
+      <td>Estudiantes peruanos de secundaria y universitarios iniciales.</td>
+      <td>Jóvenes en etapa de elección de universidad/instituto (Perú y LatAm).</td>
+      <td>Público general en internet, sin segmentación.</td>
+    </tr>
+    <tr>
+      <td><strong>Estrategias de marketing</strong></td>
+      <td>Estrategia digital con IA, redes sociales, convenios con colegios/universidades, comunidad estudiantil.</td>
+      <td>Difusión a través de campañas del MTPE y colegios.</td>
+      <td>Marketing digital, SEO, alianzas con universidades privadas.</td>
+      <td>Promoción en páginas web y redes sociales como recurso rápido.</td>
+    </tr>
+    <tr>
+      <td><strong>Productos y servicios</strong></td>
+      <td>Evaluación integral, test vocacional interactivo, asesoría personalizada, simulación de trayectorias, mercado laboral en tiempo real.</td>
+      <td>Información de carreras y ocupaciones, proyecciones laborales, test vocacional básico.</td>
+      <td>Test vocacional, buscador de carreras, comparador de universidades.</td>
+      <td>Test de orientación simple, a veces descargables o apps.</td>
+    </tr>
+    <tr>
+      <td><strong>Precios y costos</strong></td>
+      <td>Freemium (test inicial gratis, módulos avanzados y asesorías premium).</td>
+      <td>Gratuito (financiado por el Estado).</td>
+      <td>Freemium: test básico gratis, comparadores y guías premium con costo.</td>
+      <td>Generalmente gratis, algunos pagos únicos.</td>
+    </tr>
+    <tr>
+      <td><strong>Canales de distribución</strong></td>
+      <td>Aplicación móvil, web app, integración con redes sociales y convenios educativos.</td>
+      <td>Web oficial del MTPE.</td>
+      <td>Página web, redes sociales, buscadores.</td>
+      <td>Apps, páginas web independientes.</td>
+    </tr>
+    <tr>
+      <td colspan="5" align="center"><strong>Análisis SWOT</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Fortalezas</strong></td>
+      <td>IA, personalización, simulación de escenarios, orientación integral.</td>
+      <td>Credibilidad institucional, acceso gratuito.</td>
+      <td>Variedad de información sobre universidades y carreras.</td>
+      <td>Fácil acceso, sin barreras de entrada.</td>
+    </tr>
+    <tr>
+      <td><strong>Debilidades</strong></td>
+      <td>Necesita inversión en IA, posicionamiento de marca y base de datos robusta.</td>
+      <td>Limitado a Perú, poca personalización.</td>
+      <td>Sesgo hacia universidades afiliadas, enfoque en oferta más que en perfil.</td>
+      <td>Muy genérico, poco confiable.</td>
+    </tr>
+    <tr>
+      <td><strong>Oportunidades</strong></td>
+      <td>Expandirse a nivel global, alianzas con ministerios, universidades y empleadores.</td>
+      <td>Expansión de alcance a colegios, integración con más datos laborales.</td>
+      <td>Crecer en Latam, alianzas con más instituciones educativas.</td>
+      <td>Mejorar con algoritmos adaptativos.</td>
+    </tr>
+    <tr>
+      <td><strong>Amenazas</strong></td>
+      <td>Copia de modelo por competidores con más recursos, resistencia inicial de instituciones tradicionales.</td>
+      <td>Baja actualización tecnológica, dependencia de financiamiento estatal.</td>
+      <td>Competencia con plataformas internacionales de educación.</td>
+      <td>Poca credibilidad frente a usuarios más exigentes.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+Tras analizar a la competencia, la estrategia de VocaFy se centra en aprovechar la personalización y el uso de inteligencia artificial como ejes diferenciadores. A diferencia de “Mi Carrera”, que aporta datos oficiales pero limitados al ámbito nacional, Next Path puede ofrecer información actualizada y con un alcance más amplio.
+
+Frente a QuEstudiar, la táctica es marcar la diferencia con un acompañamiento cercano y profundo, que no solo muestre opciones educativas, sino que guíe en el proceso de decisión. Y en relación con los test vocacionales genéricos, la clave está en destacar la confiabilidad y la visión integral, mostrando que la plataforma no se queda en un resultado rápido, sino que acompaña al estudiante en la construcción de su proyecto de vida académico y profesional.
 
 ## 2.2. Entrevistas
 
