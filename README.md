@@ -3093,9 +3093,9 @@ Deployment Configuration Summary
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.X. Sprint 1
+### 5.2.1. Sprint 1
 
-#### 5.2.X.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 El Sprint Planning 1 tuvo como objetivo principal completar, maquetar y desplegar la Landing Page del proyecto NextPath, estableciendo así la presencia digital inicial de la plataforma orientada a la orientación vocacional estudiantil y el acompañamiento profesional.
 
@@ -3126,7 +3126,7 @@ Entre las actividades principales planificadas se incluyeron:
 | **Sprint 1 Velocity** | 10 |
 | **Sum of Story Points** | 9 |
 
-#### 5.2.X.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades de maquetación y desarrollo de la Landing Page de NextPath:
 
@@ -3140,17 +3140,17 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 > **L** = Leader | **C** = Collaborator
 
-#### 5.2.X.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1
 
-#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
-#### 5.2.X.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 
