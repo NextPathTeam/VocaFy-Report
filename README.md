@@ -3093,13 +3093,42 @@ Deployment Configuration Summary
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.X. Sprint N
+### 5.2.X. Sprint 1
 
-#### 5.2.X.1. Sprint Planning N
+#### 5.2.X.1. Sprint Planning 1
+
+El Sprint Planning 1 tuvo como objetivo principal completar, maquetar y desplegar la Landing Page del proyecto NextPath, estableciendo así la presencia digital inicial de la plataforma orientada a la orientación vocacional estudiantil y el acompañamiento profesional.
+
+Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Netlify.
+
+Entre las actividades principales planificadas se incluyeron:
+* Implementación de la barra de navegación fija (*Navbar*) con accesos directos (*Inicio*, *Sobre nosotros*, *Cómo funciona*, *Comenzar ahora*, *Contáctanos*).
+* Desarrollo de la sección **Hero Banner / Inicio** con el lema *"Conviértete en un profesional"* y botón principal de llamado a la acción (*CTA*).
+* Maquetación de la sección **Sobre nosotros** destacando el enfoque de autoconocimiento asistido por IA e identidad visual corporativa.
+* Construcción de la sección interactiva **¿Cómo funciona?** estructurada en tres tarjetas secuenciales (*Descúbrete*, *Conecta*, *Traza tu plan*).
+* Desarrollo del bloque de conversión **Comenzar ahora** con enlaces hacia tiendas móviles (*App Store*, *Google Play*) acompañado de la mascota institucional Panda.
+* Creación del pie de página **Contáctanos** con enlaces a redes sociales oficiales (*Instagram*, *Facebook*, *LinkedIn*) y derechos reservados.
+* Ajustes de estilos CSS y validación de diseño responsive para pantallas de escritorio y dispositivos móviles.
+* Configuración del flujo de despliegue continuo mediante Netlify.
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | En este sprint se aborda el desarrollo de la Landing Page de NextPath utilizando HTML5, CSS3 y JavaScript puro, a partir de los wireframes y mockups de alta fidelidad previamente diseñados. El objetivo es construir una primera versión funcional del sitio web público que comunique la propuesta de valor del producto, explique la metodología de evaluación vocacional, presente la identidad de marca y habilite canales de captación de usuarios interesados. |
+| **Date** | 2026/04/15 |
+| **Time** | 6:00 PM |
+| **Location** | Reunión virtual mediante la plataforma Google Meet |
+| **Prepared By** | Equipo NextPath |
+| **Attendees (to planning meeting)** | [Nombres de los integrantes de tu equipo] |
+| **Sprint 0 Review Summary** | Durante el Sprint 0 se completó la fase de investigación, definición de arquitectura base (modelo C4) y especificación de requerimientos del sistema. Se definieron las épicas, historias de usuario y prototipos de alta fidelidad, permitiendo al equipo iniciar la fase de implementación de la Landing Page con especificaciones claras de UI/UX. |
+| **Sprint 0 Retrospective Summary** | El equipo demostró sincronización y compromiso técnico en el Sprint 0; no obstante, se identificó la necesidad de reforzar la gestión de ramas bajo GitFlow y la coordinación en la integración de estilos para evitar conflictos en el desarrollo colaborativo del código frontend. |
+| **Sprint 1 Goal** | Desarrollar, maquetar e implementar completamente la Landing Page institucional de NextPath y realizar su despliegue continuo. El resultado permitirá dar a conocer la solución, explicar el proceso de orientación vocacional asistida por IA y captar el interés tanto de estudiantes como de psicólogos orientadores. Esto se validará cuando las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos se encuentren completamente publicadas y accesibles vía web. |
+| **Sprint 1 Velocity** | 10 |
+| **Sum of Story Points** | 9 |
 
 #### 5.2.X.2. Aspect Leaders and Collaborators
 
-#### 5.2.X.3. Sprint Backlog N
+#### 5.2.X.3. Sprint Backlog 1
 
 #### 5.2.X.4. Development Evidence for Sprint Review
 
