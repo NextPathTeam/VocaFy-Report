@@ -3077,48 +3077,6 @@ https://securezoneteam.github.io/NodeSecure-Landing-Page/
 </tbody>
 </table>
 
-
-Las evidencias de deployment permitirán demostrar que cada producto fue correctamente publicado y se encuentra disponible en el entorno correspondiente.
-
-<table>
-<thead>
-<tr>
-<th>Producto</th>
-<th>Evidencia</th>
-<th>Descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Landing Page</td>
-<td>Screenshot + Production URL</td>
-<td>Captura de la Landing Page publicada junto con su URL pública.</td>
-</tr>
-<tr>
-<td>Frontend Web Application</td>
-<td>Screenshot + Production URL</td>
-<td>Captura de la aplicación publicada junto con su URL pública.</td>
-</tr>
-<tr>
-<td>RESTful Web Services</td>
-<td>Screenshot + Swagger URL</td>
-<td>Captura de los servicios desplegados y de su documentación mediante Swagger.</td>
-</tr>
-<tr>
-<td>Deployment Configuration</td>
-<td>Screenshot</td>
-<td>Captura de la configuración utilizada en la plataforma de deployment.</td>
-</tr>
-<tr>
-<td>Repository</td>
-<td>Repository URL</td>
-<td>Referencia al repositorio utilizado como fuente para el deployment.</td>
-</tr>
-</tbody>
-</table>
-
-
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.X. Sprint N
