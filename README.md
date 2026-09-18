@@ -2832,7 +2832,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `UserApplicationService` orquesta los casos de uso de registro de usuario, autenticación y restablecimiento de contraseña.
 * **Capa de Infraestructura:** Implementa `UserRepositoryImpl` para la persistencia en base de datos y se integra con `EmailService` para el envío del enlace de recuperación de contraseña.
 <div align="center">
-  <img src="diagrams/bc-01-user-registration.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-01-user-registration.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.2. Search Context
@@ -2841,7 +2841,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `SearchApplicationService` coordina las peticiones de consulta y aplicación de filtros solicitadas por los usuarios.
 * **Capa de Infraestructura:** `CareerSearchRepositoryImpl` realiza la consulta optimizada sobre la base de datos y guarda el historial de búsquedas por usuario.
 <div align="center">
-  <img src="diagrams/bc-02-search.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-02-search.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.3. Vocational Evaluation Context
@@ -2850,7 +2850,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `EvaluationApplicationService` controla la ejecución del test y coordina el procesamiento de respuestas con la IA.
 * **Capa de Infraestructura:** `VocationalTestRepositoryImpl` gestiona la persistencia del test y `AIVocationalService` invoca la API externa de Inteligencia Artificial para generar el perfil y la retroalimentación automática.
 <div align="center">
-  <img src="diagrams/bc-03-vocational-evaluation.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-03-vocational-evaluation.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.4. Career Exploration & Planning Context
@@ -2859,7 +2859,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `CareerPlanningApplicationService` ejecuta los casos de uso para explorar opciones, calcular compatibilidades y ajustar la hoja de ruta estudiantil.
 * **Capa de Infraestructura:** `CareerRepositoryImpl` gestiona el catálogo de carreras y `AICareerService` consume la API de IA para realizar simulaciones de trayectoria laboral.
 <div align="center">
-  <img src="diagrams/bc-04-career-exploration.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-04-career-exploration.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.5. Student Monitoring Context
@@ -2868,7 +2868,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `MonitoringApplicationService` canaliza la visualización de expedientes y el registro de notas u observaciones profesionales.
 * **Capa de Infraestructura:** `StudentMonitoringRepositoryImpl` persiste las observaciones y consulta el historial acumulado en la base de datos.
 <div align="center">
-  <img src="diagrams/bc-05-student-monitoring.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-05-student-monitoring.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.6. Reports Context
@@ -2877,7 +2877,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `ReportApplicationService` orquesta la generación de reportes y las solicitudes de conclusiones automáticas.
 * **Capa de Infraestructura:** `VocationalReportRepositoryImpl` guarda los reportes validados y `AIReportService` se conecta con la API de IA para redactar síntesis y conclusiones grupales.
 <div align="center">
-  <img src="diagrams/bc-06-reports.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-06-reports.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.7. Payment & Subscription Context
@@ -2886,7 +2886,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `PaymentApplicationService` gestiona la solicitud de cobro, la validación de respuesta y la activación de beneficios en la cuenta.
 * **Capa de Infraestructura:** `SubscriptionRepositoryImpl` actualiza el estado de la cuenta y `PaymentGateway` actúa como conector con la pasarela de pagos externa.
 <div align="center">
-  <img src="diagrams/bc-07-payment-subscription.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-07-payment-subscription.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.8. Scheduling & Session Context
@@ -2895,7 +2895,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `SessionApplicationService` gestiona las reservas, la detección de conflictos de horario y la recomendación de agrupamientos óptimos.
 * **Capa de Infraestructura:** `SessionRepositoryImpl` se encarga de registrar y actualizar el estado de las citas en el sistema de almacenamiento.
 <div align="center">
-  <img src="diagrams/bc-08-scheduling-session.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-08-scheduling-session.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.9. Community & Chat Context
@@ -2904,7 +2904,7 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `CommunityApplicationService` y `ChatApplicationService` procesan la publicación de contenidos, moderación y el envío de mensajes privados.
 * **Capa de Infraestructura:** `CommunityRepositoryImpl` y `ChatRepositoryImpl` persisten las publicaciones, reacciones y mensajes del chat en tiempo real.
 <div align="center">
-  <img src="diagrams/bc-09-community-chat.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-09-community-chat.png" alt="user registration"><br><br>
 </div>
 
 #### 4.7.1.10. System Notifications Context
@@ -2913,14 +2913,34 @@ En esta sección se detallan las decisiones de diseño orientado a objetos para 
 * **Capa de Aplicación:** `NotificationApplicationService` gestiona la cola de envíos y el estado del despacho de alertas.
 * **Capa de Infraestructura:** `NotificationRepositoryImpl` registra el historial y estado de entrega de cada notificación.
 <div align="center">
-  <img src="diagrams/bc-10-system-notifications.png" alt="user registration"><br><br>
+  <img src="images/diagrams/bc-10-system-notifications.png" alt="user registration"><br><br>
 </div>
 
 ## 4.8. Database Design
 
-
 ### 4.8.1. Database Diagrams
 
+**Entidades de VocaFy y sus Relaciones**
+
+El esquema físico traduce los conceptos del dominio de orientación vocacional en tablas relacionales estructuradas:
+
+* **Entidades:** Representan los conceptos clave de la aplicación (usuarios, estudiantes, psicólogos, pruebas vocacionales, perfiles vocacionales, carreras, sesiones, suscripciones, publicaciones comunitarias y notificaciones).
+* **Relaciones e Integridad Referencial:**
+  * **Relación Uno a Uno:**
+    * **Usuarios con Estudiantes y Psicólogos:** Implementa la herencia de cuentas. Cada registro en estudiantes o psicólogos comparte el identificador de usuario como clave primaria y foránea respecto a la tabla base de usuarios.
+    * **Pruebas Vocacionales con Perfiles Vocacionales:** Una prueba vocacional completada genera de forma biunívoca exactamente un perfil vocacional a través de una clave foránea única.
+  * **Relación Uno a Muchos:**
+    * Un estudiante realiza múltiples evaluaciones a lo largo del tiempo.
+    * Un psicólogo gestiona múltiples sesiones de orientación y registra diversas observaciones clínicas.
+    * Una suscripción acumula múltiples intentos o cobros en transacciones de pago.
+  * **Relación Muchos a Muchos:**
+    * Los perfiles vocacionales se relacionan con múltiples opciones del catálogo de carreras. Esta asociación se resuelve en el esquema físico mediante una tabla intermedia que almacena los identificadores de la carrera y del perfil, junto con la métrica de porcentaje de compatibilidad.
+  
+<div align="center">
+  <img src="images/diagrams/database-diagram.png" alt="user registration"><br><br>
+</div>
+
+---
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
