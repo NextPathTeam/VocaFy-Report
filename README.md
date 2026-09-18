@@ -595,13 +595,14 @@ deserción o insatisfacción académica?
 ### 2.2.2. Registro de entrevistas
 **Entrevista 2:**
 **Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
+
 Datos del entrevistado:
   * **Nombre:** Joaquin
   * **Apellido:** zavala
   * **Edad:** 16 años
   * **Distrito:** –
   * **Timing:** 07:07
-<p align="center"><img alt="Entrevista-Jesus" src="assets/entrevista-jesus.png" /></p>
+<p align="center"><img alt="Entrevista-Jesus" src="images/entrevista-jesus.png" /></p>
 <p align="center"><i>Evidencia de entrevista: Joaquin </i></p>
 
 
