@@ -3092,17 +3092,31 @@ Deployment Configuration Summary
 </table>
 
 ## 5.2. Landing Page, Services & Applications Implementation
-
+Este primer ciclo de desarrollo se centró en establecer los pilares de la identidad digital de **NextPath**, integrando el esfuerzo colaborativo del equipo para entregar un sitio de marketing funcional inicial. Durante este Sprint, el equipo priorizó la captación de visitantes mediante una Landing Page
 ### 5.2.X. Sprint N
-
+El Sprint Planning Meeting marcó el inicio formal del desarrollo del código de NextPath.
 #### 5.2.X.1. Sprint Planning N
-
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 09/09/2026 |
+| **Time** | 10:00 am |
+| **Location** | Lima/Lima/Santiago de Surco/UPC |
+| **Prepared By** | Miranda Cordova Jesus |
+| **Attendees (to planning meeting)** | Fernando Sebastian Pérez Bellido/ Joaquin Cruzalegui Herrera/Luciana Angelina Ravello Cárdenas/ Alisee Muriel Torres Juárez/ Miranda Cordova, Jesus Angel Yvan |
+| **Sprint Review Summary** | Al ser el primer Sprint, la revisión anterior corresponde a la fase de ideación: segmentos objetivo y propuesta de valor. Resultados alcanzados: Arquitectura C4 finalizada, modelado de base de datos diseñada y repositorios GitHub configurados para el uso de gitflow|
+| **Sprint Retrospective Summary** | Como retrospectiva inicial de la forma de trabajo, el equipo identificó como acierto el uso de programas de trabajo remoto, el uso de herramientas colaborativos como GitHub , pero reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | **Contexto:** El equipo prioriza establecer la identidad digital de NextPath y comunicar la propuesta de valor a el segmento objetivo,, antes de invertir esfuerzo en la Web Application. <br><br> **Sprint Goal:**<br>*"Our focus is on building a trustworthy digital presence that clearly communicates NextPath's value proposition."* |
+| **Sprint 1 Velocity** | 40 Story Points |
+| **Sum of Story Points** | 88 Story Points |
 #### 5.2.X.2. Aspect Leaders and Collaborators
-
+* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto
 #### 5.2.X.3. Sprint Backlog N
 
-#### 5.2.X.4. Development Evidence for Sprint Review
 
+#### 5.2.X.4. Development Evidence for Sprint Review
+* Para la entrega del Sprint número 1, se desplego el landing page parcialmente completa
 #### 5.2.X.5. Execution Evidence for Sprint Review
 
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
