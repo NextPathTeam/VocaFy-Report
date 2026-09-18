@@ -3394,9 +3394,14 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 # Conclusiones
 
-# Conclusiones y recomendaciones
+## Conclusiones
+- El análisis y desarrollo del proyecto demuestra que la desinformación y la utilización exclusiva de pruebas vocacionales genéricas son factores críticos que limitan que los jóvenes tomen decisiones informadas. Con nuestra  propuesta, solucionamos eficientemente este problema clave, proporcionando un entorno que reúne evaluaciones personalizadas y datos del mercado laboral, disminuyendo así la incertidumbre en los estudiantes.
+-  Las validaciones confirmaron que los estudiantes no solo busca descubrir su perfil, sino que valora enormemente la simulación de trayectorias profesionales para proyectar su futuro. Por otro lado, los psicólogos educativos validaron nuestra premisa sobre su limitación de tiempo y recursos; destacando que perciben nuestra aplicación como una herramienta de apoyo complementaria y no como un reemplazo de su labor profesional.
+- Las validaciones tempranas respaldaron nuestras hipótesis principales, demostrando que la solución tiene una alta viabilidad para alcanzar las métricas establecidas en el proceso Lean UX. La retroalimentación obtenida proyecta que la herramienta logrará una alta valoración de utilidad por parte de los usuarios (apuntando al 80% de satisfacción esperada), facilitará la reducción del tiempo de evaluación para los psicólogos (acercándonos a la meta del 30% de optimización), y brindará a los estudiantes la confianza necesaria mediante simulaciones, encaminándonos a alcanzar el 70% de seguridad proyectada en su decisión vocacional.
 
-# Video About-the-Team
+## Recomendaciones
+
+## Video About-the-Team
 
 # Bibliografía
 
