@@ -127,7 +127,7 @@ del ABET – EAC - Student Outcome 3.
     <th>Conclusiones</th>
   </tr>
   <tr>
-      <td><b>Comunica oralmente con efectividad a diferentes rangos de audiencia.</b></td>
+      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
       <td>
             <b></b><br>
             <u>AV1</u><br>
@@ -150,7 +150,7 @@ del ABET – EAC - Student Outcome 3.
         </td>
     </tr>
       <tr>
-      <td><b>Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
+      <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</b></td>
       <td>
             <b></b><br>
             <u>AV1</u><br>
