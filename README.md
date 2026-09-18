@@ -142,7 +142,7 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
             <br><br>
         </td>
         <td>
@@ -165,11 +165,11 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
             <br><br>
         </td>
         <td>
-            <u>AV1</u><br>
+            <u>Se dsarrolló hasta el cpitulo 5 en conjunto con la landing page y su despliegue</u><br>
         </td>
     </tr>
 </table>
