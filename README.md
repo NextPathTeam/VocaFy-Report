@@ -3422,6 +3422,10 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 ## Recomendaciones
 
+- **Desarrollo del Core de la Web Application:** Tras la implementación de la Landing Page en este primer Sprint, el siguiente paso es desarrollar el flujo principal de las Web Applications. Esto incluye la programación del registro de usuarios, los paneles de control (dashboards) diferenciados para estudiantes y psicólogos, y la interfaz de los tests vocacionales.
+- **Integración de Web Services y Motores de IA:** Se recomienda priorizar la construcción de los Web Services que conectarán el frontend con la base de datos y los modelos de Inteligencia Artificial responsables de analizar las variables cognitivas y emocionales. Asimismo, se debe planificar la integración de APIs externas que provean información actualizada sobre el mercado laboral para alimentar las simulaciones de trayectorias.   
+- **Ejecución de Pruebas Piloto y Medición de Métricas**: Una vez desplegado el MVP completo, se recomienda ejecutar el periodo piloto de 2 meses con psicólogos y las 8 semanas de prueba beta con estudiantes. Esto permitirá recolectar datos cuantitativos reales para iterar la plataforma según las verdaderas necesidades de los segmentos objetivo antes de un lanzamiento comercial.
+
 ## Video About-the-Team
 
 # Bibliografía
