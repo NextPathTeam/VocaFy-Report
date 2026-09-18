@@ -1,0 +1,90 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+top to bottom direction
+
+package "User Registration & Profile Context" {
+
+    package "Domain Layer" #FEFECE {
+        enum UserRole {
+            STUDENT
+            PSYCHOLOGIST
+        }
+        enum RegistrationStatus {
+            SUCCESS_REGISTERED
+            REJECTED_INVALID_DATA
+            DUPLICATION_PREVENTED
+        }
+        abstract class User {
+            - id: String
+            - email: String
+            - passwordHash: String
+            - role: UserRole
+            - isSessionActive: Boolean
+            + signUp(): RegistrationStatus
+            + logIn(password: String): Boolean
+            + keepSessionActive(): Void
+            + requestPasswordReset(): Void
+            + updatePassword(newPassword: String): Boolean
+        }
+        class Student {
+            - schoolOrUniversity: String
+            - currentCycle: String
+            - linkedPsychologistCode: String
+        }
+        class Psychologist {
+            - professionalLicense: String
+            - specialty: String
+            - uniqueLinkingCode: String
+        }
+        class PasswordResetToken {
+            - token: String
+            - expirationDate: DateTime
+            - isUsed: Boolean
+            + isValid(): Boolean
+        }
+        class PsychologistLink {
+            - studentId: String
+            - psychologistCode: String
+            - isLinked: Boolean
+            + linkPsychologist(code: String): Boolean
+            + removePsychologist(): Boolean
+        }
+        interface IUserRepository <<interface>> {
+            + findById(id: String): User
+            + findByEmail(email: String): User
+            + save(user: User): Boolean
+        }
+
+        User <|-- Student
+        User <|-- Psychologist
+        User "1" *-- "0..*" PasswordResetToken
+        Student "1" -- "0..1" PsychologistLink
+    }
+
+    package "Application Layer" #E2EFFF {
+        class UserApplicationService <<Application Service>> {
+            - userRepository: IUserRepository
+            - emailService: EmailService
+            + registerUser(command: Object): RegistrationStatus
+            + authenticate(command: Object): Boolean
+            + resetPassword(command: Object): Boolean
+        }
+        UserApplicationService ..> IUserRepository
+    }
+
+    package "Infrastructure Layer" #E5F9E7 {
+        class UserRepositoryImpl {
+            - dbContext: Object
+            + findById(id: String): User
+            + findByEmail(email: String): User
+            + save(user: User): Boolean
+        }
+        class EmailService <<External Service>> {
+            + sendPasswordResetLink(email: String, token: String): Boolean
+        }
+        UserRepositoryImpl ..|> IUserRepository
+        UserApplicationService ..> EmailService
+    }
+}
+@enduml

@@ -1,0 +1,49 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+top to bottom direction
+
+package "Student Monitoring Context" {
+
+    package "Domain Layer" #FEFECE {
+        class HistoricalProfile {
+            - studentId: String
+            - assignedPsychologistId: String
+            - evaluationHistory: List<Object>
+            + viewHistoricalProfile(): Object
+        }
+        class ProfessionalObservation {
+            - id: String
+            - studentId: String
+            - psychologistId: String
+            - observationText: String
+            - createdAt: DateTime
+            + addObservation(): Boolean
+        }
+        interface IStudentMonitoringRepository <<interface>> {
+            + findHistoricalProfile(studentId: String): HistoricalProfile
+            + saveObservation(observation: ProfessionalObservation): Boolean
+        }
+
+        HistoricalProfile "1" *-- "0..*" ProfessionalObservation
+    }
+
+    package "Application Layer" #E2EFFF {
+        class MonitoringApplicationService <<Application Service>> {
+            - monitoringRepository: IStudentMonitoringRepository
+            + getStudentHistory(studentId: String): HistoricalProfile
+            + recordObservation(command: Object): Boolean
+        }
+        MonitoringApplicationService ..> IStudentMonitoringRepository
+    }
+
+    package "Infrastructure Layer" #E5F9E7 {
+        class StudentMonitoringRepositoryImpl {
+            - dbContext: Object
+            + findHistoricalProfile(studentId: String): HistoricalProfile
+            + saveObservation(observation: ProfessionalObservation): Boolean
+        }
+        StudentMonitoringRepositoryImpl ..|> IStudentMonitoringRepository
+    }
+}
+@enduml

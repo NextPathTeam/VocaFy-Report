@@ -1,0 +1,63 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+top to bottom direction
+
+package "Scheduling & Session Context" {
+
+    package "Domain Layer" #FEFECE {
+        enum SessionStatus {
+            SCHEDULED
+            COMPLETED
+            CANCELLED
+            CONFLICT_DETECTED
+        }
+        abstract class Session {
+            - id: String
+            - psychologistId: String
+            - scheduledDateTime: DateTime
+            - durationMinutes: Integer
+            - status: SessionStatus
+            - notes: String
+            + scheduleSession(): Boolean
+            + cancelSession(): Void
+            + saveNotes(notes: String): Void
+        }
+        class IndividualSession {
+            - studentId: String
+        }
+        class GroupSession {
+            - maxParticipants: Integer
+            - participantStudentIds: List<String>
+            - groupingCriteria: String
+            + addParticipant(studentId: String): Boolean
+            + suggestOptimalGrouping(studentProfiles: List<Object>): List<String>
+        }
+        interface ISessionRepository <<interface>> {
+            + findByPsychologistId(psychologistId: String): List<Session>
+            + save(session: Session): Boolean
+        }
+
+        Session <|-- IndividualSession
+        Session <|-- GroupSession
+    }
+
+    package "Application Layer" #E2EFFF {
+        class SessionApplicationService <<Application Service>> {
+            - sessionRepository: ISessionRepository
+            + scheduleIndividualSession(command: Object): Boolean
+            + scheduleGroupSession(command: Object): Boolean
+        }
+        SessionApplicationService ..> ISessionRepository
+    }
+
+    package "Infrastructure Layer" #E5F9E7 {
+        class SessionRepositoryImpl {
+            - dbContext: Object
+            + findByPsychologistId(psychologistId: String): List<Session>
+            + save(session: Session): Boolean
+        }
+        SessionRepositoryImpl ..|> ISessionRepository
+    }
+}
+@enduml

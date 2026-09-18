@@ -1,0 +1,61 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+top to bottom direction
+
+package "System Notifications Context" {
+
+    package "Domain Layer" #FEFECE {
+        enum NotificationType {
+            SESSION_ALERT
+            DAILY_AGENDA
+            CHAT_MESSAGE
+            FOLLOW_UP_ALERT
+            TASK_REMINDER
+        }
+        enum NotificationStatus {
+            PENDING
+            SENT
+            FAILED
+        }
+        class Notification {
+            - id: String
+            - recipientUserId: String
+            - title: String
+            - message: String
+            - type: NotificationType
+            - status: NotificationStatus
+            - createdAt: DateTime
+            + send(): Boolean
+        }
+        class NotificationService <<Domain Service>> {
+            + notifyUpcomingSession(sessionId: String, studentId: String): Void
+            + notifyDailyAgenda(psychologistId: String): Void
+            + notifyNewChatMessage(chatMessageId: String, receiverId: String): Void
+            + notifyFollowUpTest(studentId: String): Void
+        }
+        interface INotificationRepository <<interface>> {
+            + save(notification: Notification): Boolean
+        }
+
+        NotificationService ..> Notification
+    }
+
+    package "Application Layer" #E2EFFF {
+        class NotificationApplicationService <<Application Service>> {
+            - notificationRepository: INotificationRepository
+            - domainNotificationService: NotificationService
+            + dispatchNotification(notificationId: String): Boolean
+        }
+        NotificationApplicationService ..> INotificationRepository
+    }
+
+    package "Infrastructure Layer" #E5F9E7 {
+        class NotificationRepositoryImpl {
+            - dbContext: Object
+            + save(notification: Notification): Boolean
+        }
+        NotificationRepositoryImpl ..|> INotificationRepository
+    }
+}
+@enduml

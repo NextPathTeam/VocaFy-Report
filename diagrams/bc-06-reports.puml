@@ -1,0 +1,55 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam shadowing false
+top to bottom direction
+
+package "Reports Context" {
+
+    package "Domain Layer" #FEFECE {
+        class VocationalReport {
+            - id: String
+            - studentId: String
+            - reportType: String
+            - contentSummary: String
+            - isValidatedByPsychologist: Boolean
+            + validateReport(): Void
+        }
+        class GroupComparisonReport {
+            - id: String
+            - psychologistId: String
+            - selectedGroupIds: List<String>
+            - aggregatedConclusions: String
+            + compareStudentGroups(): Void
+        }
+        interface IVocationalReportRepository <<interface>> {
+            + save(report: VocationalReport): Boolean
+            + saveGroupReport(report: GroupComparisonReport): Boolean
+        }
+    }
+
+    package "Application Layer" #E2EFFF {
+        class ReportApplicationService <<Application Service>> {
+            - reportRepository: IVocationalReportRepository
+            - aiReportService: AIReportService
+            + generateStudentReport(studentId: String): VocationalReport
+            + generateGroupComparison(groupIds: List<String>): GroupComparisonReport
+        }
+        ReportApplicationService ..> IVocationalReportRepository
+    }
+
+    package "Infrastructure Layer" #E5F9E7 {
+        class VocationalReportRepositoryImpl {
+            - dbContext: Object
+            + save(report: VocationalReport): Boolean
+            + saveGroupReport(report: GroupComparisonReport): Boolean
+        }
+        class AIReportService <<External API>> {
+            + generateTestReport(studentId: String): String
+            + generateIndividualEvolutionReport(studentId: String): String
+            + generateAutomaticConclusions(groupIds: List<String>): String
+        }
+        VocationalReportRepositoryImpl ..|> IVocationalReportRepository
+        ReportApplicationService ..> AIReportService
+    }
+}
+@enduml
