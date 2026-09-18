@@ -3172,6 +3172,10 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1, el alcance del equipo de desarrollo de NextPath se focalizó exclusivamente en la maquetación, estilos y despliegue del Frontend correspondiente a la Landing Page (utilizando HTML5, CSS3 y JavaScript). 
+
+Por lo tanto, en este primer ciclo no se construyeron ni desplegaron servicios de backend (APIs) ni endpoints funcionales de lógica de negocio. La implementación de los servicios del servidor y la conexión a las bases de datos comenzarán a desarrollarse a partir del Sprint 2.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
