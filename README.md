@@ -2514,7 +2514,7 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
  
 
 ## 4.5. Web Applications Prototyping
-
+Se realizo en figma el siguiente prototipo:[enlace a el prototipo](https://www.figma.com/proto/94GGZMAWgMbWul2n6ebtfV/aplicaciones-web?node-id=32-2585&t=3DqncPLoa0s4RjPg-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=32%3A2585)
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
