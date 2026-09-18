@@ -3273,6 +3273,34 @@ Durante el Sprint 1, el alcance del equipo de desarrollo de NextPath se focaliz�
 Por lo tanto, en este primer ciclo no se construyeron ni desplegaron servicios de backend (APIs) ni endpoints funcionales de lógica de negocio. La implementación de los servicios del servidor y la conexión a las bases de datos comenzarán a desarrollarse a partir del Sprint 2.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+El despliegue de la primera versión de la Landing Page de NextPath se realizará mediante GitHub Pages, siempre que esta sea la configuración efectivamente utilizada por el equipo. La evidencia debe demostrar la configuración de Pages y el acceso a la URL pública.
+
+<table>
+<thead>
+<tr>
+<th>Evidencia</th>
+<th>Dato real</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repositorio</td>
+<td>https://github.com/VocaFyTeam/NextPath-LandingPage</td>
+</tr>
+<tr>
+<td>Branch de despliegue</td>
+<td>main/root</td>
+</tr>
+<tr>
+<td>URL pública</td>
+<td>https://vocafyteam.github.io/NextPath-LandingPage/</td>
+</tr>
+<tr>
+<td>Fecha de despliegue</td>
+<td>2026-09-18</td>
+</tr>
+</tbody>
+</table>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
